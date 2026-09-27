@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "right": {
     "id": "f8f3d3fa4298ca90",
@@ -198,11 +197,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
+    "Module 2.md",
     "CIS 110.md",
     "Module 1.md",
     "Fall 2026.md",
