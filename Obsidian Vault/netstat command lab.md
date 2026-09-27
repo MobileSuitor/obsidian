@@ -1,0 +1,19 @@
+- ==netstat== displays protocol statistics and current TCP/IP network connections. Several options are available for getting more information (<u>these are for WINDOWS</u>)
+	- -a : displays all connections and listening ports
+	- -b : displays the executable involved in creating each connection or listening port
+		- in some cases, well known executables host multiple independent components, and in these cases the sequence of components involved in creating the connection or listening port is displayed. This option can be time consuming and may fail if you have insufficient permissions
+	- -e : displays ethernet statistics, may be combined with the -s option
+	- -f : displays fully qualified domain names (FQDN) for foreign addresses
+	- -n : displays addresses and port numbers in numerical form
+	- -o : displays the owning process ID associated with each connection
+	- -p proto : shows connections for the protocol specified by proto; proto may be any of: TCP, UDP, TCPv6, UDPv6. If used with -s to display per-protocol stats, proto may be any of: IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, or UDPv6
+	- -r : displays routing table
+	- -s : displays protocol statistics. Default shows IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, and UDPv6; the -p option may be used to specify a subset of the default
+	- -t : displays the current connection offload state. Redisplays selected statistics, pausing interval seconds between each display
+- Explanation of netstat connection states
+	- LISTEN - local computer is waiting for an incoming connection request on a specific port from a remote device
+	- ESTABLISHED - an active, open data connection exists between the local computer and remote host
+	- TIME_WAIT - the connection closed, but the local system waits temporarily to make sure any delayed packets arrive safely before clearing the port
+	- CLOSE_WAIT - the remote peer finished its side of the connection and closed it. The local system is waiting for the local application to close its side
+- ==TCPView== is another tool that functions similarly to ==netstat==, part of the Sysinternals Suite provided by Microsoft. Displays all the same info but does so with a GUI so it's a little easier to read. Also allows interaction with services that are currently open, let's you shut them down which terminates the process and also closes the port that was open
+	- ![[Pasted image 20260925110450.png]]

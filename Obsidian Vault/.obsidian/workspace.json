@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "a8878e08402f34e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b656e718596c5e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a26105d234ad15e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fall 2026"
+            }
+          },
+          {
+            "id": "04b17e923e085fda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 110.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CIS 110"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e7e20e55924d998",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c9b1290590bcce2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d3629f94bfd9553",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84d4819534de896e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0ccfc1681d0a234b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f8f3d3fa4298ca90",
+    "type": "split",
+    "children": [
+      {
+        "id": "8448cc6eb9c64b90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8882daf3fb382390",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "6c24804d88f9dcd8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "47926c894b77ff58",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8248048153eeee35",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e38f6425be6dc9ec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "04b17e923e085fda",
+  "lastOpenFiles": [
+    "CIS 110.md",
+    "Module 1.md",
+    "Fall 2026.md",
+    "netstat command lab.md",
+    "Pasted image 20260925110450.png",
+    "CIS 106.md",
+    "Open Source OS 1a.md",
+    "Open Source OS.md",
+    "Evaluating a System for Windows 10/11.md",
+    "Lecture 1.md",
+    "CIS 116.md",
+    "CIS 105.md",
+    "Evaluating a System for Windows 10 or 11.md",
+    "Operating Systems.md",
+    "Documentation and Support Systems.md",
+    "Evaluating a System for Windows 10",
+    "TABLE - Operating Systems, partitioning systems, and file systems.md",
+    "Configuring Hyper-V Networking and Deploying VMs.md",
+    "Pasted image 20260924091828.png",
+    "College.md",
+    "Command line networking tools for systems diagnostics.md",
+    "commands.md",
+    "Pasted image 20260923093512.png",
+    "Pasted image 20260923093027.png",
+    "Pasted image 20260923092749.png",
+    "Pasted image 20260923092023.png",
+    "Pasted image 20260923091648.png",
+    "tools.md",
+    "tips.md",
+    "Introduction.md",
+    "Getting Started With HTB.md",
+    "Pasted image 20260720155358.png",
+    "Pasted image 20260720155347.png",
+    "terms.md",
+    "Pasted image 20260720154147.png",
+    "vim command table.md"
+  ]
+}

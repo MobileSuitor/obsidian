@@ -1,0 +1,13 @@
+- Enable Hyper-V in settings
+	- Apps > Programs & Features > Turn Windows features on or off > check Hyper-V
+- Launch Hyper-V manager from start menu
+	- manager will display host computer in the right and left panes
+	- middle pane displays VMs and checkpoints
+- Grant VMs network access by creating virtual switch
+	- Virtual switch manager on right pane (actions) > new virtual switch (external)
+- Creating new VM
+	- actions pane > new > VM
+	- Gen 1 vs Gen 2
+		- Gen 1 supports 32 and 64 bit guest OSs
+		- Gen 2 supports for newer virtualization features, UEFI based firmware, requires 64 bit guest OS
+	- setup includes selecting virtual switch, creating virtual hard disk, selecting .iso file for guest OS

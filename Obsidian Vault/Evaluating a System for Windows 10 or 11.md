@@ -1,0 +1,32 @@
+- Choosing a Windows 10 edition
+	- **Windows 10 Home** - intended for laptops and desktops in a home or small office. Less expensive, does not include features required for corporate/enterprise environments
+	- **Windows 10 Pro** - adds several features to Home that are suited for corporate environment
+		- *Domain Access* - in a home or small office setting, each PC on the network connects in a workgroup. If a PC connects to a corporate or educational network to access network resources, it requires access to a <u>Windows Domain</u> which manages resources on the network
+		- *BitLocker* - encrypts an entire volume on a drive to protect the data and can provide full hard drive encryption. Often required by corporations to secure a computer, its data, and its settings before the computer is allowed to connect to and access resources on a corporate network
+		- *Encrypting File System (EFS)* - encrypts files and folders to protect the data. Not as secure as full drive encryption, but sometimes required by corporations to protect data on a PC hard drive
+		- *Remote Desktop Protocol (RDP)* - networking protocol used by two applications embedded in Windows Pro: <u>Remote Desktop</u> and <u>Remote Assistance</u>
+		- *Support for additional memory* - Home supports up to 128 GB of memory, Pro supports up to 2 TB of memory
+		- *Local Group Policy* - <u>Group Policy</u> (command name is ==gpedit.msc==) is used by Windows Server in a domain to control what users and PCs can do on the network. In Pro, Local Group Policy is an admin tool that can be used to control the local user and workstation activities
+		- *Hyper-V* - hypervisor that allows you to create VMs
+	- Windows 10 Pro for Workstations - adds more features on top of those in Pro
+		- *Resilient File System (ReFS)* - refer to Chapter 11 notes, [[Operating Systems]] for details
+		- *SMB Direct* - also used by Windows Server, improves performance when sharing files on network. SMB (Server Message Block) is a protocol used to share files on network
+		- *Persistent Memory (PMem)* - memory tech that retains its contents even when power is turned off and is faster than normal memory when interfacing with SSDs
+		- Supports up to 6 TB of memory and up to 4 CPUs
+	- Windows 10 Enterprise - allows for volume licensing and additional security features
+		- *Windows Defender Credential Guard* - better secures credentialing info, such as encryption secrets used with passwords
+		- *Endpoint detection and response* - can collect up to 6 months of info about suspicious activities to help analyze past, active, and potential threats
+		- *Unified Write Filter (UWF)* - intercepts and redirects to a temporary location any suspicious writes to storage devices
+- Choosing a Windows 11 edition
+	- **Windows 11 Home** - requires an Internet connection, and a Microsoft account for installation (can be removed after installation). Workarounds are available for avoiding need for Internet connection
+	- **Windows 11 Pro** - similar to 10 Pro, offers BitLocker, Hyper-V, Microsoft Remote Desktop, MDM, Group Policy, capacity for more RAM, support for Active Directory and Azure AD
+	- **Windows 11 Enterprise** - offers improved versions of features present in 10 Enterprise
+- Note on Windows N editions - EU began requiring N editions in 2004 that did not include media-related technologies (N - not with media player). All other features remain the same, Media Feature Pack can be installed
+- Windows 10 minimum requirements
+	- Processor: 1 GHz or faster
+	- RAM: 1GB for 32-bit OS or 2GB for 64-bit OS
+	- Free space on hard drive: 16GB for 32-bit OS or 20GB for 64-bit OS
+	- Graphics card: DirectX 9 or later with a WDDM 1.0 driver
+	- Display: 800 x 600 resolution
+
+STOPPED ON PAGE 580

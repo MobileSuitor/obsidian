@@ -1,0 +1,4 @@
+- making directories with spaces in the name
+	- put single quotes around mkdir argument, i.e. ==mkdir 'dir with spaces'==
+	- applicable to files as well using touch, mv, cp, or other commands
+- ==less== is preferable to ==cat== when reading larger files, allows you to scroll thru output instead of just dumping it all into the terminal

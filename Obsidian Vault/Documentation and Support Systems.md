@@ -1,0 +1,11 @@
+- **Knowledge Base** - collection of articles, images, or video that give information about a network, product, or service
+- **Asset Management** - tracks physical and digital assets, including end-user devices, network devices, IP addresses, software licenses, and related licenses. Typically maintained by software.
+	- CMDB - configuration management database, support system used to keep IT assets organized. Important for disaster recovery.
+	- Network topology diagrams - pattern in which devices on a network are connected with one another.
+- **Acceptable use policies** (AUP) - documents a code of conduct for employees using corporate resources
+- **Service Level Agreements** (SLA) - legally binding contract, helps set parameters of the services being provided to a customer. Time to resolution, network availability, agreed upon levels of service (uptime, response time). Two types of SLAs
+	- Internal SLA - describes service to be expected by internal customers, i.e. departments, teams, etc.
+	- External/Third-Party SLA - between company and outside party, may be more technical in nature than internal SLAs
+- Standard Operating Procedures
+- New-user setup checklist and end-user termination checklist
+- **Regulatory Compliance Requirements** - for compliance with laws and regulations, i.e. use of personal identity data 

@@ -1,0 +1,55 @@
+- an OS is software that controls a computer, controls how system resources are used and provides a user interface
+	- sits between user/applications and computer hardware
+- Functions of an OS
+	- <u>Provides a UI</u> - performs storage and housekeeping procedures requested by the user, and provides a way for the user to manage the desktop, hardware, applications, and data
+	- <u>Manage Files</u> - managing files on hard drives, DVD/CD drives, USB flash drives, etc. Also creating, storing, retrieving, deleting, and moving files
+	- <u>Manage Hardware</u> - interface with the BIOS/UEFI, which are programs permanently stored on hardware devices. Manage memory as a temporary place to store data and instructions as they are being processed. Diagnose problems with software and hardware. Interfacing between hardware and software
+	- <u>Manage Applications</u> - installing and uninstalling applications. Running applications and managing the interface to the hardware on behalf of an application
+- Popular OS examples
+	- Windows - Microsoft OS, extremely common. A+ exam covers Windows 11 mostly
+	- macOS - Apple OS, based on UNIX
+	- Linux - open source OS, very lightweight and stable. Several distros, most of which are free, but has a steeper learning curve. Also based on UNIX
+	- Chrome OS- Google OS, built on open source Chromium OS. Relies heavily on web based apps and storage. Full applications not available on this OS
+- The Kernel
+	- portion of the OS that is responsible for interacting with the hardware
+	- utilizes device drivers and/or firmware
+	- <u>Device Drivers</u> - small programs stored on the hard drive that tell the OS how to communicate with specific hardware devices such as a printer, network card, GPU, etc. Installed on the hard drive when the OS is first installed or when new hardware is added to the system. Drivers are written to work for a specific OS
+	- <u>Firmware</u> - controls the motherboard and interfaces with the OS. Stored on microchips on the board. On boot, firmware starts up the computer, verifies essential hardware devices, and then starts the process of searching for and loading an OS
+		- <u>UEFI (Unified Extensible Firmware Interface)</u> - improved replacement for BIOS and offers legacy support for BIOS compatibility. BIOS stores setup info on the board, while UEFI stores setup info along with drivers on the board and hard drive. BIOS/UEFI provides 3 main functions:
+			- <u>system BIOS/UEFI</u> contains instructions for running essential hardware devices before and OS is started. After OS is started, it might continue to use system BIOS/UEFI or device drivers to communicate with these devices
+			- <u>startup BIOS/UEFI</u> starts computer and finds a boot device that contains an OS. Turns startup process over to OS when boot media is found
+			- <u>setup BIOS/UEFI</u> is used to change motherboard settings. Enabling/disabling device on the board, changing date and time, selecting order of boot devices for startup (boot priority order)
+- OS Hard Drive Management
+	- <u>Logical Block Addressing</u> - process called low-level formatting organizes all bits on a drive into long series of logical blocks before leaving factory 
+	- LBAs (LBA1, LBA 2, etc.) are organized into <u>partitions</u> using one of two partitioning systems:
+		- <u>MBR partitions</u> - **Master Boot Record**, keeps a map of partitions in a partition table stored at the beginning of the hard drive. A drive can have up to three <u>primary partitions</u>, or volumes. The fourth partition is an <u>extended partition</u>, and can hold one or more volumes called <u>logical drives</u>, which are tracked in their own partition table
+			- ![[Pasted image 20260923091648.png]]
+		- <u>GPT partitions</u> - **Globally Unique Identifier Partition Table** (GUID/GPT). Can support up to 128 partitions and is required for drives larger than 2.2 TB. Requires 64 bit OS and UEFI firmware. First sector contains protective MBR (provides info to legacy software that doesn't recognize GPT). GPT tracks all partitions in a single partition table, stored in GPT header following protective MBR
+			- ![[Pasted image 20260923092023.png]]
+- The File System
+	- overall structure the OS uses to name, store, and organize files and folders on storage devices
+	- drives with multiple partitions have each partition as a volume, and must be formatted with their own file system
+		- ![[Pasted image 20260923092749.png]]
+	- <u>Formatting a drive</u>- installing a file system on a volume, can happen during OS installation or after OS is installed.
+		- <u>High-level Formatting</u> - process performed by Windows Format program (FORMAT C:/S), the Windows installation program, or the Disk Management Utility. Creates the boot record, file system, and root directory on a hard drive volume
+	- <u>Directory Hierarchical Structure</u>- root directory sits at top of hierarchical structure, followed by several subdirectories. Each volume has its own root. Windows uses back slash (C:\Data), UNIX based systems use forward slash (/home/user1)
+		- UNIX![[Pasted image 20260923093512.png]]
+		- Windows![[Pasted image 20260923093027.png]]
+	- <u>File Systems to know for A+</u>
+		- **NTFS** - New Technology File System, supports encryption, disk quotas, and file/folder compression. <u>Required for volume that holds a Windows installation</u>. Designed to replace older FAT32 system, and requires admin password to access
+		- **FAT32** - <u>suitable for low capacity drives</u>, less overhead than NTFS. Supported by macOS, Linux, Chrome OS, and others. Uses 32 bits to address each unit of data on volume
+		- **ReFS** - Resilient File System, supported specific hardware and designed for resiliency, scalability, and performance, <u>specifically for virtual machines</u>. Improved fault tolerance, support for RAID systems 
+		- **XFS** - Extended File System, <u>useful for working with very large files and significant amounts of data</u>. Can be used with RAID systems, provides journaling. Often implemented in areas requiring <u>very fast processing and across multiple servers</u>
+		- **ext4** - Fourth Extended File System, the <u>current Linux file system</u>, used by default when the OS is installed and another file system is not in place. Improved on previous versions with better performance and support for larger volumes
+		- **APFS** - Apple File System, <u>default for macOS</u>. Allows multiple volumes on a single partition and can allocate free space as needed for each volume. Requires GPT. Compatible with older macOS extended file system (HFS+), but is not compatible with some earlier versions of macOS
+		- **exFAT** - <u>suitable for large external storage devices</u>, compatible with Windows, macOS, and Linux. Example use case: smart card formatted with exFAT in Mac/Linux computer or in a digital camcorder, camera, or smartphone. Uses same structure as FAT32 but with 64-bit-wide file allocation table (FAT). Less overhead compared to NTFS and is designed to handle very large files
+- [[TABLE - Operating Systems, partitioning systems, and file systems]]
+- Types of OS installations and upgrades
+	- **Clean install** - overwrites existing OS and applications. AKA custom installation in Windows. Option to reformat hard drive is available, third-party drivers and applications will need to be reinstalled.
+		- In Windows, previous settings and user profiles are collectively stored in the Windows.old folder that setup creates on the **unformatted** old hard drive. Automatically deleted by Windows 10 days after installation
+	- **Upgrade** - replaces existing OS with newer version (Windows 10 -> Windows 11). Always started from within the existing OS. Carries forward user settings and installed applications. Faster than clean install and appropriate when old OS is healthy. Always back up data!
+		- Windows - for 11, requires that Windows 10 be installed and hardware requirements are met (64 bit processor and Trusted Platform Module or TPM. This is a chip on the MOBO designed to protect hardware and data)
+		- macOS - for Sequoia from Sonoma, upgrade can be started from System Settings. Older versions use either System Preferences or the App Store.
+		- Linux - list of available updates displays upon logging in. Apply updates using ==apt== or ==yum== commands, depending on distro. 
+		- Chrome OS - open Settings, click About Chrome OS -> Check for updates. 
+	- **Repair** - various tools and commands can be used for repairing a corrupted installation, depending on OS. Some laptops and desktops contain a recovery partition that restores factory settings.

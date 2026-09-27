@@ -1,0 +1,52 @@
+- CIA Triad of InfoSec
+	- *Confidentiality* - only approved individuals should be able to access sensitive information. For instance, using software to encrypt credit card info stored on a web server or placing door locks to prevent access to servers.
+		- Hardware protection
+	- *Integrity* - ensures that information is correct and no unauthorized person or malicious software has altered the data
+		- Software protection
+	- *Availability* - ensures that data is accessible to authorized users and not to unapproved individuals. Example: total number of items ordered through an online purchase is made available to an employee in a warehouse for shipping the items to the customer, but the same info is not available to a competitor
+		- Communications protection
+- InfoSec layers
+	- ![[Pasted image 20260924091828.png]]
+- InfoSec - that which protects the integrity, confidentiality, and availability of information through products, people, and procedures on the devices that store, manipulate, and transmit the information
+- Threat actors - individual or entity responsible for cyber incidents against technology equipment of enterprises and users. Financial cybercrime can be divided into three categories based on target:
+	- *Individual users* - attackers steal and use stolen data, credit card numbers, online financial account info, or SSNs for profit or to send spam emails 
+	- *Enterprises* - attackers attempt to steal research on new products to sell to other suppliers. Often sold to foreign suppliers that are outside jurisdiction of domestic enforcement agencies and courts
+	- *Governments* - attackers attempt to steal sensitive government information, such as data on new missile defense system to be sold to other nations. Government information may also be stolen and published to embarrass the government in front of its citizens and stop what is considered a nefarious action (this is kinda based tho??)
+- Attributes of threat actors can vary, such as the <u>level of capability/sophistication</u>, <u>resources and funding</u>, whether or not they are <u>internal or external</u> with respect to the target they are attacking, and <u>intent/motivation</u>
+- Vulnerabilities - can be categorized into platforms, configurations, third parties, patches, and zero-day exploits
+	- *Platforms* - system that consists of hardware device and OS. All platforms have some kind of vulnerability, but some more so than others
+		- **Legacy platforms** - one that is no longer in widespread use, often because it has been replaced by an updated version. Legacy software tends to produce more vulnerabilities than legacy hardware
+		- **On-Premises platforms** - software and technology located within the physical confines of an enterprise, which is usually consolidated in the company's data center
+		- **Cloud platforms** - AKA hosted services, where servers, storage, and supporting network infrastructure are shared by multiple enterprises over a remote network connection that has been contracted. Cloud platforms allow businesses to only pay for the compute they need, scaling up or back as necessary. Vulnerabilities are most often based on misconfigurations by personnel responsible for cloud platform security
+	- *Configurations* - improper config settings results in weak configurations that are vulnerable
+		- **Default settings** - designed for usability, not security. Example: default router password
+		- **Open ports and services** - devices and services are often configured to allow the most access so that users can close ports specific to their org. Example: a firewall comes with FTP ports 20 and 21 open
+		- **Unsecured root accounts** - a root account can give a user unfettered access to all resources. Example: a misconfigured cloud storage repo that gives any user access to all data
+		- **Open permissions** - user access over files that should be restricted. Example: a user could be given read, write, and execute privileges when they should only have read
+		- **Unsecure protocols** - using protocols for telecom that do not provide adequate protections. Example: an employee using a device that runs services with Telnet or SNMPv1 protocols
+		- **Weak encryption** - users choosing a known vulnerable encryption mechanism. Example: a key value that is too short
+		- **Errors** - mistakenly selecting one setting over another without knowing the security implications. Example: using deprecated settings instead of current configs
+	- *Third Parties* - any external entity, i.e. marketing agencies, landscapers, attorneys, etc. Almost all third parties require access to an org's network, AKA <u>system integration</u>. Workarounds to make the third party system compatible with the org's can create vulnerabilities
+	- *Patches* - officially released software security update intended to repair vulnerabilities, but can also create new ones
+		- **Firmware** - can be difficult or outright impossible to patch
+		- **Applications** - patches are uncommon outside of major apps such as Microsoft Office
+		- **Delays in OS patches** - patches are often tested on release to ensure they do not adversely affect any customized applications, delaying installation
+	- *Zero Day* - vulnerabilities that are exploited by hackers before anyone even knows they exist.
+- Attack Vectors - pathway or avenue used by attackers to penetrate a system. Some general categories:
+	- *Email* - tricking users to open malicious attachment that contains malware or a hyperlink
+	- *Wireless* - wireless data transmissions can be intercepted and read or altered if not properly protected
+	- *Removable media* - infecting a flash drive with malware, installs when inserted to computer
+	- *Direct access* - attacker with direct access to the target machine, allowing them to insert a USB with alternative OS that lets them bypass security
+	- *Social media* - using social media for information to exploit, such as an employee going on vacation, allowing them to contact the help desk and impersonate them to gain access
+	- *Supply chain* - some steps of a supply chain may not be closely monitored, allowing attackers to infect products during storage or manufacturing
+	- *Cloud* - attackers take advantage of complexity of cloud systems to find weaknesses
+- Social Engineering - a means of eliciting info by relying on the weaknesses of individuals. Also used as influence campaigns to sway attention and sympathy in a particular direction, either exclusively on social media or combined with other sources. Usually rely on psychological principles or physical procedures
+	- *Psychological principles* - any manipulation of human nature to persuade someone to give info or take actions. Principles include **authority, intimidation, consensus, scarcity, urgency, familiarity, and trust**
+	- *Phishing* - sending an email message or displaying an announcement that falsely claims to be from a legit source in order to trick a user into surrendering private info or taking action. Can also be used to validate email addresses via displaying an image when the user opens the message. A unique code links the image to the address, confirming it is active
+	- *Physical procedures* - taking advantage of user actions that can result in compromised security. Three most common are dumpster diving, tailgating, and shoulder surfing
+		- **Dumpster diving** - digging through trash to find useful info such as calendars, USBs, memos, organizational charts, phone directories, policy manuals, and system manuals
+		- **Tailgating** - following an authorized user through a security door
+		- **Shoulder surfing** - watching someone enter a security code on a keypad
+- Impacts of Attacks - can be classified into data impacts and effects on the org
+	- *Data impacts* - data loss, data exfiltration, data breach, identity theft
+	- *Effects on the org* - attacks may make systems inaccessible (**availability loss**), resulting in lost productivity (**financial loss**). Can also negatively affect reputation
