@@ -9,4 +9,4 @@
 	- *Traditional Image Deployments* - used for on-premises AD domains when older deployment strategies are already established in the enterprise
 		- <u>Bare Metal</u> - also called wipe-and-load deployment, a standard image is created that contains the OS, drivers, applications, settings, and data specific for the enterprise. The image can be deployed on a new, empty drive or the drive can first be wiped clean
 		- <u>Refresh</u> - similar to bare metal deployment, user settings and data are saved and the hard drive is wiped clean before the standard image is applied and user state is reinstalled
-		- <u>Replace</u> - used to replace an old device with a new one
+		- <u>Replace</u> - used to replace an old device with a new one. After standard image is applied to new computer, the user state is copied from the old computer and applied to the new one

@@ -1,0 +1,4 @@
+- **User State Migration Tool (USMT)** - Windows utility that helps you migrate user files and preferences between computers to help a user make a smooth transition from one computer to another. Common commands below:
+	- ==scanstate== - copies user settings and files from the source computer to a safe location
+	- ==loadstate== - applies these settings and files to the destination computer
+	- ==usmtutils== - provides encryption options and hard drive management

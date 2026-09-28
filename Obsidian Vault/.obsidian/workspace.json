@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enterprise Considerations.md",
+                "file": "CIS 105.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enterprise Considerations"
+              "title": "CIS 105"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enterprise Considerations.md",
+                "file": "CIS 105.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enterprise Considerations.md",
+                "file": "CIS 105.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enterprise Considerations.md",
+                "file": "CIS 105.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,12 +204,14 @@
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
+    "Fall 2026.md",
+    "CIS 106.md",
     "CIS 105.md",
+    "Use USMT Software.md",
     "Enterprise Considerations.md",
     "Installing Software.md",
     "Managing User Accounts.md",
     "Troubleshooting Windows Installations.md",
-    "Fall 2026.md",
     "Bonus.md",
     "Networking Fundamentals.md",
     "Installing Windows 11 in Hyper-V.md",
@@ -226,11 +228,9 @@
     "Module 1.md",
     "netstat command lab.md",
     "Pasted image 20260925110450.png",
-    "CIS 106.md",
     "Open Source OS 1a.md",
     "Evaluating a System for Windows 10/11.md",
     "Lecture 1.md",
-    "CIS 116.md",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",
     "Pasted image 20260923093512.png",
