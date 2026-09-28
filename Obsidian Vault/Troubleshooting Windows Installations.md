@@ -8,3 +8,13 @@
 		- Microsoft retains info about the system Windows is installed. When performing a clean install on a new hard drive in this system, Microsoft recognizes the system. Click **I don't have a product key** during setup and it should activate
 		- Moving retail license to new computer - enter product key purchased from Microsoft store. Check order history if key is unknown
 		- OEM licenses cannot be moved, you must purchase a new OEM license for a new computer 
+		- upgrading from Windows 8.1/7 - click **I don't have a product key**, after installation finishes go to Settings and enter product key for Windows 8.1/7
+- **Installing Hardware**
+	- *motherboard drivers* - may come with the board, or can be downloaded from the manufacturer's website
+	- *video card drivers* - bundled with card or downloaded from manufacturer's website
+	- *install printers* - local USB printers are plug and play, network printers will have a setup program that came with the printer that will handle installation. Alternatively, open Control Panel in classic view and open Devices and Printers. Click Add a printer and follow directions
+	- *for other hardware* - read and follow manufacturer instructions
+- **Device Manager** - primary tool for managing hardware. Use cases below:
+	- *Uninstalling and reinstalling device*
+	- *Update or roll back drivers* 
+	- *Check for error messages* - general tab
