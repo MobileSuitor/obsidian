@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Managing User Accounts.md",
+                "file": "Enterprise Considerations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Managing User Accounts"
+              "title": "Enterprise Considerations"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Managing User Accounts.md",
+                "file": "Enterprise Considerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Managing User Accounts.md",
+                "file": "Enterprise Considerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Managing User Accounts.md",
+                "file": "Enterprise Considerations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,6 +205,8 @@
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
     "CIS 105.md",
+    "Enterprise Considerations.md",
+    "Installing Software.md",
     "Managing User Accounts.md",
     "Troubleshooting Windows Installations.md",
     "Fall 2026.md",
@@ -229,9 +231,7 @@
     "Evaluating a System for Windows 10/11.md",
     "Lecture 1.md",
     "CIS 116.md",
-    "Documentation and Support Systems.md",
     "Evaluating a System for Windows 10",
-    "TABLE - Operating Systems, partitioning systems, and file systems.md",
     "Pasted image 20260924091828.png",
     "Pasted image 20260923093512.png",
     "Pasted image 20260923093027.png",

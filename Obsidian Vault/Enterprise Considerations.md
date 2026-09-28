@@ -1,0 +1,12 @@
+- **Deployment strategies** are methods used for installing software like Windows on computers at scale. Below are some strategies for Windows 10/11:
+	- *Modern Deployments* - used with AD or Azure domains
+		- <u>Windows Autopilot</u> - streamlines for devices preregistered with the enterprise. Users receive device, turn it on, connect to Internet, and enter credentials to automatically join to Azure AD and configure with settings and content specific for the org without further user input
+		- <u>In-place upgrade</u> - Automates an in-place upgrade from Windows 10/8/7 to Windows 10/11 using a setup created by a sysadmin with tools in the Microsoft Deployment Toolkit (MDT)
+	- *Dynamic Deployments* - used with Azure domains
+		- <u>Subscription activation</u> - upgrades Pro to Enterprise edition. User signs in to Azure domain and upgrade happens automatically. Product keys and licensing is kept in Azure domain
+		- <u>Mobile Device Management</u> - software that forces devices to comply with corporate policies when they join an Azure domain
+		- <u>Provisioning packages</u> - used when MDM not implemented. Contains settings, apps, and data specific for the enterprise and is downloaded to the device and applied with minimal user input. Easier to set up than an image used in traditional deployments
+	- *Traditional Image Deployments* - used for on-premises AD domains when older deployment strategies are already established in the enterprise
+		- <u>Bare Metal</u> - also called wipe-and-load deployment, a standard image is created that contains the OS, drivers, applications, settings, and data specific for the enterprise. The image can be deployed on a new, empty drive or the drive can first be wiped clean
+		- <u>Refresh</u> - similar to bare metal deployment, user settings and data are saved and the hard drive is wiped clean before the standard image is applied and user state is reinstalled
+		- <u>Replace</u> - used to replace an old device with a new one

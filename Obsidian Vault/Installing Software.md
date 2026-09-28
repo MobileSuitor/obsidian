@@ -1,0 +1,8 @@
+- **Considerations before installing applications**
+	- *OS compatibility*
+	- *Hardware requirements* - RAM usage, free drive space available, VRAM, etc.
+	- *Specialized hardware* - hardware tokens for authentication, or other kinds of external hardware
+	- *Impact to network performance* - check how much network activity the software produces and consider setting its priority to high or low to prevent hogging of resources
+	- *Impact to device* - applications that use the Internet need to be considered for security
+	- *Impact to operations* - generally, does the software do what it claims to with relatively little IT support
+	- *Impact to business* - 
