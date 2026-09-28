@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 105.md",
+                "file": "learned commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 105"
+              "title": "learned commands"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 105.md",
+                "file": "learned commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 105.md",
+                "file": "learned commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 105.md",
+                "file": "learned commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,8 +204,10 @@
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
-    "Fall 2026.md",
     "CIS 106.md",
+    "learned commands.md",
+    "Open Source OS 1a.md",
+    "Fall 2026.md",
     "CIS 105.md",
     "Use USMT Software.md",
     "Enterprise Considerations.md",
@@ -228,9 +230,7 @@
     "Module 1.md",
     "netstat command lab.md",
     "Pasted image 20260925110450.png",
-    "Open Source OS 1a.md",
     "Evaluating a System for Windows 10/11.md",
-    "Lecture 1.md",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",
     "Pasted image 20260923093512.png",

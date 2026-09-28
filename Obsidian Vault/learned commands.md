@@ -1,0 +1,6 @@
+- ==2>== - redirects error messages to a file
+	- useful for logging error messages, troubleshooting and record keeping
+- ==tree== - tool that helps visualize the structure of directories and subdirectories in a tree-like format
+	- requires installation with ==sudo apt -f install tree -y==
+	- ==tree -L 1 /== displays the structure of the root directory with a depth of one level
+- 
