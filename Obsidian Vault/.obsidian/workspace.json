@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 110.md",
+                "file": "Installing Windows 11 in Hyper-V.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 110"
+              "title": "Installing Windows 11 in Hyper-V"
             }
           }
         ],
@@ -204,28 +204,32 @@
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
-    "Module 2.md",
-    "CIS 110.md",
-    "Module 1.md",
+    "CIS 105.md",
+    "Operating Systems.md",
+    "Installing Windows 11 in Hyper-V.md",
+    "Configuring Hyper-V Networking and Deploying VMs.md",
+    "Introduction.md",
+    "Open Source OS.md",
+    "Setting Up a VM using Windows 10 in Hyper-V.md",
+    "Command line networking tools for systems diagnostics.md",
+    "Evaluating a System for Windows 10 or 11.md",
+    "Understanding How Windows Supports Networking.md",
     "Fall 2026.md",
+    "CIS 110.md",
+    "Module 2.md",
+    "Module 1.md",
     "netstat command lab.md",
     "Pasted image 20260925110450.png",
     "CIS 106.md",
     "Open Source OS 1a.md",
-    "Open Source OS.md",
     "Evaluating a System for Windows 10/11.md",
     "Lecture 1.md",
     "CIS 116.md",
-    "CIS 105.md",
-    "Evaluating a System for Windows 10 or 11.md",
-    "Operating Systems.md",
     "Documentation and Support Systems.md",
     "Evaluating a System for Windows 10",
     "TABLE - Operating Systems, partitioning systems, and file systems.md",
-    "Configuring Hyper-V Networking and Deploying VMs.md",
     "Pasted image 20260924091828.png",
     "College.md",
-    "Command line networking tools for systems diagnostics.md",
     "commands.md",
     "Pasted image 20260923093512.png",
     "Pasted image 20260923093027.png",
@@ -234,12 +238,8 @@
     "Pasted image 20260923091648.png",
     "tools.md",
     "tips.md",
-    "Introduction.md",
-    "Getting Started With HTB.md",
     "Pasted image 20260720155358.png",
     "Pasted image 20260720155347.png",
-    "terms.md",
-    "Pasted image 20260720154147.png",
-    "vim command table.md"
+    "Pasted image 20260720154147.png"
   ]
 }

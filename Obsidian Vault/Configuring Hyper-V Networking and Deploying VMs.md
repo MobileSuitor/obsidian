@@ -11,3 +11,5 @@
 		- Gen 1 supports 32 and 64 bit guest OSs
 		- Gen 2 supports for newer virtualization features, UEFI based firmware, requires 64 bit guest OS
 	- setup includes selecting virtual switch, creating virtual hard disk, selecting .iso file for guest OS
+- Managing virtual hardware - settings near bottom of Actions pane, select hardware from left pane
+- Installing Windows - boot from virtual DVD drive. Click BIOS in left pane > boot from CD in right pane

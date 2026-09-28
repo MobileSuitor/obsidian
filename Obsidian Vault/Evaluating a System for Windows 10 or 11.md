@@ -19,6 +19,7 @@
 		- *Unified Write Filter (UWF)* - intercepts and redirects to a temporary location any suspicious writes to storage devices
 - Choosing a Windows 11 edition
 	- **Windows 11 Home** - requires an Internet connection, and a Microsoft account for installation (can be removed after installation). Workarounds are available for avoiding need for Internet connection
+		- *workaround for bypassing internet connection requirement:* when getting to the part of the installation that requires you to connect to a network, hit SHIFT+F10 to bring up the command prompt and enter the command ==start ms-cxh:localonly==
 	- **Windows 11 Pro** - similar to 10 Pro, offers BitLocker, Hyper-V, Microsoft Remote Desktop, MDM, Group Policy, capacity for more RAM, support for Active Directory and Azure AD
 	- **Windows 11 Enterprise** - offers improved versions of features present in 10 Enterprise
 - Note on Windows N editions - EU began requiring N editions in 2004 that did not include media-related technologies (N - not with media player). All other features remain the same, Media Feature Pack can be installed
@@ -28,5 +29,8 @@
 	- Free space on hard drive: 16GB for 32-bit OS or 20GB for 64-bit OS
 	- Graphics card: DirectX 9 or later with a WDDM 1.0 driver
 	- Display: 800 x 600 resolution
-
-STOPPED ON PAGE 580
+- Windows 11 minimum requirements
+	- Processor: two cores and minimum speed of 1 GHz
+	- Memory: at least 4 GB RAM
+	- Storage: at least 64 GB
+	- Security: UEFI firmware with secure boot enabled, and a version 2.0 TPM chip on the motherboard

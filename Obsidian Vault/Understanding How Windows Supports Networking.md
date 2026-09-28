@@ -1,0 +1,17 @@
+- Windows workgroup - a network that doesn't have centralized control, such as one in a small office or home office. AKA a <u>peer-to-peer</u>(P2P) network, which Windows calls a <u>workgroup</u>. A logical group of computers and users that share resources, where administration, resources, and security on a workstation are controlled by that workstation.
+- Windows domain - client/server network in which security on each computer or other device is controlled by a centralized database on a domain controller (<u>Active Directory</u>)
+	- implemented on a larger, private network (i.e. corporation or college network)
+	- directory database is controlled by network operating system (NOS)
+- Active Directory - a suite of services and databases provided by Windows server to manage Windows domains. Includes 5 groups of services: Domain Services, Certificate Services, Federation Services, Rights Management, and Lightweight Directory Services. All users on the network have their own domain-level account (AKA network ID, defines user rights)
+- Types of User Accounts
+	- *Local Account* - created on the local computer and is recognized only on the local computer. Authenticated on the local computer. Cannot be used to access resources from other computers on the network
+	- *Network ID* - created and maintained on Windows domain in Active Directory on the local network
+	- *Microsoft Account* - email address initially set up at the Microsoft website. Gives access to OneDrive cloud and various other online accounts. Can also sign in to domains under some circumstances
+		- This account is an example of a <u>single sign-on</u>(SSO) account, which can access multiple independent resources, systems, or applications after signing in one time to one account.
+- Privilege levels - can be assigned to any one of the three types of Windows accounts
+	- *Standard Account* - fewer privileges and is used for normal productivity work on a computer
+	- *Administrator Account* - more privileges than standard, used by people responsible for maintaining and securing the system
+- Public and Private Networks
+	- Public - when using public network security, Windows configures strong firewall settings, the computer is hidden from other devices on the network, and you can't share files or printers
+	- Private - when using private network security, the computer is discoverable and you can share files and printers. Windows 10/11 computers can join a workgroup
+	- Domain network - when the computer is set up to join a Windows domain, it yields control for authenticating users and sharing files, folders, and printers to settings in Active Directory
