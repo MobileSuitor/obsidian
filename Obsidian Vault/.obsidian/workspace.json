@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Creating Scripts.md",
+                "file": "CIS 110.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creating Scripts"
+              "title": "CIS 110"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Creating Scripts.md",
+                "file": "CIS 110.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Creating Scripts.md",
+                "file": "CIS 110.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Creating Scripts.md",
+                "file": "CIS 110.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,13 +204,14 @@
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
-    "CIS 106.md",
-    "Creating Scripts.md",
+    "Module 2.md",
+    "CIS 110.md",
     "Fall 2026.md",
+    "CIS 106.md",
+    "learned commands.md",
+    "Creating Scripts.md",
     "Bonus.md",
     "College.md",
-    "CIS 110.md",
-    "Module 2.md",
     "CIS 105.md",
     "Module 1.md",
     "Manage Disk Partitions and File Systems.md",
@@ -221,7 +222,6 @@
     "Operating Systems.md",
     "Documentation and Support Systems.md",
     "TABLE - Operating Systems, partitioning systems, and file systems.md",
-    "learned commands.md",
     "Open Source OS 1a.md",
     "Use USMT Software.md",
     "Enterprise Considerations.md",
