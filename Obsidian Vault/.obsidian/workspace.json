@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 105.md",
+                "file": "Module 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 105"
+              "title": "Module 2"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 105.md",
+                "file": "Module 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 105.md",
+                "file": "Module 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 105.md",
+                "file": "Module 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,17 +204,18 @@
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
-    "Manage Disk Partitions and File Systems.md",
+    "CIS 110.md",
+    "Module 1.md",
+    "Module 2.md",
+    "Fall 2026.md",
     "CIS 105.md",
+    "Manage Disk Partitions and File Systems.md",
     "Manage Disk Partitions and File Systems using diskpart.md",
     "Troubleshooting Windows Installations.md",
     "Installing Windows 11 in Hyper-V.md",
     "Installing Software.md",
     "Operating Systems.md",
     "Documentation and Support Systems.md",
-    "Fall 2026.md",
-    "CIS 110.md",
-    "Module 1.md",
     "TABLE - Operating Systems, partitioning systems, and file systems.md",
     "CIS 106.md",
     "learned commands.md",
@@ -229,7 +230,6 @@
     "Open Source OS.md",
     "Setting Up a VM using Windows 10 in Hyper-V.md",
     "Command line networking tools for systems diagnostics.md",
-    "Evaluating a System for Windows 10 or 11.md",
     "Pasted image 20260925110450.png",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",
