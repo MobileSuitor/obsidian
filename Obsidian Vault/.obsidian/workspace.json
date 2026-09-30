@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 2.md",
+                "file": "Creating Scripts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 2"
+              "title": "Creating Scripts"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module 2.md",
+                "file": "Creating Scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module 2.md",
+                "file": "Creating Scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module 2.md",
+                "file": "Creating Scripts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,10 +204,14 @@
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
-    "CIS 110.md",
+    "CIS 106.md",
+    "Creating Scripts.md",
     "Fall 2026.md",
-    "CIS 105.md",
+    "Bonus.md",
+    "College.md",
+    "CIS 110.md",
     "Module 2.md",
+    "CIS 105.md",
     "Module 1.md",
     "Manage Disk Partitions and File Systems.md",
     "Manage Disk Partitions and File Systems using diskpart.md",
@@ -217,19 +221,15 @@
     "Operating Systems.md",
     "Documentation and Support Systems.md",
     "TABLE - Operating Systems, partitioning systems, and file systems.md",
-    "CIS 106.md",
     "learned commands.md",
     "Open Source OS 1a.md",
     "Use USMT Software.md",
     "Enterprise Considerations.md",
     "Managing User Accounts.md",
-    "Bonus.md",
     "Networking Fundamentals.md",
     "Configuring Hyper-V Networking and Deploying VMs.md",
     "Introduction.md",
     "Open Source OS.md",
-    "Setting Up a VM using Windows 10 in Hyper-V.md",
-    "Command line networking tools for systems diagnostics.md",
     "Pasted image 20260925110450.png",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",
