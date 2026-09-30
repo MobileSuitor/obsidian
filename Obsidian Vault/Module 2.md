@@ -42,8 +42,8 @@
 -----------------------
 - **Cybersecurity Resources** 
 	- *Frameworks* - series of documented processes used to define policies and procedures for implementing and managing security controls in an enterprise environment (NIST, ISO, AICPA, CIS, CSA)
-	- *Regulations* - 
-	- *Legislation* - 
-	- *Standards* - 
-	- *Benchmarks/Secure Configuration Guides* -
-	- *Information Sources* - 
+	- *Regulations* - standards typically developed by established professional organizations or government agencies
+	- *Legislation* - vary state to state, can often contradict each other 
+	- *Standards* - a document approved through consensus by a recognized standardization body. It provides for frameworks, rules, guidelines, or characteristics for products or related processes and production methods. Compliance not mandatory, but there are restrictions for those that do not comply
+	- *Benchmarks/Secure Configuration Guides* - guidelines for configuring a device or software usually distributed by hardware manufacturers and software developers.
+	- *Information Sources* - can include vendor websites, conferences, academic journals, local industry groups, and social media.
