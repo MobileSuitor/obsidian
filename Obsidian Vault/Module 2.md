@@ -31,3 +31,9 @@
 		- **Emergency** - critical vulnerabilities should be immediately reported while the test is paused
 	- *Cleanup* - must ensure everything related to the test is removed after its completion. Removing software agents, scripts, executable binaries, temporary files, and backdoors.
 	- *Reporting* - generated to document the objectives, methods used, and results of a completed test. Divided into two parts, with the first part being an executive summary for less technical audience, and the second part being more technical in nature for security professionals
+- **Test Phases** - can be split into two, reconnaissance and penetration
+	- *Reconnaissance* - preliminary information gathering from outside the org. <u>Active Reconnaissance</u> involves directly probing for vulnerabilities and useful info, but probes are likely to alert security professionals within the org that aren't aware of the pen test. <u>Passive Reconnaissance</u> uses tools that do not raise any alarms, such as searching online for publicly accessible information
+	- *Penetration* - executing the actions a threat actor would when discovering a vulnerability. Gaining access to the system, escalating privileges, moving through the network looking for more vulnerabilities, and installing a backdoor for repeated access
+------------------------------
+- **Vulnerability Scanning** - frequent and ongoing process, often automated, that continuously identifies vulnerabilities and monitors cybersecurity progress. Purpose is to reduce the attack surface 
+- 
