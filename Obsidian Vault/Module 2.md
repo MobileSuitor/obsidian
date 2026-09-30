@@ -36,4 +36,9 @@
 	- *Penetration* - executing the actions a threat actor would when discovering a vulnerability. Gaining access to the system, escalating privileges, moving through the network looking for more vulnerabilities, and installing a backdoor for repeated access
 ------------------------------
 - **Vulnerability Scanning** - frequent and ongoing process, often automated, that continuously identifies vulnerabilities and monitors cybersecurity progress. Purpose is to reduce the attack surface 
-- 
+- **Types of Scans** 
+	- *Credentialed vs Non-credentialed Scans* - whether or not valid authentication credentials are supplied to the scanner. Non-credentialed scans are faster because they perform fundamental actions such as looking for ports, but credentialed scans can provide a deeper insight into the system 
+	- *Intrusive vs Nonintrusive Scans* - intrusive scans attempts to employ any vulnerabilities that it finds, while nonintrusive scans only record what they discover. Intrusive scans are more accurate, but may impair the system. Nonintrusive can only indicate that something *may* be vulnerable 
+-----------------------
+- **Cybersecurity Resources** 
+	- *Frameworks* - series of documented processes used to define policies and procedures
