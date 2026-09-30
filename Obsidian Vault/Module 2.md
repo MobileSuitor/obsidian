@@ -41,4 +41,5 @@
 	- *Intrusive vs Nonintrusive Scans* - intrusive scans attempts to employ any vulnerabilities that it finds, while nonintrusive scans only record what they discover. Intrusive scans are more accurate, but may impair the system. Nonintrusive can only indicate that something *may* be vulnerable 
 -----------------------
 - **Cybersecurity Resources** 
-	- *Frameworks* - series of documented processes used to define policies and procedures
+	- *Frameworks* - series of documented processes used to define policies and procedures for implementing and managing security controls in an enterprise environment
+	- 
