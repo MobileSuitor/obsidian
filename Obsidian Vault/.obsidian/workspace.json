@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Perform Backup Options to Allow for Lost File Recovery.md",
+                "file": "Use Operating System Tools and Features.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Perform Backup Options to Allow for Lost File Recovery"
+              "title": "Use Operating System Tools and Features"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Perform Backup Options to Allow for Lost File Recovery.md",
+                "file": "Use Operating System Tools and Features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Perform Backup Options to Allow for Lost File Recovery.md",
+                "file": "Use Operating System Tools and Features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Perform Backup Options to Allow for Lost File Recovery.md",
+                "file": "Use Operating System Tools and Features.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,8 +205,9 @@
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
     "CIS 105.md",
-    "Manage Disk Partitions and File Systems.md",
+    "Use Operating System Tools and Features.md",
     "Perform Backup Options to Allow for Lost File Recovery.md",
+    "Manage Disk Partitions and File Systems.md",
     "Manage System Configuration Settings.md",
     "Fall 2026.md",
     "CIS 110.md",
@@ -229,7 +230,6 @@
     "Open Source OS 1a.md",
     "Use USMT Software.md",
     "Enterprise Considerations.md",
-    "Managing User Accounts.md",
     "Pasted image 20260925110450.png",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",
