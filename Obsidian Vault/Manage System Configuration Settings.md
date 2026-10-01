@@ -25,4 +25,5 @@
 - compare against system specs in *System - About* through control panel or using ==msinfo32==
 ---------------
 <u>Perform a system reset</u>
-- Settings 
+- Settings > System > Recovery > Reset PC
+- can also be performed by downloading new installation files from the Microsoft cloud. May be preferable if local files are suspected to be corrupted, incomplete, missing, etc

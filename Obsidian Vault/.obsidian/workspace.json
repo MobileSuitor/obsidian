@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage System Configuration Settings.md",
+                "file": "Perform Backup Options to Allow for Lost File Recovery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Manage System Configuration Settings"
+              "title": "Perform Backup Options to Allow for Lost File Recovery"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manage System Configuration Settings.md",
+                "file": "Perform Backup Options to Allow for Lost File Recovery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manage System Configuration Settings.md",
+                "file": "Perform Backup Options to Allow for Lost File Recovery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manage System Configuration Settings.md",
+                "file": "Perform Backup Options to Allow for Lost File Recovery.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -206,6 +206,7 @@
   "lastOpenFiles": [
     "CIS 105.md",
     "Manage Disk Partitions and File Systems.md",
+    "Perform Backup Options to Allow for Lost File Recovery.md",
     "Manage System Configuration Settings.md",
     "Fall 2026.md",
     "CIS 110.md",
@@ -229,7 +230,6 @@
     "Use USMT Software.md",
     "Enterprise Considerations.md",
     "Managing User Accounts.md",
-    "Networking Fundamentals.md",
     "Pasted image 20260925110450.png",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",
