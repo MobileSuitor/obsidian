@@ -1,0 +1,3 @@
+- use ==who== to show all users currently logged in, and ==whoami== to show current username
+- show hostname with ==hostname==
+- 

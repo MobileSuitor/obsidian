@@ -40,3 +40,9 @@
 	- left pane: Computer Configuration > Windows Settings > Security Settings > Application Control Policies > AppLocker
 	- Configure Rule Enforcement > configure all
 	- Can also create specific rules, i.e. Executable rule to deny access to regedit.exe
+	- Difference between *Path* and *File Hash* rules:
+		- *Path* rule simply denies application from running based on name and location of file, so if a file is moved or renamed it can still execute
+		- *Hash* rule generates a hash of the file, so if the file is moved or renamed it will still not execute. Use more overhead but are more restrictive
+- Force Group Policy update
+	- use ==gpupdate /force==
+	- gpupdate documentation --> https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/gpupdate
