@@ -25,4 +25,16 @@
 	- *Keylogger* - silently captures and stores each keystroke performed by a user. Can be software or a small hardware device. Can also capture what is on the screen and turn on the web camera 
 	- *Potentially Unwanted Program (PUP)* - simply software that a user does not want on their computer. More annoying than malicious. Can be installed through the default options of installers, sometimes cannot be removed easily
 	- *Trojan* - executable program that masquerades as performing a benign activity but also does something malicious. Remote Access Trojans (RAT) also gives the attacker remote access to the infected computer using specially configured communication protocols
-	- *Backdoor* - 
+	- *Backdoor* - malware that gives access to a computer, program, or service that circumvents any normal security protections
+	- *Logic Bomb* - computer code that is typically added to a legitimate program but lies dormant and evades detection until a specific logical event triggers it. Once triggered, it then deletes data or performs other malicious activities. Difficult to detect before triggered as they are usually embedded in large programs.
+	- *Rootkit* - malware that can hide its presence and the presence of other malware on the computer by accessing lower layers of the OS or using undocumented functions to make alterations.
+- **Application Attacks** - specifically target software applications that are already installed and running. Most common targets are Internet web servers. Include scripting attacks, injection attacks, request forgery attacks, and replay attacks
+	- *Scripting* - attacks such as cross-site scripting (XSS) take advantage of a website that accepts user input without validating it and uses that input in a response that can be exploited
+	- *Injection* - attacks that introduce new input to exploit a vulnerability. SQL injection inserts statements to manipulate a database server
+	- *Request Forgery* - a request that has been fabricated. There are two varieties:
+		- **Cross-Site Request Forgery (CRSF)** - takes advantage of an authentication token from another web page, inheriting the authenticated identity and privileges
+		- **Server-Side Request Forgery (SSRF)** - takes advantage of a trusting relationship between web servers. Some web apps are designed to read info from or write info to a specific URL. An attacker can modify that target URL and extract sensitive info from the app or inject input into it
+	- *Replay* - copies data and then uses it for an attack
+- **Attacks of Software** - exploiting vulnerabilities in software applications such as memory, improper exception and error handling, and external software components
+	- *Memory Vulnerabilities* - resource exhaustion attacks deplete RAM to gain access to the underlying OS
+	- 
