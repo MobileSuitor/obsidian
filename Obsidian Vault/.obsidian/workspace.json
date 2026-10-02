@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 3.md",
+                "file": "CIS 116.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 3"
+              "title": "CIS 116"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module 3.md",
+                "file": "CIS 116.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module 3.md",
+                "file": "CIS 116.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module 3.md",
+                "file": "CIS 116.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,18 +204,18 @@
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
-    "CIS 110.md",
     "Fall 2026.md",
+    "CIS 105.md",
+    "Manage Disk Partitions and File Systems.md",
+    "CIS 110.md",
+    "Module 3.md",
     "CIS 106.md",
     "Open Source OS 2a.md",
     "learned commands.md",
     "Creating Scripts.md",
-    "CIS 105.md",
     "Use Operating System Tools and Features.md",
     "Perform Backup Options to Allow for Lost File Recovery.md",
-    "Manage Disk Partitions and File Systems.md",
     "Manage System Configuration Settings.md",
-    "Module 3.md",
     "Module 2.md",
     "CIS 116.md",
     "Bonus.md",

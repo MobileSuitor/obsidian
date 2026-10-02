@@ -7,7 +7,7 @@ Microsoft Learn diskpart documentation ---> https://learn.microsoft.com/en-us/wi
 		- keep Perform a quick format option checked
 	- ==diskpart==
 		- open terminal and run ==diskpart== to start utility
-		- ==list disk== displays a list of all local disks
+		- ==list disk== displays a list of all local disks 
 		- use ==select disk x==, with x being the number of the disk you want to work with
 			- can also be used on ==partition==
 		- use ==list partition== and ==create partition primary== 
