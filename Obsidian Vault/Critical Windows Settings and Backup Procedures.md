@@ -1,0 +1,13 @@
+- **Critical Windows Settings** 
+	- *Windows updates* - always install any pending updates and verify Windows Update is configured to automatically allow updating
+	- *Antivirus/Anti-malware software* - verify that anti-malware software is configured to scan regularly and that it is up to date
+	- *Network security setting* - use Network and Sharing Center to check that the network security type is set correctly for the optimum firewall settings
+	- *Backups of user data, the Windows volume, and system files* - verify that backup routines are running as expected
+	- *Uninstall software you no longer need* - this helps overall performance by reducing the number of startup processes running in the background and freeing up hard drive space
+	- *Clean up the hard drive* - a drive needs at least 15% free space so Windows can operate smoothly
+	- *For laptops, verify power options* - set power options to conserver power and increase the time before a battery pack needs recharging
+- **Useful Settings and Control Panel Applets**
+	- *Accounts* - contains Windows account info and allows you to link your account to a Microsoft account. Also includes email and app accounts, sign-in options, Microsoft account sync settings, options to sign in to work or school networks, and options to add new user accounts to the computer
+	- *Apps* - uninstall applications, set default applications, and check other application settings
+	- *Devices (Bluetooth & devices in Windows 11)* - find settings here for printers and scanners, connected devices, Bluetooth, mouse and touch pad devices, typing, AutoPlay, and USB
+	- *Gaming* - 

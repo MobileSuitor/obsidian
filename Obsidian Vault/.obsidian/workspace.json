@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 106.md",
+                "file": "Critical Windows Settings and Backup Procedures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 106"
+              "title": "Critical Windows Settings and Backup Procedures"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 106.md",
+                "file": "Critical Windows Settings and Backup Procedures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 106.md",
+                "file": "Critical Windows Settings and Backup Procedures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 106.md",
+                "file": "Critical Windows Settings and Backup Procedures.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,18 +204,19 @@
   },
   "active": "04b17e923e085fda",
   "lastOpenFiles": [
+    "CIS 105.md",
+    "Critical Windows Settings and Backup Procedures.md",
+    "Use Operating System Tools and Features.md",
     "Fall 2026.md",
-    "CIS 106.md",
     "CIS 110.md",
     "Module 2.md",
+    "CIS 106.md",
     "CIS 116.md",
-    "CIS 105.md",
     "Manage Disk Partitions and File Systems.md",
     "Module 3.md",
     "Open Source OS 2a.md",
     "learned commands.md",
     "Creating Scripts.md",
-    "Use Operating System Tools and Features.md",
     "Perform Backup Options to Allow for Lost File Recovery.md",
     "Manage System Configuration Settings.md",
     "Bonus.md",
@@ -229,7 +230,6 @@
     "Documentation and Support Systems.md",
     "TABLE - Operating Systems, partitioning systems, and file systems.md",
     "Open Source OS 1a.md",
-    "Use USMT Software.md",
     "Pasted image 20260925110450.png",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",
