@@ -16,10 +16,12 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 	1. In VirtualBox, go to File > Tools > Network > NAT Networks tab. Created LabNet and set IPv4 prefix to ==192.168.50.0/24==, disabled DHCP to set up on DC later.
 - **Creating Windows Server/DC VM**
 	1. Config settings
-		- user:admin | pass:password
-		- Host Name: DC01
+		- user:Administrator | pass:Passw0rd
 		- RAM: 4096 MB
 		- CPU: 2 cores
 		- Disk: 50GB
 		- Network: attached adapter 1 to Nat Network > LabNet
-	2. Encountered license error during boot. Cause was unattended installation injecting its own info 
+	2. Encountered license error during boot. Cause was unattended installation injecting its own info. Disabled unattended installation and proceeded with install
+	3. Selected Desktop Experience option during installation for GUI
+	4. Select Custom installation and choose drive for installation
+	5. Logged in and renamed computer to DC01, set static IP ==192.168.50.10== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 192.168.50.1, DNS 8.8.8.8 for 
