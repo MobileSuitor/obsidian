@@ -9,4 +9,17 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 2. Create Windows Server VM, give it a static IP, install the AD DS role, promote it to a domain controller and set up DNS
 3. Create Windows 11 VM, point DNS to domain controller, join domain and log in with a domain account
 4. Practice making OUs, users, and security groups. Configure DHCP, set up file shares with permissions
-5. Practice managing group policy - passwor
+5. Practice managing group policy - password policy, desktop wallpaper, mapped drives, software restrictions, folder redirection, etc.
+6. Explore more admin tools - backups, powershell scripts/automation, etc.
+
+- **Creating NAT Network in Virtual Box**
+	1. In VirtualBox, go to File > Tools > Network > NAT Networks tab. Created LabNet and set IPv4 prefix to ==192.168.50.0/24==, disabled DHCP to set up on DC later.
+- **Creating Windows Server/DC VM**
+	1. Config settings
+		- user:admin | pass:password
+		- Host Name: DC01
+		- RAM: 4096 MB
+		- CPU: 2 cores
+		- Disk: 50GB
+		- Network: attached adapter 1 to Nat Network > LabNet
+	2. Encountered license error during boot. Cause was unattended installation injecting its own info 
