@@ -24,4 +24,16 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 	2. Encountered license error during boot. Cause was unattended installation injecting its own info. Disabled unattended installation and proceeded with install
 	3. Selected Desktop Experience option during installation for GUI
 	4. Select Custom installation and choose drive for installation
-	5. Logged in and renamed computer to DC01, set static IP ==192.168.50.10== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 192.168.50.1, DNS 8.8.8.8 for 
+	5. Logged in and renamed computer to DC01, set static IP ==192.168.50.10== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 192.168.50.1, DNS 8.8.8.8 for now (change later after DC promotion)
+	6. took snapshot - *Clean Install pre-AD*
+- **Installing the AD DS Role**
+	1. In Server Manager go to Manage > Add Roles and Features. Selected Role-based or feature-based installation, selected DC01, selected Active Directory Domain Services role
+		- **Note:** PowerShell can do the above step in one line! Use: 
+		==Install-WindowsFeature AD-Domain-Services -IncludeManagementTools==
+- **Promoting to Domain Controller**
+	1. Yellow flag in Server Manager > selected Promote this server to a domain controller
+	2. Selected Add a new forest with root domain name ad.lab.com
+	3. Kept functional levels at Windows Server 2016, checked DNS server and Global Catalog. Set DRSM password: Passw0rd
+	4. accepted defaults for remaining settings, passed prereqs and installed
+- **Post-Promotion Checks**
+	1. 
