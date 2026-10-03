@@ -40,4 +40,3 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 		**Note:** was already pointing to 127.0.0.1, this should be fine but fix if issue
 	2. Added DNS forwarder - run ==dnsmgmt.msc==, allows DC to reach the internet so web browsing and updates don't break, used 8.8.8.8
 	3. ran ==dcdiag== in PowerShell, most things passed. ran ==nslookip ad.lab.com== but it failed. Issue was reverse lookup timeout, nslookup was trying to find DNS server name with reverse lookup but no reverse zone was configured. Fixed in DNS manager by creating new zone in reverse lookup > primary zone + check store in AD > replication scope defaults > set network ID at 192.168.50. Ran ==ipconfig /registerdns== to update PTR record
-	4. 
