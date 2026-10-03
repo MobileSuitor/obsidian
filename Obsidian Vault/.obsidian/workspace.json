@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Critical Windows Settings and Backup Procedures.md",
+                "file": "Use Operating System Tools and Features.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Critical Windows Settings and Backup Procedures"
+              "title": "Use Operating System Tools and Features"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Critical Windows Settings and Backup Procedures.md",
+                "file": "Use Operating System Tools and Features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Critical Windows Settings and Backup Procedures.md",
+                "file": "Use Operating System Tools and Features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Critical Windows Settings and Backup Procedures.md",
+                "file": "Use Operating System Tools and Features.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
