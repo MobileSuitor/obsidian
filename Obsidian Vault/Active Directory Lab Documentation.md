@@ -40,3 +40,14 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 		**Note:** was already pointing to 127.0.0.1, this should be fine but fix if issue
 	2. Added DNS forwarder - run ==dnsmgmt.msc==, allows DC to reach the internet so web browsing and updates don't break, used 8.8.8.8
 	3. ran ==dcdiag== in PowerShell, most things passed. ran ==nslookip ad.lab.com== but it failed. Issue was reverse lookup timeout, nslookup was trying to find DNS server name with reverse lookup but no reverse zone was configured. Fixed in DNS manager by creating new zone in reverse lookup > primary zone + check store in AD > replication scope defaults > set network ID at 192.168.50. Ran ==ipconfig /registerdns== to update PTR record
+- **Creating Windows 11 Client VM**
+	1. Config settings
+		- user:User1 | pass:Passw0rd
+		- RAM: 4096
+		- CPU: 2 cores
+		- Disk: 64GB 
+		- Motherboard settings (Windows 11 req): EFI enabled, TPM to v2.0, Secure Boot enabled
+		- Display: VRAM 128MB
+		- Network: attached adapter 1 to Nat Network > LabNet
+	2. error during boot: make sure to hit key when prompted, UEFI looks for boot prompt
+	3. 
