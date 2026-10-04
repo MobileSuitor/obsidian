@@ -50,4 +50,5 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 		- Display: VRAM 128MB
 		- Network: attached adapter 1 to Nat Network > LabNet
 	2. error during boot: make sure to hit key when prompted, UEFI looks for boot prompt
-	3. 
+	3. renamed PC to CLIENT01. Set static IP ==192.168.50.20==, mask 255.255.255.0, gateway 192.168.50.1. Set DNS server to point at DC (192.168.50.10) and no fallback to prevent using public DNS
+	4. took snapshot - *Clean install, pre-domain*
