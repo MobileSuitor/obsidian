@@ -43,4 +43,19 @@
 			- [[Perform Backup Options to Allow for Lost File Recovery]]
 		- **Windows Backup and Restore** - offers more granular control of backups than File History
 			- [[Setting up Windows Backup and Restore]]
-		- 
+		- **Windows Backup App** - syncs files and creates backups of system preferences to be stored on OneDrive. Does not create a full system image and it cannot restore individual files
+- **System Protection**
+	- Automatically backs up system files and stores them at regular intervals. These snapshots are called <u>Restore Points</u>, and include Windows system files that have changed since the last restore point was made
+	- *System Restore* (rstrui.exe) - restores the system to its condition at the time a restore point was made. Does not alter user data on the hard drive
+- **Drive Optimization and Management** 
+	- *Defragment and Optimize Drives* (dfrgui.exe) - utility that automatically defragments hard drives and trims SSDs weekly
+	- Defragment - rearranging fragments or parts of files on the hard drive so each file is stored on the drive in contiguous clusters
+		- Solid-state drives have defragmenting disabled by default, but performance of SSDs can benefit from trimming (erasing a block on the drive that is filled with unused data)
+	- *Disk Management* (diskmgmt.msc) - tool for managing hard drives, can be used for the following:
+		- managing partitions
+		- preparing a new drive for first use
+		- mount a drive
+		- use Windows dynamic disks
+		- troubleshoot problems with the hard drive
+	- Windows Dynamic disks - a way to partition one or more hard drives so that they can work together to increase space for data storage or to provide fault tolerance or improved performance. Several dynamic volumes can work together to collectively present a single dynamic volume to the system. Some advantages:
+		- improve reliability 
