@@ -10,4 +10,16 @@
 	- *Accounts* - contains Windows account info and allows you to link your account to a Microsoft account. Also includes email and app accounts, sign-in options, Microsoft account sync settings, options to sign in to work or school networks, and options to add new user accounts to the computer
 	- *Apps* - uninstall applications, set default applications, and check other application settings
 	- *Devices (Bluetooth & devices in Windows 11)* - find settings here for printers and scanners, connected devices, Bluetooth, mouse and touch pad devices, typing, AutoPlay, and USB
-	- *Gaming* - 
+	- *Gaming* - trash game settings that hinder performance 9/10 times
+	- *Network & Internet* - network status, data usage info, and settings for different connections (Wi-Fi, Ethernet, VPN, hotspots)
+	- *Personalization* - settings for backgrounds, colors, lock screen, themes, taskbar, etc.
+	- *Privacy* - settings to restrict or allow Windows or apps access to information and resources, including location, camera, microphone, notifications, speech, typing, account info, contacts, calendar, call history, email, file system, etc. Can also choose which apps run in the background
+	- *System* - catchall information and settings that affect functions of the computer, such as those for adjusting display, notifications, power, sleep, and storage
+	- *Time & Language* - settings for date and time, region and language, and speech
+	- *Update & Security* - tools and settings found here include Windows updates, backups, and recovery
+- **Power Options** 
+	- *Sleep mode (standby/suspend)* - Windows saves current state of open files to memory and saves some of the work to the hard drive, then everything is shut down except memory and enough of the system to respond to a wake-up. Can still perform Windows updates and scheduled tasks in sleep mode
+	- *Hibernation* - saves all work to the hard drive and powers down the system. When powering back on Windows reloads its state, including all open applications and documents
+- **Plans for Disaster Recovery**
+	- Six options for backups
+		- Option A: use no backup - 
