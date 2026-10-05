@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Critical Windows Settings and Backup Procedures.md",
+                "file": "CIS 116.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Critical Windows Settings and Backup Procedures"
+              "title": "CIS 116"
             }
           },
           {
@@ -203,11 +203,12 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "CIS 105.md",
-    "Using Windows CLI.md",
     "Fall 2026.md",
-    "Manage Disk Partitions and File Systems.md",
+    "CIS 116.md",
+    "CIS 105.md",
     "Critical Windows Settings and Backup Procedures.md",
+    "Using Windows CLI.md",
+    "Manage Disk Partitions and File Systems.md",
     "Setting up Windows Backup and Restore.md",
     "CIS 110.md",
     "Module 2.md",
@@ -215,7 +216,6 @@
     "Use Operating System Tools and Features.md",
     "Active Directory Lab Documentation.md",
     "CIS 106.md",
-    "CIS 116.md",
     "Module 3.md",
     "Open Source OS 2a.md",
     "learned commands.md",
