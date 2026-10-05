@@ -59,3 +59,23 @@
 		- troubleshoot problems with the hard drive
 	- Windows Dynamic disks - a way to partition one or more hard drives so that they can work together to increase space for data storage or to provide fault tolerance or improved performance. Several dynamic volumes can work together to collectively present a single dynamic volume to the system. Some advantages:
 		- improve reliability 
+		- extend a volume across multiple drives (spanned volume)
+		- improve performance and/or provide fault tolerance
+	- RAID (redundant array of independent disks)
+		- RAID 0 - joining hard drives together to improve performance (striping). Work is shared between two hard drives, but does not provide fault tolerance
+		- RAID 1 - copying one hard drive to another as a backup (mirroring). Provides fault tolerance, but can reduce performance because the drives operate at the speed of the slowest drive and all data must be written twice
+- **Troubleshooting with Disk Management**
+	Some examples of disk and volume statuses and what they indicate
+	- *Unknown* - the boot sector most likely is corrupted, which may have been caused by malware
+	- *Unreadable* - file system database cannot be read. Try rebooting
+	- *Failed* - drive is damaged, or file system is corrupt. Replace data cable to drive and ensure it is receiving power. Data on a failed volume is likely to be lost
+	- *Active* - one volume on an MBR system will be marked as such. This is the volume that startup BIOS/UEFI looks to for an OS boot manager to load
+	- *EFI System Partition* - in GPT systems one volume will be marked as such. BIOS/UEFI looks to this volume to find an OS boot manager to load an OS
+	- *Unallocated* - space on the disk that has not yet been partitioned
+	- *Formatting* - appears when formatting is taking place on a volume
+	- *Basic* - assigned by Windows when a hard drive is first sensed. Can be partitioned and formatted as a stand-alone hard drive
+	- *Dynamic* - the following status indicators apply only to dynamic disks:
+		- **Online** - indicates the disk has been sensed by Windows and can be accessed by either reading or writing to the disk
+		- **Online (errors)** - region of the disk is giving errors. Try returning the disk to online status. If the volume status does not return to healthy, back up all data and replace the drive
+		- **Offline** or **Missing** - dynamic disk is corrupted or unavailable. May be caused by corrupted file system, bad cable, failed hard drive, or another hardware problem
+		- **Foreign drive** - occurs when moving a hard drive that has been configured as a dynamic disk on one computer to another. Import foreign disks to fix
