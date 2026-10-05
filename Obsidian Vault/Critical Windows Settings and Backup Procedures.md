@@ -22,4 +22,17 @@
 	- *Hibernation* - saves all work to the hard drive and powers down the system. When powering back on Windows reloads its state, including all open applications and documents
 - **Plans for Disaster Recovery**
 	- Six options for backups
-		- Option A: use no backup - 
+		- **Option A: use no backup** 
+		- **Option B: Create and maintain your own backups** - Windows File History and Windows Backup and Restore can be used for this scenario. Allows complete control over data and backups, but also means you are solely responsible for all backup and recovery operations
+		- **Option C: Backup to the Cloud** - using any cloud service that copies data when connected to the Internet
+		- **Option D: Keep data in the public Cloud** - using Microsoft OneDrive or Google Drive
+		- **Option E: Data is kept on a local file server and backed up to private media** - gives more control of data to the network admin, but complicates access to data when off the local network
+		- **Option F: Data is kept on a local file server and backed up to the Cloud** - main advantage is the cloud service is responsible for all backup routines and supporting recovery operations
+	- *3-2-1 backup rule* - keep **three** copies of data (the original/production data, and two backups), **two** media types (ex. an external hard drive and the cloud), and **one** copy off site
+	- *Backup types* 
+		- <u>Full backup</u> - backs up all data designated for backup
+		- <u>Incremental backup</u> - backs up only files that have changed or been created since the last backup whether that backup is itself an incremental or a full backup
+		- <u>Differential backup</u> - backs up files that have changed or been created since the last full backup. A differential backup does not consider if other differential backups have been performed footnote 
+	- *Backup routines* - should always begin with a full backup and then use either incremental or differential backups several times, with additional full backups made occasionally. When something is recovered, the recovery process must reconstruct the lost or corrupted items from the latest full backup and then apply any changes reflected in all the incremental backups since the last full backup
+		- once a routine is established, you should test the recovery plan. Erase a file and use recovery procedures to verify that it can be recreated from the backup, verifies the backup media works and the recovery software is effective
+- **Creating Bac**
