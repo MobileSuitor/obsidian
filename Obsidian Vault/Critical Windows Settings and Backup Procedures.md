@@ -35,4 +35,10 @@
 		- <u>Differential backup</u> - backs up files that have changed or been created since the last full backup. A differential backup does not consider if other differential backups have been performed footnote 
 	- *Backup routines* - should always begin with a full backup and then use either incremental or differential backups several times, with additional full backups made occasionally. When something is recovered, the recovery process must reconstruct the lost or corrupted items from the latest full backup and then apply any changes reflected in all the incremental backups since the last full backup
 		- once a routine is established, you should test the recovery plan. Erase a file and use recovery procedures to verify that it can be recreated from the backup, verifies the backup media works and the recovery software is effective
-- **Creating Bac**
+- **Creating Backups**
+	- *Back up User Data and the System Image*
+		- <u>System image</u> - the backup of the entire Windows volume; it can also include backups of other volumes. Works **_only_** on the computer that created it
+		- **_Note_**: Windows only uses one backup tool at a time, either <u>File History</u> or <u>Backup and Restore</u>. One must be turned off to use the other, and both tools only allow for one backup routine
+		- **Windows File History** - simple backup utility that is easy for users but gives limited control over backups. First makes a full backup to another medium, then scans for file and folder changes at a designated time interval and keeps as many generations of backups as free space allows 
+			- [[Perform Backup Options to Allow for Lost File Recovery]]
+		- **Windows Backup and Restore** - 
