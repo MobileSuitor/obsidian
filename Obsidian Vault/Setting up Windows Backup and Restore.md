@@ -1,0 +1,2 @@
+1. Open Control Panel in classic view, click Backup and Restore (Windows 7). Click Set up backup
+2. Select device or location to hold the backup (Pro and Enterprise allow you to backup to a network location). 

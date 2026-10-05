@@ -41,4 +41,6 @@
 		- **_Note_**: Windows only uses one backup tool at a time, either <u>File History</u> or <u>Backup and Restore</u>. One must be turned off to use the other, and both tools only allow for one backup routine
 		- **Windows File History** - simple backup utility that is easy for users but gives limited control over backups. First makes a full backup to another medium, then scans for file and folder changes at a designated time interval and keeps as many generations of backups as free space allows 
 			- [[Perform Backup Options to Allow for Lost File Recovery]]
-		- **Windows Backup and Restore** - 
+		- **Windows Backup and Restore** - offers more granular control of backups than File History
+			- [[Setting up Windows Backup and Restore]]
+		- 
