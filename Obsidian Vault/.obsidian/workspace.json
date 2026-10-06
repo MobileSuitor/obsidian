@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 116.md",
+                "file": "Section 3 - The Hypervisor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 116"
+              "title": "Section 3 - The Hypervisor"
             }
           },
           {
@@ -203,8 +203,12 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Fall 2026.md",
+    "NDG Lessons.md",
+    "Section 3 - The Hypervisor.md",
     "CIS 116.md",
+    "CIS 116 Chapter 3.md",
+    "CIS 116 Chapter 1.md",
+    "Fall 2026.md",
     "CIS 105.md",
     "Critical Windows Settings and Backup Procedures.md",
     "Using Windows CLI.md",
@@ -225,10 +229,6 @@
     "College.md",
     "Module 1.md",
     "Manage Disk Partitions and File Systems using diskpart.md",
-    "Troubleshooting Windows Installations.md",
-    "Installing Windows 11 in Hyper-V.md",
-    "Installing Software.md",
-    "Operating Systems.md",
     "Pasted image 20260925110450.png",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",
