@@ -11,3 +11,5 @@
 -----
 [[Section 3 - The Hypervisor]]
 
+
+[[Lab 1 - Create a Virtual Machine]]
