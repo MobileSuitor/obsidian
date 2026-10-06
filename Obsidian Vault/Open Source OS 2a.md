@@ -1,3 +1,15 @@
 - use ==who== to show all users currently logged in, and ==whoami== to show current username
 - show hostname with ==hostname==
+- creating ~/bin is a good idea for having a directory that can be used to store personal scripts
+------
+- **Recursive** - operation is going to continue into the subdirectories below the starting point
+	- ls -R lists current directory, then all its subdirectories
+- Nested directories can be made using the -p option in mkdir
+	- i.e. mkdir -p a/b/c
+- ==mv==
+	- several functions, can rename, move, and rename+move simultaneously
+	- syntax: mv \<SOURCE> \<DESTINATION>
+- ==cp==
+	- leaves original item in place and creates another copy
+	- syntax: cp \<SOURCE> \<DESTINATION>
 - 
