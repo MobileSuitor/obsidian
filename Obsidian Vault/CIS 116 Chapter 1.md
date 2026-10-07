@@ -4,6 +4,8 @@
 	- understand the two key trends that drive virtualization
 	- understand why virtualization is a key tech in datacenters
 
+---------------------
+
 - Virtualization - the process where physical servers are converted into VMs. Makes more efficient use of hardware resources to run several individual computers from one physical platform
 - Popek and Goldberg's three properties
 	1. *Fidelity* - virtual environment should be identical to physical
