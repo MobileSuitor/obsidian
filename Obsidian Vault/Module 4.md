@@ -18,5 +18,7 @@
 - **Securing Endpoint Computers**
 	- *Confirm Boot Integrity* - confirming the computer has started without any malicious activity taking place. Boot security involves validating that each element used in each step of the boot process has not been modified. This *chain of trust* starts with the hardware, as it cannot be modified like software (*hardware root of trust*). Some important techniques:
 		- **Secure Boot** - each firmware and software executable at boot time must be verified as having prior approval
-		- **Trusted Boot** - Windows OS checks the integrity of every component of boot process before loading it, takes over where Secure Boot leaves off by validating the Windows 10 software before 
-		- 
+		- **Trusted Boot** - Windows OS checks the integrity of every component of boot process before loading it, takes over where Secure Boot leaves off by validating the Windows 10 software before loading it
+	- *Protect Endpoints* - can be done through software installed on the endpoint, such as antivirus, antimalware, browser protections, etc.
+		- **Antivirus** - examines a computer for <u>file-based</u> virus infections as well as monitor activity and scan new documents that might contain a virus
+		- **Antimalware** - 
