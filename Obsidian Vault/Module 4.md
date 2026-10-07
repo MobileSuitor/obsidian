@@ -21,4 +21,23 @@
 		- **Trusted Boot** - Windows OS checks the integrity of every component of boot process before loading it, takes over where Secure Boot leaves off by validating the Windows 10 software before loading it
 	- *Protect Endpoints* - can be done through software installed on the endpoint, such as antivirus, antimalware, browser protections, etc.
 		- **Antivirus** - examines a computer for <u>file-based</u> virus infections as well as monitor activity and scan new documents that might contain a virus
-		- **Antimalware** - 
+		- **Antimalware** - suite of software intended to provide protections against multiple types of malware, such as ransomware, cryptomalware, and Trojans
+		- **Web Browsers** - most have a degree of security that can protect endpoint computers, includes secure cookies and HTTP headers
+			- *Secure Cookies* - a cookie is user-specific info that is stored on a file in the user's local computer and then retrieved later. A secure cookie is only sent to the server with an encrypted request over the secure HTTPS protocol, preventing interception
+			- *HTTP Response Headers* - when users visit a website though their browser, the web server answers back with HTTP Response Headers, which tell the browser how to behave while communicating with the website. Some examples:
+				- **HTTP Strict Transport Security (HSTS)** - forces browser to communicate over HTTPS
+				- **Content Security Policy (CSP)** - restricts resources a user is allowed to load within website
+				- **Cross Site Scripting Protection (X-XSS)** - prohibits a page from loading if it detects a cross-site scripting attack
+				- **X-Frame-Options** - prevents attackers from overlaying their content on the webpage
+		- **Monitoring and Response Systems** - three kinds:
+			- *Host Intrusion Detection Systems (HIDS)* - software-based application that can detect an attack that has occurred. Primary function is automated detection
+			- *Host Intrusion Prevention Systems (HIPS)* - monitors endpoint activity to immediately block a malicious attack by following specific rules. Can generate a high number of false positives
+			- *Endpoint Detection and Response (EDR)* - more robust than HIDS and HIPS, EDRs can aggregate data from multiple endpoints to a centralized database
+	- *Harden Endpoints* - involves patch management and OS protections
+		- **Patch Management** - promptly installing patches is critical. Patch distribution can often be handled by an automated patch update service, where one server is connected to a vendor's online update service and push updates to client machines.
+		- **Securing OSs** - involves proper security configs and using confinement tools
+			- disable unnecessary open ports and services
+			- disable default accounts/passwords
+			- employing least functionality - states a user should only be given the minimum set of permissions required
+			- a *Security Template* can be created in Windows that specifies config settings and can be applied to other machines
+		- 
