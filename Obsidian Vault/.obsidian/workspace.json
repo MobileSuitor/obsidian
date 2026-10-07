@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 116.md",
+                "file": "Where Oracle VirtualBox Stores its Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 116"
+              "title": "Where Oracle VirtualBox Stores its Files"
             }
           },
           {
@@ -203,12 +203,12 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "CIS 116 Chapter 3.md",
+    "Oracle VirtualBox Notes.md",
     "CIS 116.md",
+    "CIS 116 Chapter 3.md",
     "CIS 116 Chapter 2.md",
     "CIS 116 Chapter 1.md",
     "NDG Lessons.md",
-    "Oracle VirtualBox Notes.md",
     "Where Oracle VirtualBox Stores its Files.md",
     "Fall 2026.md",
     "CIS 106.md",
