@@ -1,1 +1,11 @@
+- root - the administrator account with system-wide reach
+	- has its own home directory, sometimes contains config files and system logs
+- ==sudo== - grants temporary root privileges for a single command 
+- ==su== - switches to another user, switches to root with no argument 
+	- use ==exit== to return to original account 
+	- root account uses '#' as the command prompt instead of '$'
+- ==find== - searches inside a directory tree.
+	- syntax: find STARTING_DIRECTORY -name NAME_PATTERN -type TYPE
+	- i.e. find / -name xml* -type f
+		- searches entire file system for any file with xml in the name
 - 
