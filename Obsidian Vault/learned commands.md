@@ -8,3 +8,7 @@
 - ==$(command)== - captures output of a command and uses it as part of another command
 	- ==output=$(ls)
 	  echo "The files in the current directory are: " $output== - ls command is executed, output of ls is captured and stored in output variable, output variable is used to display list of files
+- ==find== - used to search for files and directories within the filesystem, searches based on attributes such as name, size, type, and more.
+	- basic syntax - find \[starting_directory] \[options] \[expression]
+	- \[expression] defines what kind of files or directories to look for (file names, file types)
+	- \[options] specifies what you're searching for (-name, -type f, -type d)

@@ -43,4 +43,16 @@
 			- Confinement tools can include: application whitelisting/blacklisting, sandboxes (contains applications), quarantines (contains documents)
 - **Creating and Deploying SecDevOps**
 	[[Table 4-5 Attacks Based on Application Vulnerabilities]]
-	- 
+	- *Application development lifecycle model* - conceptual model that describes the stages involved in creating an application. Two major models:
+		- **Waterfall model** - uses sequential design process: as each stage is fully completed, the devs move on to the next stage. Devs cannot go back to a previous stage without starting all over again. QA occurs only after the application has been tested and before it is finally placed in production
+		- **Agile model** - uses and incremental approach: devs might start with a simplistic project design and begin to work on small modules. The work on these modules is done in short sprints, and the project's priorities are evaluated again at the end of these sprints.
+	- *SecDevOps* - follows the agile model and heavily incorporates secure coding practices and techniques to create secure software applications. A set of best practices designed to help organizations implant secure coding deep in the heart of their applications
+	- *Secure Coding Techniques* 
+		- **Proper input validation** - accounting for errors such as incorrect user input. Can prevent XSS and cross-site request forgery
+		- **Normalization**- organizing data within a database to minimize redundancy. Reduces footprint of data exposed to attackers
+		- **Stored procedure** - subroutine available to applications that access a relational database. Eliminates the need to write a subroutine that could have vulnerabilities
+		- **Code signing** - digitally signing applications. Confirms the software author and guarantees the code has not been altered or corrupted
+		- **Obfuscation/camouflaged code** - writing an application in such a way that its inner functionality is difficult for an outsider to understand
+		- **Dead code** - a section of an application that executes but performs no meaningful function. Provides an unnecessary attack vector for attackers
+		- **Server/Client-side execution and validation** - input validation generally uses the server to perform validation but can also have the client do so by the user's web browser
+		- **Code reuse of third-party libraries and SDKs** - using existing software in a new application; a software development kit is a set of tools used to write applicatios
