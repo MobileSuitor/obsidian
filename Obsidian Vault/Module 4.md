@@ -40,4 +40,7 @@
 			- disable default accounts/passwords
 			- employing least functionality - states a user should only be given the minimum set of permissions required
 			- a *Security Template* can be created in Windows that specifies config settings and can be applied to other machines
-		- 
+			- Confinement tools can include: application whitelisting/blacklisting, sandboxes (contains applications), quarantines (contains documents)
+- **Creating and Deploying SecDevOps**
+	[[Table 4-5 Attacks Based on Application Vulnerabilities]]
+	- 
