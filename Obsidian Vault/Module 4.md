@@ -55,4 +55,8 @@
 		- **Obfuscation/camouflaged code** - writing an application in such a way that its inner functionality is difficult for an outsider to understand
 		- **Dead code** - a section of an application that executes but performs no meaningful function. Provides an unnecessary attack vector for attackers
 		- **Server/Client-side execution and validation** - input validation generally uses the server to perform validation but can also have the client do so by the user's web browser
-		- **Code reuse of third-party libraries and SDKs** - using existing software in a new application; a software development kit is a set of tools used to write applicatios
+		- **Code reuse of third-party libraries and SDKs** - using existing software in a new application; a software development kit is a set of tools used to write applications
+	- *Code Testing* - testing should be performed much earlier during the implementation and verification phases of a software development process
+		- **Static Code Analysis** - analyzing and testing software from a security perspective before the source code is compiled
+		- **Dynamic Code Analysis** - examining code after the source code is compiled and when all components are integrated and running
+		- 
