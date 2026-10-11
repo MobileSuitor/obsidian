@@ -52,3 +52,15 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 	2. error during boot: make sure to hit key when prompted, UEFI looks for boot prompt
 	3. renamed PC to CLIENT01. Set static IP ==192.168.50.20==, mask 255.255.255.0, gateway 192.168.50.1. Set DNS server to point at DC (192.168.50.10) and no fallback to prevent using public DNS
 	4. took snapshot - *Clean install, pre-domain*
+- **Troubleshooting Network Issues Between Client and DC**
+	1. Noticed that the client was unable to connect to DC
+	2. Checked DC with ==Get-NetConnectionProfile== and saw NetworkCategory was listed as Public
+	3. Verified DNS server was pointing to DC static IP
+	4. Attempted to restart Network Location Awareness service with ==Restart-Service NlaSvc -Force==, but command timed out due to service hanging
+	5. Tried bouncing the adapter and Netlogon service to prompt NLA to re-detect domain using:
+		- ==Restart-Service Netlogon==
+		- ==Disable-NetAdapter -Name "Ethernet" -Confirm:$false==
+		- ==Enable-NetAdapter -Name "Ethernet"==
+	6. tested Get-NetConnectionProfile again and saw that NetworkCategory was now DomainAuthenticated. Success!
+	7. Ran ==sc.exe config NlaSvc start= delayed-auto== to delay NLA service to prevent it from finishing before AD is set up. Saved new snapshot of DC01
+	8. From **Client**, ran
