@@ -66,4 +66,14 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 
 -----------
 <u>10/11/2026</u>
-Laptop was struggling to run more than two VMs, so I made the decision to migrate this lab to my main desktop, which has 32GB of RAM. This lab and its initial setup will be identical to the documentation above
+Laptop was struggling to run more than two VMs, so I made the decision to migrate this lab to my main desktop, which has 32GB of RAM. This lab and its initial setup will be identical to the documentation above. The phases are as follows:
+1. Create VirtualBox NAT Network or Internal Network so VMs can communicate
+2. Create Windows Server VM, give it a static IP, install the AD DS role, promote it to a domain controller and set up DNS
+3. Create Windows 11 VM, point DNS to domain controller, join domain and log in with a domain account
+4. Practice making OUs, users, and security groups. Configure DHCP, set up file shares with permissions
+5. Practice managing group policy - password policy, desktop wallpaper, mapped drives, software restrictions, folder redirection, etc.
+6. Explore more admin tools - backups, powershell scripts/automation, etc.
+
+- **Creating NAT Network in Virtual Box**
+	1. In VirtualBox, go to File > Tools > Network > NAT Networks tab. Created LabNet and set IPv4 prefix to ==10.10.10.0/24==, disabled DHCP to set up on DC later
+- 
