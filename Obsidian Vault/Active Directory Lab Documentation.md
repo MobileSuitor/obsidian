@@ -66,7 +66,7 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 
 -----------
 <u>10/11/2026</u>
-Laptop was struggling to run more than two VMs, so I made the decision to migrate this lab to my main desktop, which has 32GB of RAM. This lab and its initial setup will be identical to the documentation above. The phases are as follows:
+Laptop was struggling to run more than two VMs, so I made the decision to migrate this lab to my main desktop, which has 32GB of RAM. This lab and its initial setup will be almost identical to the documentation above. Notable changes include adjusting the static IP range to 10.10.10.0/24 to avoid conflicts with home network that use 192.168.50.0/24 The phases are as follows:
 1. Create VirtualBox NAT Network or Internal Network so VMs can communicate
 2. Create Windows Server VM, give it a static IP, install the AD DS role, promote it to a domain controller and set up DNS
 3. Create Windows 11 VM, point DNS to domain controller, join domain and log in with a domain account
@@ -76,4 +76,15 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 
 - **Creating NAT Network in Virtual Box**
 	1. In VirtualBox, go to File > Tools > Network > NAT Networks tab. Created LabNet and set IPv4 prefix to ==10.10.10.0/24==, disabled DHCP to set up on DC later
-- 
+- **Creating Windows Server/DC VM**
+	1. Config settings
+		- user:Administrator | pass:Passw0rd
+		- RAM: 4096 MB
+		- CPU: 2 cores
+		- Disk: 50GB
+		- Network: attached adapter 1 to Nat Network > LabNet
+	2. Encountered license error during boot. Cause was unattended installation injecting its own info. Disabled unattended installation and proceeded with install
+	3. Selected Desktop Experience option during installation for GUI
+	4. Select Custom installation and choose drive for installation
+	5. Logged in and renamed computer to DC01, set static IP ==192.168.50.10== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 192.168.50.1, DNS 8.8.8.8 for now (change later after DC promotion)
+	6. took snapshot - *Clean Install pre-AD*
