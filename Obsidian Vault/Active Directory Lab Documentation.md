@@ -63,4 +63,7 @@ Downloaded Windows 11 Enterprise and Windows Server 2022 from Microsoft Evaluati
 		- ==Enable-NetAdapter -Name "Ethernet"==
 	6. tested Get-NetConnectionProfile again and saw that NetworkCategory was now DomainAuthenticated. Success!
 	7. Ran ==sc.exe config NlaSvc start= delayed-auto== to delay NLA service to prevent it from finishing before AD is set up. Saved new snapshot of DC01
-	8. From **Client**, ran
+
+-----------
+<u>10/11/2026</u>
+Laptop was struggling to run more than two VMs, so I made the decision to migrate this lab to my main desktop, which has 32GB of RAM. This lab and its initial setup will be identical to the documentation above
