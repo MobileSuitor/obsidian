@@ -86,5 +86,9 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 	2. Encountered license error during boot. Cause was unattended installation injecting its own info. Disabled unattended installation and proceeded with install
 	3. Selected Desktop Experience option during installation for GUI
 	4. Select Custom installation and choose drive for installation
-	5. Logged in and renamed computer to DC01, set static IP ==10.10.10.20== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 10.10.00.1, DNS 8.8.8.8 for now (change later after DC promotion)
+	5. Logged in and renamed computer to DC01, set static IP ==10.10.10.20== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 10.10.10.1, DNS 8.8.8.8 for now (change later after DC promotion)
 	6. took snapshot - *Clean Install pre-AD*
+- **Installing the AD DS Role**
+	1. In Server Manager go to Manage > Add Roles and Features. Selected Role-based or feature-based installation, selected DC01, selected Active Directory Domain Services role
+		- **Note:** PowerShell can do the above step in one line! Use: 
+		==Install-WindowsFeature AD-Domain-Services -IncludeManagementTools==
