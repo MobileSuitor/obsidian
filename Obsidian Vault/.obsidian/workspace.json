@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 105.md",
+                "file": "CIS 116.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 105"
+              "title": "CIS 116"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Active Directory Lab Documentation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,31 +201,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df7d85c911eaa44c",
+  "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "CIS 105.md",
+    "NDG Lessons.md",
+    "Section 3 - The Hypervisor.md",
+    "CIS 116.md",
     "Fall 2026.md",
+    "CIS 110.md",
+    "CIS 105.md",
+    "Active Directory Lab Documentation.md",
     "Using Windows CLI.md",
     "Critical Windows Settings and Backup Procedures.md",
-    "CIS 110.md",
     "Module 3.md",
     "Module 4.md",
     "CIS 106.md",
     "learned commands.md",
     "Table 4-5 Attacks Based on Application Vulnerabilities.md",
     "Pasted image 20261007131811.png",
-    "CIS 116.md",
     "Oracle VirtualBox Notes.md",
-    "Active Directory Lab Documentation.md",
     "Where Oracle VirtualBox Stores its Files.md",
     "CIS 116 Chapter 3.md",
     "CIS 116 Chapter 2.md",
     "CIS 116 Chapter 1.md",
-    "NDG Lessons.md",
     "Open Source OS 3a.md",
     "Open Source OS 2a.md",
     "Lab 1 - Create a Virtual Machine.md",
-    "Section 3 - The Hypervisor.md",
     "Manage Disk Partitions and File Systems.md",
     "Setting up Windows Backup and Restore.md",
     "Module 2.md",
