@@ -87,8 +87,14 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 	3. Selected Desktop Experience option during installation for GUI
 	4. Select Custom installation and choose drive for installation
 	5. Logged in and renamed computer to DC01, set static IP ==10.10.10.20== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 10.10.10.1, DNS 8.8.8.8 for now (change later after DC promotion)
-	6. took snapshot - *Clean Install pre-AD*
+	6. Check for updates and restart for installation
+	7. took snapshot - *Clean Install pre-AD*
 - **Installing the AD DS Role**
 	1. In Server Manager go to Manage > Add Roles and Features. Selected Role-based or feature-based installation, selected DC01, selected Active Directory Domain Services role
 		- **Note:** PowerShell can do the above step in one line! Use: 
 		==Install-WindowsFeature AD-Domain-Services -IncludeManagementTools==
+- **Promoting to Domain Controller**
+	1. Yellow flag in Server Manager > selected Promote this server to a domain controller
+	2. Selected Add a new forest with root domain name ad.lab.local
+	3. Kept functional levels at Windows Server 2016, checked DNS server and Global Catalog. Set DRSM password: Passw0rd
+	4. accepted defaults for remaining settings, passed prereqs and installed
