@@ -98,3 +98,12 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 	2. Selected Add a new forest with root domain name ad.lab.local
 	3. Kept functional levels at Windows Server 2016, checked DNS server and Global Catalog. Set DRSM password: Passw0rd
 	4. accepted defaults for remaining settings, passed prereqs and installed
+- **Post-Promotion Checks**
+	1. Change DNS from 8.8.8.8 to 10.10.10.20 
+		**Note:** was already pointing to 127.0.0.1, this should be fine but fix if issue
+	2. Added DNS forwarder - run ==dnsmgmt.msc== > right click DC01, Forwarders. Allows DC to reach the internet so web browsing and updates don't break, used 8.8.8.8
+	3. ran ==dcdiag== in PowerShell, most things passed. ran ==nslookup ad.lab.local==, succeeded this time
+	4. Confirmed \_msdcs folder in DNS manager along with DC zone, lets clients locate DC
+	5. Opened Active Directory Users and Computers to look around
+	6. Took new snapshot: *AD DS promoted, healthy*
+
