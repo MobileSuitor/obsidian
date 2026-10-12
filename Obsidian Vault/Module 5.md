@@ -30,4 +30,6 @@
 		- **Mobile Device Management (MDM)** - allow a device to be managed remotely by an org
 		- **Mobile Application Management (MAM)** - while MDM focuses on the device itself, MAM covers the tools and services responsible for distributing and controlling access to apps
 		- **Mobile Content Management (MCM)** - Content management supports the creating and subsequent editing and modification of digital content by multiple employees. Can include tracking editing history, version control, indexing, and searching. MCM system is tuned to provide content management to several mobile devices
-		- **Unified Endpoint Management (UEM)** - 
+		- **Unified Endpoint Management (UEM)** - UEM is a group a class of software tools with a single management interface for mobile and computer devices. Can support all the capabilities of MDM, MAM, and MCM
+- **Security Issues of Embedded/Specialized Devices**
+	- [[Table 5-9 Security Constraints for Embedded Systems and Specialized Devices]]
