@@ -100,10 +100,21 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 	4. accepted defaults for remaining settings, passed prereqs and installed
 - **Post-Promotion Checks**
 	1. Change DNS from 8.8.8.8 to 10.10.10.10 
-		**Note:** was already pointing to 127.0.0.1, this should be fine but fix if issue
 	2. Added DNS forwarder - run ==dnsmgmt.msc== > right click DC01, Forwarders. Allows DC to reach the internet so web browsing and updates don't break, used 8.8.8.8
 	3. ran ==dcdiag== in PowerShell, most things passed. ran ==nslookup ad.lab.local==, succeeded this time
 	4. Confirmed \_msdcs folder in DNS manager along with DC zone, lets clients locate DC
 	5. Opened Active Directory Users and Computers to look around
-	6. Took new snapshot: *AD DS promoted, healthy*
+	6. created reverse lookup zone in case of timeout problem with nslookup: DNS manager > reverse lookup zones > new zone > primary IPv4 > network ID 10.10.10 > allow secure dynamic updates
+	7. Took new snapshot: *AD DS promoted, healthy*
+	8. ran ==ipconfig /registerdns==, and ==nslookup 10.10.10.10== > returned domain properly
+	9. ran ==Resolve-DnsName ad.lab.local== > returns 10.10.10.10
+	10. ran ==Resolve-DnsName google.com== > works from DC, forwarder is functional
+	11. rebooted DC01, then ran ==Get-NetConnectionProfile== > network category listed as private, not DomainAuthenticated
+		- ==nltest /dsgetdc:ad.lab.local== returns DC01 so AD is healthy
+		- ran ==Restart-Service Netlogon==
+		- ran ==Disable-NetAdapter -Name "Ethernet" -Confirm:$False== + ==Enable-NetAdapter -Name "Ethernet"== to bounce adapter 
+		- checked ==sc.exe qc NlaSvc== to see what dependencies were configured and added DNS with ==sc.exe config NlaSvc depend=DNS==
+		- this seemed to be the fix, with DNS as a dependency, NLA can't start until DNS service is up, so the domain is findable by the time NLA checks
+		- rebooted a few more times, just to be sure
+	12. Took new snapshot: *AD DS promoted, DNS verified*
 
