@@ -139,4 +139,9 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 		- Alternatively, sysdm.cpl > Change > Domain works as well
 	8. Sign is as Other User on reboot, credentials AD\User1 or AD\Administrator
 		- AD\User1 doesn't work as it is a local account, not a domain account
-		- on DC01, ran ==Get-ADUser -Filter \* |  Select-Object Name, SamAccountName, Enabled== to 
+		- on DC01, ran ==Get-ADUser -Filter \* |  Select-Object Name, SamAccountName, Enabled== to confirm available accounts
+		- can use .\User1 as a fallback, tells Windows to use local account database
+	9. Create a real domain user for CLIENT01:
+		- DC01 > Active Directory Users and Computers > Users > New > User
+		- set logon name as User1, set password = Passw0rd! to meet requirements and checked User must change password at next logon. Change to Passw0rd
+	10. took snapshot on both VMs - *AD joined*
