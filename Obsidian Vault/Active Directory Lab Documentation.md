@@ -115,6 +115,18 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 		- ran ==Disable-NetAdapter -Name "Ethernet" -Confirm:$False== + ==Enable-NetAdapter -Name "Ethernet"== to bounce adapter 
 		- checked ==sc.exe qc NlaSvc== to see what dependencies were configured and added DNS with ==sc.exe config NlaSvc depend=DNS==
 		- this seemed to be the fix, with DNS as a dependency, NLA can't start until DNS service is up, so the domain is findable by the time NLA checks
-		- rebooted a few more times, just to be sure
+		- rebooted a few more times, just to be sure > confirmed working
 	12. Took new snapshot: *AD DS promoted, DNS verified*
-
+- **Creating Windows 11 Client VM**
+	1. Config settings
+		- user:User1 | pass:Passw0rd
+		- RAM: 4096
+		- CPU: 2 cores
+		- Disk: 80GB 
+		- Motherboard settings (Windows 11 req): EFI enabled, TPM to v2.0, Secure Boot enabled
+		- Display: VRAM 128MB
+		- Network: attached adapter 1 to Nat Network > LabNet
+	2. error during boot: make sure to hit key when prompted, UEFI looks for boot prompt
+	3. renamed PC to CLIENT01. Set static IP ==10.10.10.20==, mask 255.255.255.0, gateway 10.10.10.1. Set DNS server to point at DC (10.10.10.10) and no fallback to prevent using public DNS
+	4. ran updates, rebooted if necessary
+	5. took snapshot - *Clean install, pre-domain*
