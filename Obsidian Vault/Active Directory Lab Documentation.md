@@ -117,7 +117,7 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 		- this seemed to be the fix, with DNS as a dependency, NLA can't start until DNS service is up, so the domain is findable by the time NLA checks
 		- rebooted a few more times, just to be sure > confirmed working
 	12. Took new snapshot: *AD DS promoted, DNS verified*
-- **Creating Windows 11 Client VM**
+- **Creating Windows 11 Client VM** **and joining AD**
 	1. Config settings
 		- user:User1 | pass:Passw0rd
 		- RAM: 4096
@@ -130,3 +130,13 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 	3. renamed PC to CLIENT01. Set static IP ==10.10.10.20==, mask 255.255.255.0, gateway 10.10.10.1. Set DNS server to point at DC (10.10.10.10) and no fallback to prevent using public DNS
 	4. ran updates, rebooted if necessary
 	5. took snapshot - *Clean install, pre-domain*
+	6. ran the following tests before joining domain (with DC01 running):
+		- ==Test-NetConnection 10.10.10.10 -Port 53== > succeeded
+		- ==Resolve-DnsName ad.lab.local -Server 10.10.10.10== > succeeded
+		- ==Resolve-DnsName google.com -Server 10.10.10.10== > succeeded
+	7. health checks passed, joining CLIENT01 to domain:
+		- ==Add-Computer -DomainName ad.lab.local -Credential (Get-Credential) -Restart== > run on CLIENT01 as administrator, enter credentials as AD\Administrator and Passw0rd
+		- Alternatively, sysdm.cpl > Change > Domain works as well
+	8. Sign is as Other User on reboot, credentials AD\User1 or AD\Administrator
+		- AD\User1 doesn't work as it is a local account, not a domain account
+		- on DC01, ran ==Get-ADUser -Filter \* |  Select-Object Name, SamAccountName, Enabled== to 
