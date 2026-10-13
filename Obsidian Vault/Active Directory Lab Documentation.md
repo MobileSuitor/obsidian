@@ -86,7 +86,7 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 	2. Encountered license error during boot. Cause was unattended installation injecting its own info. Disabled unattended installation and proceeded with install
 	3. Selected Desktop Experience option during installation for GUI
 	4. Select Custom installation and choose drive for installation
-	5. Logged in and renamed computer to DC01, set static IP ==10.10.10.20== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 10.10.10.1, DNS 8.8.8.8 for now (change later after DC promotion)
+	5. Logged in and renamed computer to DC01, set static IP ==10.10.10.10== through Server Manager > Ethernet > Network Adapter > Properties > IPv4 Properties, also set mask 255.255.255.0 and gateway 10.10.10.1, DNS 8.8.8.8 for now (change later after DC promotion)
 	6. Check for updates and restart for installation
 	7. took snapshot - *Clean Install pre-AD*
 - **Installing the AD DS Role**
@@ -99,7 +99,7 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 	3. Kept functional levels at Windows Server 2016, checked DNS server and Global Catalog. Set DRSM password: Passw0rd
 	4. accepted defaults for remaining settings, passed prereqs and installed
 - **Post-Promotion Checks**
-	1. Change DNS from 8.8.8.8 to 10.10.10.20 
+	1. Change DNS from 8.8.8.8 to 10.10.10.10 
 		**Note:** was already pointing to 127.0.0.1, this should be fine but fix if issue
 	2. Added DNS forwarder - run ==dnsmgmt.msc== > right click DC01, Forwarders. Allows DC to reach the internet so web browsing and updates don't break, used 8.8.8.8
 	3. ran ==dcdiag== in PowerShell, most things passed. ran ==nslookup ad.lab.local==, succeeded this time

@@ -35,7 +35,8 @@
               "title": "Active Directory Lab Documentation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,8 +202,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a26105d234ad15e8",
+  "active": "df7d85c911eaa44c",
   "lastOpenFiles": [
+    "Fall 2026.md",
     "CIS 110.md",
     "Module 5.md",
     "Table 5-9 Security Constraints for Embedded Systems and Specialized Devices.md",
@@ -212,7 +214,6 @@
     "Table 5-4 Mobile Device Connection Vulnerabilities.md",
     "Pasted image 20261012105237.png",
     "Pasted image 20261012105224.png",
-    "Fall 2026.md",
     "CIS 116.md",
     "CIS 105.md",
     "Critical Windows Settings and Backup Procedures.md",
