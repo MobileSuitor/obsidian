@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage Windows Registry Changes and Recovery.md",
+                "file": "Using Windows CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Manage Windows Registry Changes and Recovery"
+              "title": "Using Windows CLI"
             }
           },
           {
@@ -203,13 +203,17 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "CIS 105.md",
-    "Use Operating System Tools and Features.md",
-    "Manage Windows Registry Changes and Recovery.md",
-    "Fall 2026.md",
-    "Bonus.md",
     "Active Directory Lab Documentation.md",
+    "Using Windows CLI.md",
+    "CIS 105.md",
+    "Fall 2026.md",
+    "CIS 106.md",
+    "CIS 116.md",
     "CIS 110.md",
+    "Filter Windows Event Logs for Efficient Troubleshooting.md",
+    "Manage Windows Registry Changes and Recovery.md",
+    "Use Operating System Tools and Features.md",
+    "Bonus.md",
     "Module 5.md",
     "Table 5-9 Security Constraints for Embedded Systems and Specialized Devices.md",
     "Pasted image 20261012112536.png",
@@ -218,7 +222,6 @@
     "Table 5-4 Mobile Device Connection Vulnerabilities.md",
     "Pasted image 20261012105237.png",
     "Pasted image 20261012105224.png",
-    "CIS 116.md",
     "Critical Windows Settings and Backup Procedures.md",
     "Module 4.md",
     "CIS 116 Chapter 6.md",
@@ -228,13 +231,10 @@
     "CIS 116 Chapter 3.md",
     "NDG Lessons.md",
     "Section 3 - The Hypervisor.md",
-    "Using Windows CLI.md",
     "Module 3.md",
-    "CIS 106.md",
     "learned commands.md",
     "Table 4-5 Attacks Based on Application Vulnerabilities.md",
     "Pasted image 20261007131811.png",
-    "Oracle VirtualBox Notes.md",
     "Pasted image 20260925110450.png",
     "Evaluating a System for Windows 10",
     "Pasted image 20260924091828.png",

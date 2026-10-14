@@ -135,7 +135,7 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 		- ==Resolve-DnsName ad.lab.local -Server 10.10.10.10== > succeeded
 		- ==Resolve-DnsName google.com -Server 10.10.10.10== > succeeded
 	7. health checks passed, joining CLIENT01 to domain:
-		- ==Add-Computer -DomainName ad.lab.local -Credential (Get-Credential) -Restart== > run on CLIENT01 as administrator, enter credentials as AD\Administrator and Passw0rd
+		- ==Add-Computer -DomainName ad.lab.local -Credential (Get-Credential) -Restart== > run on CLIENT01 <u>as administrator</u>, enter credentials as AD\Administrator and Passw0rd
 		- Alternatively, sysdm.cpl > Change > Domain works as well
 	8. Sign is as Other User on reboot, credentials AD\User1 or AD\Administrator
 		- AD\User1 doesn't work as it is a local account, not a domain account

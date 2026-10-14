@@ -1,0 +1,4 @@
+- In Event Viewer, select Custom Views > Administrative Events. Filter these events using Find on the right pane 
+- You can select attach task to this event in the right pane to create a basic task that notifies you each time the workstation experiences this error
+- view task scheduler with  Win + R > taskschd.msc
+- worthless lab....

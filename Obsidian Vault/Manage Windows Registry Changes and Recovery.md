@@ -1,2 +1,3 @@
 - make backup of registry before changing anything > File > export > select location of backup file
 - Registered Owner location: HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > Windows NT > Current Version > ReisteredOwner
+- worthless lab....
