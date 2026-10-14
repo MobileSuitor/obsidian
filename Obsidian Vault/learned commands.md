@@ -29,4 +29,11 @@
 	- exit leaves the current nested shell session
 	- note: scripts start a new shell session when executing
 - Session variables - variables that exist only in the current shell session. Useful for temporary values, quick testing, and script-specific data
-- 
+- Environment variables - variables that are passed from a parent shell to child shells and processes
+- ==export== - makes a variable so it is inherited by child shells and scripts
+- ==env== - lists environmental variables
+- ==set== - lists shell variables, environmental variables, shell functions, and shell settings
+- ==alias== - lists all aliases, creates one if specified as argument
+	- when created directly in the terminal, they only last for the current shell session
+	- save in a startup file so they persist between sessions, such as ~/.bash_aliases
+- ==unalias== - removes an alias
