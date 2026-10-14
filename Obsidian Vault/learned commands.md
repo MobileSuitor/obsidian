@@ -18,4 +18,15 @@
 	- searches left to right, and the first match is the one where the shell will run the command from
 	- use to add your own directories so scripts will run like commands
 	- ==PATH=$PATH:/new/directory== < adds new directory to the end 
-	- 
+- ==grep== - used to search for specific text within files or within the output from other commands when used with pipes
+	- -i option ignores case
+	- -v option excludes lines that contain the argument
+	- -r option searches all files recursively within a directory 
+	- -c option counts how many lines contain the argument
+	- does not always need a file, can operate directly on input streams
+- ==SHLVL== - not a command, but an environmental variable that tracks how many nested shells you are in
+	- /bin/bash starts a new nested shell session
+	- exit leaves the current nested shell session
+	- note: scripts start a new shell session when executing
+- Session variables - variables that exist only in the current shell session. Useful for temporary values, quick testing, and script-specific data
+- 
