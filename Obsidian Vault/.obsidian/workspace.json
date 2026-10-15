@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Survey of Windows Tools and Techniques for Troubleshooting.md",
+                "file": "Use Various Control Panel Applets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Survey of Windows Tools and Techniques for Troubleshooting"
+              "title": "Use Various Control Panel Applets"
             }
           },
           {
@@ -203,8 +203,10 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Table 14-1 Tools and techniques to solve Windows-related problems.md",
+    "CIS 105.md",
+    "Use Various Control Panel Applets.md",
     "Survey of Windows Tools and Techniques for Troubleshooting.md",
+    "Table 14-1 Tools and techniques to solve Windows-related problems.md",
     "Pasted image 20261015085356.png",
     "Pasted image 20261015085335.png",
     "Pasted image 20261015085316.png",
@@ -213,7 +215,6 @@
     "Pasted image 20261015085214.png",
     "Pasted image 20261015085143.png",
     "Pasted image 20261015085115.png",
-    "CIS 105.md",
     "Critical Windows Settings and Backup Procedures.md",
     "Using Windows CLI.md",
     "Fall 2026.md",

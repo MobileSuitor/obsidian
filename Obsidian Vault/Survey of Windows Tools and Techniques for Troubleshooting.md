@@ -10,4 +10,17 @@
 		- *Forwarded Events log* - receives events that were recorded on other computers and sent to this computer
 - **Resource Monitor (resmon.exe)**
 	- displays in real time how CPU, hard drive, network, and memory resources are being used
-	- useful if you suspect CPU, memory, disk, or network resources are being used excessively by a process (ex. malware )
+	- useful if you suspect CPU, memory, disk, or network resources are being used excessively by a process (ex. malware in a DoS attack)
+- **Performance Monitor (permon.msc)**
+	- also tracks how resources are used in real time, and it can save collected data in logs for future use
+	- useful for developers looking to gauge how their software is performing and identifying software and hardware bottlenecks
+	- Example: suspecting that the hard drive is slowing down the system
+		- Green plus to add counter > expand LogicalDisk > add %Disk Time to track percentage of time hard drive is in use
+		- Add Avg. Disk Queue Length to track the average number of processes waiting to use the drive
+		- if % Disk Time is > 80% and the Avg. Disk Queue Length is more than two, you can conclude that the drive is working excessively hard and processes are slowed down waiting on the drive
+- **Task Manager**
+	- displays activities of applications, processes, CPU, memory, hard drives, networks, and users
+	- used to end processes causing trouble and to enable or disable programs that launch at Windows startup
+	- Tabs/Screens
+		- *Processes tab and Details tab* - Processes tab shows running processes organized by Apps, Background processes, and Windows processes. The Details tab displays the name of the program file and other details about the running program
+		- *Performance tab* - allows you to monitor performance of key devices in the system and network connections
