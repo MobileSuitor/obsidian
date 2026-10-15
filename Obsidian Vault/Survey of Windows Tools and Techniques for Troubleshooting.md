@@ -1,0 +1,13 @@
+- [[Table 14-1 Tools and techniques to solve Windows-related problems]]
+- **Event Viewer (eventvwr.msc)**
+	- good place to start for diagnosing problems
+	- Logs that are the most useful:
+		- *Administrative Events log* - filtered log that shows only Critical, Error, and Warning events intended for the admin. Located in the Custom Views category
+		- *Application log* - Located in Windows Logs group, contains any events recorded by an application. May be helpful in identifying why an application is causing problems
+		- *Security log* - events in this log are called Audits, and they include successful and unsuccessful sign-ins to a user account and attempts from another computer on the network to access shared resources on this computer
+		- *Setup log* - contains events recorded at the time applications are installed
+		- *System log* - contains events triggered by Windows components, such as a device driver failing to load or a problem with the hardware
+		- *Forwarded Events log* - receives events that were recorded on other computers and sent to this computer
+- **Resource Monitor (resmon.exe)**
+	- displays in real time how CPU, hard drive, network, and memory resources are being used
+	- useful if you suspect CPU, memory, disk, or network resources are being used excessively by a process (ex. malware )
