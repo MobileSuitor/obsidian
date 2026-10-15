@@ -11,3 +11,8 @@
 	- options in Content tab are related to certificates
 	- Proxy configuration:
 		- Connections tab > LAN settings > check Automatically detect settings > uncheck Use an automatic config script > check Use a proxy server for your LAN
+- **Manage User Accounts**
+	- allows you to change account names and type, and create new users
+	- can also create, manage, and delete local accounts by using the Local Users and Groups component of Computer Management
+- **Manually Adding Printer**
+	- Devices and Printers > Add Device > Add a new device manually > Add a local printer or network printer with manual settings > use existing port 
