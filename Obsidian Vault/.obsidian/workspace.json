@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Table 14-1 Tools and techniques to solve Windows-related problems.md",
+                "file": "Fall 2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Table 14-1 Tools and techniques to solve Windows-related problems"
+              "title": "Fall 2026"
             }
           },
           {
@@ -203,10 +203,13 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Survey of Windows Tools and Techniques for Troubleshooting.md",
+    "CIS 116.md",
+    "NDG Lessons.md",
+    "Fall 2026.md",
     "CIS 105.md",
-    "Use Various Control Panel Applets.md",
+    "Survey of Windows Tools and Techniques for Troubleshooting.md",
     "Table 14-1 Tools and techniques to solve Windows-related problems.md",
+    "Use Various Control Panel Applets.md",
     "Pasted image 20261015085356.png",
     "Pasted image 20261015085335.png",
     "Pasted image 20261015085316.png",
@@ -217,12 +220,10 @@
     "Pasted image 20261015085115.png",
     "Critical Windows Settings and Backup Procedures.md",
     "Using Windows CLI.md",
-    "Fall 2026.md",
     "CIS 106.md",
     "learned commands.md",
     "Use Various Windows System Utilities.md",
     "Active Directory Lab Documentation.md",
-    "CIS 116.md",
     "CIS 110.md",
     "Filter Windows Event Logs for Efficient Troubleshooting.md",
     "Manage Windows Registry Changes and Recovery.md",
@@ -238,7 +239,6 @@
     "CIS 116 Chapter 5.md",
     "CIS 116 Chapter 4.md",
     "CIS 116 Chapter 1.md",
-    "CIS 116 Chapter 3.md",
     "Evaluating a System for Windows 10"
   ]
 }
