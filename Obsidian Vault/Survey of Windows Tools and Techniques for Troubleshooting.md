@@ -50,3 +50,21 @@
 		- personal data won't be affected, so you can't rollback versions of Documents, emails, etc.
 		- Restore Points replace certain keys in the registry but can't completely rebuild a totally corrupted registry
 		- cannot remove viruses or worms
+- **Registry Editor (regedit.exe)**
+	- items in the registry are called keys, which are assigned values
+	- Windows builds the registry from current hardware configuration and form information it takes from the following files:
+		- five files in the C:\Windows\System32\config folder called hives - SAM, SECURITY, SOFTWARE, SYSTEM, and DEFAULT
+		- C:\Users\\*username*\\Ntuser.dat file, which holds the preferences and settings of the currently signed-in user
+	- [[Figure 14-31 The Relationship Between Registry Keys and Hives]]
+	- The Five Keys:
+		1. **HKEY_LOCAL_MACHINE (HKLM)** - most important key that contains hardware, software, and security data. The data is taken from four hives: everything but DEFAULT. The HARDWARE subkey of HKLM is built when the registry is first loaded, based on data collected about the current hardware configuration
+		2. **HKEY_CURRENT_CONFIG (HKCC)** - contains information that identifies each hardware device installed on the computer. Data is gathered from the current hardware config when registry is loaded into memory, and from the HKLM key
+		3. **HKEY_CLASSES_ROOT (HKCR)** - contains information that determines which application to open when the user double-clicks a file. File association relies on the extension. Data comes from HKLM and HKCU keys
+		4. **HKEY_USERS (HKU)** - contains data about all users and is taken from the DEFAULT hive
+		5. **HKEY_CURRENT_USER (HKCU)** - contains data about the current user, built when a user signs in using data kept in the HKEY_USERS key and in the Ntuser.dat file 
+	- <u>always</u> backup the registry before editing
+		- use Restore Points
+		- make an extra copy of the C:\Windows\System32\config folder (drastic)
+		- back up a single registry key just before editing (exporting)
+
+	
