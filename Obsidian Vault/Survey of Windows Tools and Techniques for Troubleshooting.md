@@ -23,4 +23,30 @@
 	- used to end processes causing trouble and to enable or disable programs that launch at Windows startup
 	- Tabs/Screens
 		- *Processes tab and Details tab* - Processes tab shows running processes organized by Apps, Background processes, and Windows processes. The Details tab displays the name of the program file and other details about the running program
-		- *Performance tab* - allows you to monitor performance of key devices in the system and network connections
+		- *Performance tab* - allows you to monitor performance of key devices in the system and network connections. Can also open the resource monitor from here, as well as check if hardware-assisted virtualization is enabled
+		- *Startup tab or Startup apps screen* - used to manage startup items, can also display program file locations through the context menu
+		- *Users tab* - lists currently signed-in users. Expanding the list shows processes started by the user. Suspended processes just mean they've been idle for some time and don't require the attention of the CPU
+		- *Services tab* - lists services (background tasks, daemons) currently installed along with the status of each service and allows management (stop, start, restart)
+- **Services Console (services.msc)**
+	- useful for adjusting when services run in the background instead of just stopping or starting them with Task Manager
+	- services with descriptions missing are likely third-party services put in place by installed applications, may even be **malware**
+- **System File Checker**
+	- utility used to repair the Windows System. Scans for and replaces corrupted or missing Windows system files, including device drivers for many hardware devices
+	- can sometimes solve problems with an unstable system or essential hardware devices
+	- to run, close all applications, open elevated command prompt, enter ==sfc /scannow== command
+		- if you run into issues, try rebooting into Safe boot and try again. if there are STILL problems, try the DISM (Deployment Image Servicing and Management) utility
+- **System Configuration (msconfig.exe)**
+	- used to control Windows startup, including temporarily disabling programs from launching at startup
+	- Services tab lets you disable any service from launching at startup
+		- Hide all Microsoft services shows only third-party stuff, disable all this for a <u>clean boot</u>
+	- Boot tab displays options that control how to computer boots
+		- can enable <u>safe boot</u> from here
+	- Tools tab allows quick access to other Windows tools used during troubleshooting
+- **System Restore (rstrui.exe)**
+	- useful for restoring the system to a point just before some problem that started in the recent past
+		- corrupted registry entries used by applications, device driver updates, or other Windows problems
+		- System Restore might make changes to a system, so if you know which change caused a problem try to undo just that change before using System Restore since it is more invasive (ex. use Device Manager to roll back faulty driver update first)
+		- System protection must be turned on so that restore points are automatically created
+		- personal data won't be affected, so you can't rollback versions of Documents, emails, etc.
+		- Restore Points replace certain keys in the registry but can't completely rebuild a totally corrupted registry
+		- cannot remove viruses or worms
