@@ -1,39 +1,41 @@
-- ==2>== - redirects error messages to a file
+- ==🟣2>== - redirects error messages to a file
 	- useful for logging error messages, troubleshooting and record keeping
-- ==tree== - tool that helps visualize the structure of directories and subdirectories in a tree-like format
-	- requires installation with ==sudo apt -f install tree -y==
-	- ==tree -L 1 /== displays the structure of the root directory with a depth of one level
-- ==less== - view contents of a file or output in a scrollable manner without opening in an editor
+- ==🟣tree== - tool that helps visualize the structure of directories and subdirectories in a tree-like format
+	- requires installation with ==🟣sudo apt -f install tree -y==
+	- ==🟣tree -L 1 /== displays the structure of the root directory with a depth of one level
+- ==🟣less== - view contents of a file or output in a scrollable manner without opening in an editor
 	- use / followed by keyword to search output
-- ==$(command)== - captures output of a command and uses it as part of another command
-	- ==output=$(ls)
+- ==🟣$(command)== - captures output of a command and uses it as part of another command
+	- ==🟣output=$(ls)
 	  echo "The files in the current directory are: " $output== - ls command is executed, output of ls is captured and stored in output variable, output variable is used to display list of files
-- ==find== - used to search for files and directories within the filesystem, searches based on attributes such as name, size, type, and more.
+- ==🟣find== - used to search for files and directories within the filesystem, searches based on attributes such as name, size, type, and more.
 	- basic syntax - find \[starting_directory] \[options] \[expression]
 	- \[expression] defines what kind of files or directories to look for (file names, file types)
 	- \[options] specifies what you're searching for (-name, -type f, -type d)
-- ==which== - used to locate the executable files for commands within the directories listed in your PATH
+- ==🟣which== - used to locate the executable files for commands within the directories listed in your PATH
 	- -a option shows all instances of an exe in PATH. Helpful for debugging or finding where a command is located
-- ==PATH== - not a command, but an environmental variable that tells the shell where to look for exe files when you run a command. Contains a list of directories separated by colons. If a directory is not in PATH, the shell will not find commands in that directory
+- ==🟣PATH== - not a command, but an environmental variable that tells the shell where to look for exe files when you run a command. Contains a list of directories separated by colons. If a directory is not in PATH, the shell will not find commands in that directory
 	- searches left to right, and the first match is the one where the shell will run the command from
 	- use to add your own directories so scripts will run like commands
-	- ==PATH=$PATH:/new/directory== < adds new directory to the end 
-- ==grep== - used to search for specific text within files or within the output from other commands when used with pipes
+	- ==🟣PATH=$PATH:/new/directory== < adds new directory to the end 
+- ==🟣grep== - used to search for specific text within files or within the output from other commands when used with pipes
 	- -i option ignores case
 	- -v option excludes lines that contain the argument
 	- -r option searches all files recursively within a directory 
 	- -c option counts how many lines contain the argument
 	- does not always need a file, can operate directly on input streams
-- ==SHLVL== - not a command, but an environmental variable that tracks how many nested shells you are in
+	- use ^ to search for character at start of line
+- ==🟣SHLVL== - not a command, but an environmental variable that tracks how many nested shells you are in
 	- /bin/bash starts a new nested shell session
 	- exit leaves the current nested shell session
 	- note: scripts start a new shell session when executing
 - Session variables - variables that exist only in the current shell session. Useful for temporary values, quick testing, and script-specific data
 - Environment variables - variables that are passed from a parent shell to child shells and processes
-- ==export== - makes a variable so it is inherited by child shells and scripts
-- ==env== - lists environmental variables
-- ==set== - lists shell variables, environmental variables, shell functions, and shell settings
-- ==alias== - lists all aliases, creates one if specified as argument
+- ==🟣export== - makes a variable so it is inherited by child shells and scripts
+- ==🟣env== - lists environmental variables
+- ==🟣set== - lists shell variables, environmental variables, shell functions, and shell settings
+- ==🟣alias== - lists all aliases, creates one if specified as argument
 	- when created directly in the terminal, they only last for the current shell session
 	- save in a startup file so they persist between sessions, such as ~/.bash_aliases
-- ==unalias== - removes an alias
+- ==🟣unalias== - removes an alias
+- 
