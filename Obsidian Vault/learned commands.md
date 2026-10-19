@@ -38,4 +38,12 @@
 	- when created directly in the terminal, they only last for the current shell session
 	- save in a startup file so they persist between sessions, such as ~/.bash_aliases
 - ==🟣unalias== - removes an alias
-- 
+- ==🟣chmod== - change permissions
+	- syntax - ==🟣chmod \[who]\[+/-]\[permissions] \[file/directory]==
+		- \[who] - u (user owner), g (group owner), o (other)
+		- \[+/-] - add or remove permission
+		- \[permissions] - r, w, x
+		- ==🟣chmod u-r filename== - remove read permissions for user owner
+		- verify changes with ==🟣ls -l==
+- ==🟣adduser== - creates a new user
+	- new accounts are treated as other on existing files and directories
