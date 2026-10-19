@@ -40,3 +40,30 @@
 	- extremely slow systems may need a clean boot
 - **System Instability**
 	- Unstable systems may hang, throw errors at any time or even shut down unexpectedly. Can be caused by a virus, corrupted data files, Windows system files, application software or device drivers, or by failing essential hardware devices
+		1. Use Event Viewer to search for errors and warnings
+			- Recall that the Administrative Events log in Event Viewer collects errors and warnings to help with problem-solving. Investigate warning and error events that might point to the source of the problem. A web search on the message can help.
+		2. Update Windows and verify anti-malware settings
+			- Make sure Windows is updated, and other Microsoft products are included in Windows updates. Eliminate malware by checking that anti-malware settings are correct. If you find real-time protection is not on, do a full scan for malware
+		3. Suspect a corrupted application or supporting service
+			- If you observe that instability happens when a particular application is running, try to repair the application. If that doesn’t work, uninstall and reinstall the app
+		4. Suspect faulty memory
+			- Errors with memory are often difficult to diagnose because they can appear intermittently and might be mistaken for application errors, user errors, or other hardware component errors. With memory errors, the system may hang, a BSOD (blue/black screen of death) error might occur, or the system may continue to function, with applications giving errors or data being corrupted. You can quickly identify a problem with memory or eliminate memory as the source of a problem by using the Windows Memory Diagnostics (mdsched.exe) tool
+		5. Suspect a corrupted hard drive
+			- To eliminate the hard drive as the source of an unstable system, run the ==🔵chkdsk c: /r== command to check the drive. The error-checking utility searches for bad sectors on a volume and recovers the data from them if possible. It then marks the sector as bad so it will not be reused. Also check Event Viewer for warnings or errors regarding the hard drive.
+		6. Suspect corrupted Windows system files
+			- Use the System File Checker (SFC) to scan for corrupted or missing system files, and replace them with a fresh copy. Enter the sfc /scannow command in an elevated command prompt window. If you still have problems, use System Configuration to perform a Safe boot. In Safe Mode, enter the sfc /scannow command. If that doesn’t solve the problem, try System Restore
+		7. Suspect corrupted device drivers
+			- Check Device Manager for errors. If a device shows a problem that has recently been updated, roll back driver updates. Try updating drivers. Try uninstalling and reinstalling the device
+		8. Suspect corrupted third-party services or apps running in the background
+			- perform clean boot: disable all third party services in msconfig.exe, disable startup apps in Task Manager and restart Windows
+			- re-enable services one by one until you zero in on the problem app
+		9. Suspect the Windows installation is corrupted
+			- By now in the troubleshooting process, you have eliminated memory, the hard drive, Windows system files, malware, and third-party services and programs as the likely source of system instability. It’s time to consider the entire Windows installation might be corrupted. Recall from the chapter “Installing Windows” that you can repair Windows 10/11 by performing an in-place upgrade. Follow directions given in that chapter to download and upgrade the Windows 10/11 installation. If the problem is still not solved, consider whether the CPU or motherboard is failing
+- **Application Errors and Crashes**
+	- backup data and do the following
+		1. *End a hung application* - use Task Manager, or ==🔵taskkill /f /pid:xxxx==, with PID from the process in Task Manager
+		2. *Search the web on error messages and symptoms* 
+		3. *Consider data corruption* - try creating a new data file and see if the problem persists
+		4. *Check application settings and logs for errors* - write down each setting the user has changed, then restore all settings back to their default values. If the problem is solved, restore each setting back one by one until the find the problem setting
+		5. *Repair or update the application*
+		6. *Uninstall and reinstall the application* - do so with caution as you may lost customized settings, macros, or scripts. Still may not solve the problem with a corrupted application because registry entries might not be properly reset during the uninstall process
