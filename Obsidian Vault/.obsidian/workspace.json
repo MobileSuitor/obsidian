@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2026.md",
+                "file": "Survey of Windows Tools and Techniques for Troubleshooting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fall 2026"
+              "title": "Survey of Windows Tools and Techniques for Troubleshooting"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2026.md",
+                "file": "Survey of Windows Tools and Techniques for Troubleshooting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,14 +203,14 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
+    "CIS 105.md",
+    "Troubleshooting Windows Problems.md",
+    "Fall 2026.md",
     "CIS 106.md",
     "learned commands.md",
-    "Fall 2026.md",
     "CIS 110.md",
     "Module 5.md",
     "Table 5-9 Security Constraints for Embedded Systems and Specialized Devices.md",
-    "CIS 105.md",
-    "Troubleshooting Windows Problems.md",
     "Table 14-2 Common Windows problems and Solutions After Startup.md",
     "Pasted image 20261016113525.png",
     "Pasted image 20261016113504.png",
