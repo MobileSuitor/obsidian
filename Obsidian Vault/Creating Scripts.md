@@ -10,4 +10,8 @@
 	- ==echo '#! /bin/bash' > script1
 - you can use ==echo== and >> redirection to append lines to the script, or write it out manually in nano text editor'
 - test run script with ==bash ./script1==
-- 
+
+---------------
+<u>Running Scritps</u>
+- scripts that contain sudo commands will need to prompt the user for a password
+	- if you want to run a script that contains sudo commands autonomously without any user input, run the script as root with sudo

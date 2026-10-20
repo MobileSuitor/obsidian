@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 105.md",
+                "file": "CIS 106.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 105"
+              "title": "CIS 106"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 105.md",
+                "file": "CIS 106.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,12 +203,13 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Configuring System and Data Recovery - Advanced.md",
+    "Creating Scripts.md",
+    "CIS 106.md",
+    "Fall 2026.md",
     "CIS 105.md",
+    "Configuring System and Data Recovery - Advanced.md",
     "Survey of Windows Tools and Techniques for Troubleshooting.md",
     "Troubleshooting Windows Problems.md",
-    "Fall 2026.md",
-    "CIS 106.md",
     "learned commands.md",
     "CIS 110.md",
     "Module 5.md",
@@ -238,7 +239,6 @@
     "Active Directory Lab Documentation.md",
     "Filter Windows Event Logs for Efficient Troubleshooting.md",
     "Manage Windows Registry Changes and Recovery.md",
-    "Use Operating System Tools and Features.md",
     "Evaluating a System for Windows 10"
   ]
 }
