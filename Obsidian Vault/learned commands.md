@@ -61,4 +61,14 @@
 - ==🟣chage==
 	- forces user to set new password
 		==🟣sudo chage -d 0 username== - prompts user on next login (0 days) to create new password
-- ==🟣umask== - s
+- ==🟣umask== - determines default permissions. Specifies which permission bits should be removed when new files and directories are created. Only affects newly created items, is not retroactive
+	- use to display current permission mask
+	- directories by default have full permissions (777), files have all but execution permissions (666)
+	- umask value is subtracted from these defaults to determine final permissions
+		- ex 022 default mask
+			- file base (666) rw-rw-rw- ---> final file permission (644) rw-r--r--
+- ==🟣chown== - changes ownership. Can change user owner, group owner, or both.
+	- examples
+		- change user owner: ==🟣sudo chown user1 file==
+		- change group owner only: ==🟣sudo chown :group1 file==
+		- change both: ==🟣sudo chown user1:group1 file==
