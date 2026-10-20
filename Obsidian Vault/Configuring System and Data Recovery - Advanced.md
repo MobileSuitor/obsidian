@@ -9,5 +9,9 @@
 - **Switching to SVR-DJO1**
 	- created new folder named backup and assigned full control permissions to authenticated users through properties > security > Users > full control
 	- shared backup folder as backup with everyone 
+		- properties > sharing > Share... > Add > Authenticated Users 
+		- Advanced Sharing > permissions > Authenticated Users > Full Control
 	- swapped back to Win10DJ01 and mapped a network drive 
-		- File Explorer > This PC > Computer tab > Map Network Drive
+		- File Explorer > This PC > Computer tab > Map Network Drive > typed in network file path
+	- Turned on File History with backup folder as network location 
+	- 
