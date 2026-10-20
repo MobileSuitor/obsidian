@@ -1,0 +1,13 @@
+- **Configuring System Protection for Local Disk C:**
+	- System protection > restore points > configure for Local Disk C: > turn on system protection > set disk space usage to 10%
+	- created restore point Restore1
+	- opened File Explorer and enabled view file extensions
+	- created two text files on Desktop, file1.txt and File2.sys
+	- Created new key in HKEY_LOCAL_MACHINE > SYSTEM > test, contains no values
+		- backed up SYSTEM key by exporting first
+	- rollback to Restore1
+- **Switching to SVR-DJO1**
+	- created new folder named backup and assigned full control permissions to authenticated users through properties > security > Users > full control
+	- shared backup folder as backup with everyone 
+	- swapped back to Win10DJ01 and mapped a network drive 
+		- File Explorer > This PC > Computer tab > Map Network Drive
