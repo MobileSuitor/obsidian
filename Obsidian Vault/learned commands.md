@@ -47,3 +47,14 @@
 		- verify changes with ==🟣ls -l==
 - ==🟣adduser== - creates a new user
 	- new accounts are treated as other on existing files and directories
+	- handles various setup tasks, updates several system locations
+		- /etc/passwd
+		- /etc/shadow
+		- /etc/group
+		- /home
+- ==🟣usermod== - adding accounts to a group 
+	- ==🟣sudo usermod -aG groupname username==
+		- -aG = appends to group
+- ==🟣gpasswd== - removing accounts from group
+	- ==🟣sudo gpasswd -d username groupname==
+- 
