@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 106.md",
+                "file": "learned commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 106"
+              "title": "learned commands"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 106.md",
+                "file": "learned commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,14 +203,14 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Creating Scripts.md",
     "CIS 106.md",
+    "learned commands.md",
+    "Creating Scripts.md",
     "Fall 2026.md",
     "CIS 105.md",
     "Configuring System and Data Recovery - Advanced.md",
     "Survey of Windows Tools and Techniques for Troubleshooting.md",
     "Troubleshooting Windows Problems.md",
-    "learned commands.md",
     "CIS 110.md",
     "Module 5.md",
     "Table 5-9 Security Constraints for Embedded Systems and Specialized Devices.md",

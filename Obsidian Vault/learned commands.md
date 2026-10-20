@@ -40,8 +40,9 @@
 - ==🟣unalias== - removes an alias
 - ==🟣chmod== - change permissions
 	- syntax - ==🟣chmod \[who]\[+/-]\[permissions] \[file/directory]==
-		- \[who] - u (user owner), g (group owner), o (other)
+		- \[who] - u (user owner), g (group owner), o (other), a (all)
 		- \[+/-] - add or remove permission
+			- can also use \[=] to overwrite permissions with selection
 		- \[permissions] - r, w, x
 		- ==🟣chmod u-r filename== - remove read permissions for user owner
 		- verify changes with ==🟣ls -l==
@@ -57,4 +58,7 @@
 		- -aG = appends to group
 - ==🟣gpasswd== - removing accounts from group
 	- ==🟣sudo gpasswd -d username groupname==
-- 
+- ==🟣chage==
+	- forces user to set new password
+		==🟣sudo chage -d 0 username== - prompts user on next login (0 days) to create new password
+- ==🟣umask== - s
