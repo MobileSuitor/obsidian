@@ -21,4 +21,8 @@
 	- *NIC (Network Interface Controller)* - piece of networking hardware built with Ethernet technology that is part of, or attaches to, the motherboard and connects a computer to a network
 	- *Ethernet cable* - type of networking cable that physically connects devices such as servers, routers, and switches on a network using Ethernet protocol
 	- *Port* - interfaces that serve as the point of communication between the network and a device that is on the network
-- **Storage** - in data centers, data storage is usually handled by specialized storage devices rather than storing data on the servers themselves. Redundant storage is critical for data centers.
+- **Storage** - in data centers, data storage is usually handled by specialized storage devices rather than storing data on the servers themselves. Redundant storage is critical for data centers
+	- *Block level storage* - storage device such as a hard disk drive is identified as a storage volume. Volumes can be treated as an individual device or a block. This gives a server's OS the ability to have access to the raw storage sections. The storage blocks can be modified by an admin, adding more capacity when necessary, which makes block storage fast, flexible, and reliable
+	- *File level storage* - file system is directly installed onto a storage device. Volumes appear to have hierarchy of files. Easier to use 
+	- *HBA (host bus adapter)* - protocol adapter for servers. Hardware that is plugged into a server, and adapts the server to the storage device protocol. Once the HBA is in place and the cables with the right protocol are used, a storage device can be attached, allowing the DAS to be able to talk to the server. Common protocols for DAS are SCIS, SATA, SAS, and USB
+	- 
