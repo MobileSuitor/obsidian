@@ -25,4 +25,8 @@
 	- *Block level storage* - storage device such as a hard disk drive is identified as a storage volume. Volumes can be treated as an individual device or a block. This gives a server's OS the ability to have access to the raw storage sections. The storage blocks can be modified by an admin, adding more capacity when necessary, which makes block storage fast, flexible, and reliable
 	- *File level storage* - file system is directly installed onto a storage device. Volumes appear to have hierarchy of files. Easier to use 
 	- *HBA (host bus adapter)* - protocol adapter for servers. Hardware that is plugged into a server, and adapts the server to the storage device protocol. Once the HBA is in place and the cables with the right protocol are used, a storage device can be attached, allowing the DAS to be able to talk to the server. Common protocols for DAS are SCIS, SATA, SAS, and USB
-	- 
+	- *NAS vs SAN* - while NAS is storage that connects to a network, SAN is a network of storage that servers can connect to. NAS manages storage as a file system directly, while SAN does not, and it is the server's OS that is responsible for creating the storage file system (devices that don't have to worry about filing their own data will run faster and be more efficient)
+	- *Storage Protocols*
+		![[Pasted image 20261021102318.png]]
+	- *Storage Provisioning* - process of strategically assigning storage space to servers based on the capacity of the storage devices, availability, and performance requirements
+		- **Thick Provisioning** - disk space is strategically pre-allocated to a server or a VM. This means that the logical space provided by partitioning is equal to the amount of actual physical space set aside on the disk. Allows VMs to have guaranteed access to all of its allocated disk space at all times, even if it is not currently using its total capacity. Can lead to resource underutilization

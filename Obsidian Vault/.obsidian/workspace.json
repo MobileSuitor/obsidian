@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 4 - The Data Center.md",
+                "file": "CIS 116.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Section 4 - The Data Center"
+              "title": "CIS 116"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section 4 - The Data Center.md",
+                "file": "CIS 116.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,10 +203,13 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "NDG Lessons.md",
-    "Section 3 - The Hypervisor.md",
-    "Section 4 - The Data Center.md",
+    "CIS 116 Chapter 8.md",
     "CIS 116.md",
+    "CIS 116 Chapter 7.md",
+    "NDG Lessons.md",
+    "Section 4 - The Data Center.md",
+    "Pasted image 20261021102318.png",
+    "Section 3 - The Hypervisor.md",
     "Oracle VirtualBox Notes.md",
     "Memory Overcommitment, Memory Ballooning, and Page Sharing.md",
     "Memory Overcommitment, Memory Ballooning, and Page Fusion/Page Sharing.md",
@@ -231,15 +234,12 @@
     "Table 14-1 Tools and techniques to solve Windows-related problems.md",
     "Open Source OS 3a.md",
     "Open Source OS 1a.md",
-    "Open Source OS 2a.md",
-    "Use Various Control Panel Applets.md",
     "Pasted image 20261015085356.png",
     "Pasted image 20261015085335.png",
     "Pasted image 20261015085316.png",
     "Pasted image 20261015085253.png",
     "Pasted image 20261015085232.png",
     "Pasted image 20261015085214.png",
-    "Pasted image 20261015085143.png",
     "Evaluating a System for Windows 10"
   ]
 }
