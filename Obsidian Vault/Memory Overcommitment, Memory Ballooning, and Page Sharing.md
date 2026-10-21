@@ -1,0 +1,4 @@
+- **Memory Ballooning** - feature that allows guest additions to change the amount of host memory that a VM uses while the machine is running. Only supported on 64-bit hosts, not supported on macOS.
+	- When requested from a running guest, balloon memory is not returned to the host
+- **Page Fusion** - avoids memory duplication between several similar running VMs. For example, in a server environment running several similar VMs on the same host, many memory pages will be identical. Page Fusion can efficiently identify these identical memory pages and share them between multiple VMs
+	- works best when guests are running identical OSs 
