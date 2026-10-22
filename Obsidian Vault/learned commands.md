@@ -17,7 +17,7 @@
 - ==🟣PATH== - not a command, but an environmental variable that tells the shell where to look for exe files when you run a command. Contains a list of directories separated by colons. If a directory is not in PATH, the shell will not find commands in that directory
 	- searches left to right, and the first match is the one where the shell will run the command from
 	- use to add your own directories so scripts will run like commands
-	- ==🟣PATH=$PATH:/new/directory== < adds new directory to the end 
+	- ==🟣export PATH=$PATH:/new/directory== < adds new directory to the end 
 - ==🟣grep== - used to search for specific text within files or within the output from other commands when used with pipes
 	- -i option ignores case
 	- -v option excludes lines that contain the argument
