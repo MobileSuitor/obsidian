@@ -37,6 +37,7 @@
 - ==🟣alias== - lists all aliases, creates one if specified as argument
 	- when created directly in the terminal, they only last for the current shell session
 	- save in a startup file so they persist between sessions, such as ~/.bash_aliases
+	- ex. copy with verbose and recursive --> ==🟣alias \[name]='cp -vr'==
 - ==🟣unalias== - removes an alias
 - ==🟣chmod== - change permissions
 	- syntax - ==🟣chmod \[who]\[+/-]\[permissions] \[file/directory]==
