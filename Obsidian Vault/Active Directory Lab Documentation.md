@@ -1,5 +1,5 @@
-Contained herein shall be the notes and documentation
-pertaining to the Active Directory Lab project 
+	Contained herein shall be the notes and documentation 
+	pertaining to the Active Directory Lab project 
 
 ------------------------
 
@@ -145,3 +145,6 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 		- DC01 > Active Directory Users and Computers > Users > New > User
 		- set logon name as User1, set password = Passw0rd! to meet requirements and checked User must change password at next logon. Change to Passw0rd
 	10. took snapshot on both VMs - *AD joined*
+
+-------
+<u>10/XX/2026</u>

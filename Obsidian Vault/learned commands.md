@@ -4,6 +4,12 @@
 	- -l option lists long format (permissions and other info)
 	- -h option lists file sizes in human readable format
 	- -S option sorts files by sizes 
+- ==🟣mv== -  moves files and directories or renames them. Can do both simultaneously
+	- rename syntax - ==🟣mv \[old name] \[new name]==
+	- move syntax - ==🟣mv \[source path] \[destination path]==
+	- move + rename syntax - ==🟣mv \[old path] \[new path with new name]==
+- ==🟣cp== - copy files and directories
+	- basic syntax - ==🟣cp \[source] \[destination with new name]==
 - ==🟣2>== - redirects error messages to a file
 	- useful for logging error messages, troubleshooting and record keeping
 - ==🟣tree== - tool that helps visualize the structure of directories and subdirectories in a tree-like format
