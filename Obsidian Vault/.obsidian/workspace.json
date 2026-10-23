@@ -35,8 +35,7 @@
               "title": "Active Directory Lab Documentation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Directory Lab Documentation.md",
+                "file": "Fall 2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,12 +201,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df7d85c911eaa44c",
+  "active": "a26105d234ad15e8",
   "lastOpenFiles": [
+    "Active Directory Lab Documentation.md",
     "Fall 2026.md",
     "CIS 106.md",
     "learned commands.md",
-    "Active Directory Lab Documentation.md",
     "CIS 105.md",
     "Open Source OS 3a.md",
     "Open Source OS 1a.md",
