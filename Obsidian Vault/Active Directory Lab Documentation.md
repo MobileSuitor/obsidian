@@ -147,4 +147,5 @@ Laptop was struggling to run more than two VMs, so I made the decision to migrat
 	10. took snapshot on both VMs - *AD joined*
 
 -------
-<u>10/XX/2026</u>
+<u>10/23/2026</u>
+Signed up for Azure Education with student credentials from WCC, now I can acquire valid keys for Windows Server 2022 to avoid running into problems later with the evaluation copy trial period running out. Windows 11 Enterprise itself is not listed, but there is a Windows 11 Education key offered, which is essentially the same as Enterprise with some different default settings
