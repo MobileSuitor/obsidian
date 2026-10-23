@@ -1,3 +1,9 @@
+- ==🟣ls== - lists stuff in a directory
+	- -R option is like tree but uglier
+	- -a option shows hidden files
+	- -l option lists long format (permissions and other info)
+	- -h option lists file sizes in human readable format
+	- -S option sorts files by sizes 
 - ==🟣2>== - redirects error messages to a file
 	- useful for logging error messages, troubleshooting and record keeping
 - ==🟣tree== - tool that helps visualize the structure of directories and subdirectories in a tree-like format
