@@ -26,6 +26,7 @@
 | chkdsk             | Fixes file system errors and recovers data from<br>bad sectors                          |
 | format             | Formats a hard drive or other storage device                                            |
 | diskpart           | Manage partitions                                                                       |
+| sfc /scannow       | System File Checker, repairs corrupted files                                            |
 
 - **Robocopy example commands**
 	- ==robocopy C:\docs\*.* E: /s== - copies all files in the first file path to drive E. The /s option includes subdirectories in the copy, but not empty ones
