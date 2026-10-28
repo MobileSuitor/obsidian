@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Using Windows CLI.md",
+                "file": "Critical Windows Settings and Backup Procedures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Using Windows CLI"
+              "title": "Critical Windows Settings and Backup Procedures"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using Windows CLI.md",
+                "file": "Critical Windows Settings and Backup Procedures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,12 +204,19 @@
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
     "CIS 105.md",
-    "Manage Disk Partitions and File Systems.md",
+    "Critical Windows Settings and Backup Procedures.md",
+    "Use USMT Software.md",
+    "Enterprise Considerations.md",
+    "Managing User Accounts.md",
+    "Installing Software.md",
+    "Operating Systems.md",
+    "Troubleshooting Windows Installations.md",
+    "Evaluating a System for Windows 10 or 11.md",
     "Using Windows CLI.md",
+    "Manage Disk Partitions and File Systems.md",
     "Troubleshooting Windows Problems.md",
     "Survey of Windows Tools and Techniques for Troubleshooting.md",
     "Table 14-1 Tools and techniques to solve Windows-related problems.md",
-    "Critical Windows Settings and Backup Procedures.md",
     "Understanding How Windows Supports Networking.md",
     "Fall 2026.md",
     "CIS 110.md",
@@ -222,15 +229,8 @@
     "Open Source OS 3a.md",
     "Open Source OS 1a.md",
     "Open Source OS 2a.md",
-    "CIS 116 Chapter 8.md",
-    "CIS 116 Chapter 7.md",
     "Pasted image 20261021102318.png",
-    "Section 3 - The Hypervisor.md",
-    "Oracle VirtualBox Notes.md",
-    "Memory Overcommitment, Memory Ballooning, and Page Sharing.md",
-    "Memory Overcommitment, Memory Ballooning, and Page Fusion/Page Sharing.md",
     "Memory Overcommitment, Memory Ballooning, and Page Fusion",
-    "Bonus.md",
     "Pasted image 20261016113525.png",
     "Pasted image 20261016113504.png",
     "Pasted image 20261016112043.png",
