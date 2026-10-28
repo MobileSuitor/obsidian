@@ -42,4 +42,46 @@
 
 -------------------
 <u>Module 2</u>
-	1. 
+	1. Ebba has received a new initiative for her security team to perform an in-house penetration test. What is the first step that Ebba should undertake?
+		**Planning**
+	2. Which of the following is NOT a characteristic of a penetration test?
+		**Automated**
+	3. Linnea has requested to be placed on the penetration testing team that scans for vulnerabilities to exploit them. Which team does she want to be placed on?
+		**Red team**
+	4. Lykke’s supervisor is evaluating whether to use internal security employees to conduct a penetration test. Lykke does not consider this a good idea and has created a memo with several reasons they should not be used. Which of the following would NOT be part of that memo?
+		**They would have to stay overnight to perform the test**
+	5. What penetration testing level name is given to testers who have no knowledge of the network and no special privileges?
+		**Black box**
+	6. Which of the following is NOT an advantage of crowdsourced penetration testing?
+		**Less expensive**
+	7. Tilde is working on a contract with the external penetration testing consultants. She does not want any executives to receive spear-phishing emails. Which rule of engagement would cover this limitation?
+		**Scope**
+	8. Which is the final rule of engagement that would be conducted in a pen test?
+		**Reporting**
+	9. What is another name for footprinting?
+		**Active reconnaissance**
+	10. When researching how an attack recently took place, Nova discovered that the threat actor, after penetrating the system, started looking to move through the network with their elevated position. What is the name of this technique?
+		**Lateral movement**
+	11. What are documents that are authored by technology bodies employing specialists, engineers, and scientists who are experts in those areas?
+		**Requests for comments (RFCs)**
+	12. Which of the following is NOT a general information source that can provide valuable in-depth information on cybersecurity?
+		**Twitter**
+	13. Which of the following is a standard for the handling of customer card information?
+		**PCI DSS**
+	14. Which of the following are developed by established professional organizations or government agencies using the expertise of seasoned security professionals?
+		**Regulations**
+	15. Which group is responsible for the Cloud Controls Matrix?
+		**CSA**
+	16. Tuva’s supervisor wants to share a recent audit outside the organization. Tuva warns him that this type of audit can only be read by those within the organization. What audit does Tuva’s supervisor want to distribute?
+		**SSAE SOC 2 Type II**
+	17. Which ISO contains controls for managing and controlling risk?
+		**ISO 31000**
+	18. Which premise is the foundation of threat hunting?
+		**Threat actors have already infiltrated our network**
+	19. Which of the following can automate an incident response?
+		**SOAR**
+	20. Which of the following is NOT something that a SIEM can perform?
+		**Incident response**
+
+------------------
+<u>Module 3</u>
