@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 105.md",
+                "file": "Using Windows CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 105"
+              "title": "Using Windows CLI"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 105.md",
+                "file": "Using Windows CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,8 +203,8 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Troubleshooting Windows Problems.md",
     "CIS 105.md",
+    "Troubleshooting Windows Problems.md",
     "Survey of Windows Tools and Techniques for Troubleshooting.md",
     "Table 14-1 Tools and techniques to solve Windows-related problems.md",
     "Operating Systems.md",
