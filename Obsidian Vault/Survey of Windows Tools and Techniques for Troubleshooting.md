@@ -11,7 +11,7 @@
 - **Resource Monitor (resmon.exe)**
 	- displays in real time how CPU, hard drive, network, and memory resources are being used
 	- useful if you suspect CPU, memory, disk, or network resources are being used excessively by a process (ex. malware in a DoS attack)
-- **Performance Monitor (permon.msc)**
+- **Performance Monitor (perfmon.msc)**
 	- also tracks how resources are used in real time, and it can save collected data in logs for future use
 	- useful for developers looking to gauge how their software is performing and identifying software and hardware bottlenecks
 	- Example: suspecting that the hard drive is slowing down the system
