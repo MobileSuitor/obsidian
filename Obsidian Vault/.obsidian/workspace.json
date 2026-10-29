@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Using Windows CLI.md",
+                "file": "CIS 110 Midterm Review Questions for Modules 1-6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Using Windows CLI"
+              "title": "CIS 110 Midterm Review Questions for Modules 1-6"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using Windows CLI.md",
+                "file": "CIS 110 Midterm Review Questions for Modules 1-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,15 +203,16 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
+    "CIS 110.md",
+    "CIS 110 Midterm Review.md",
+    "Fall 2026.md",
     "CIS 105.md",
+    "Using Windows CLI.md",
     "Troubleshooting Windows Problems.md",
     "Survey of Windows Tools and Techniques for Troubleshooting.md",
     "Table 14-1 Tools and techniques to solve Windows-related problems.md",
     "Operating Systems.md",
-    "Fall 2026.md",
-    "CIS 110.md",
     "CIS 110 Midterm Review Questions for Modules 1-6.md",
-    "CIS 110 Midterm Review.md",
     "Critical Windows Settings and Backup Procedures.md",
     "CIS 106.md",
     "Evaluating a System for Windows 10 or 11.md",
@@ -223,7 +224,6 @@
     "Managing User Accounts.md",
     "Installing Software.md",
     "Troubleshooting Windows Installations.md",
-    "Using Windows CLI.md",
     "Manage Disk Partitions and File Systems.md",
     "Understanding How Windows Supports Networking.md",
     "NDG Lessons.md",

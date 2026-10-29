@@ -85,3 +85,5 @@
 
 ------------------
 <u>Module 3</u>
+	1. What word is used today to refer to network-connected hardware devices?
+		Endpoint
