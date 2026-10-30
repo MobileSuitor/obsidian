@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 116.md",
+                "file": "CIS 116 Chapter 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 116"
+              "title": "CIS 116 Chapter 1"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 116.md",
+                "file": "CIS 116 Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,18 +203,18 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
+    "CIS 116.md",
+    "CIS 116 Chapter 8.md",
     "NDG Lessons.md",
+    "Oracle VirtualBox Notes.md",
+    "Memory Overcommitment, Memory Ballooning, and Page Sharing.md",
+    "CIS 116 Chapter 1.md",
+    "Active Directory Lab Documentation.md",
     "Section 3 - The Hypervisor.md",
     "Section 4 - The Data Center.md",
-    "CIS 116.md",
-    "Active Directory Lab Documentation.md",
     "CIS 116 Chapter 3.md",
-    "CIS 116 Chapter 1.md",
-    "CIS 116 Chapter 8.md",
     "CIS 116 Chapter 7.md",
-    "Oracle VirtualBox Notes.md",
     "Where Oracle VirtualBox Stores its Files.md",
-    "Memory Overcommitment, Memory Ballooning, and Page Sharing.md",
     "Fall 2026.md",
     "Bonus.md",
     "CIS 110.md",
