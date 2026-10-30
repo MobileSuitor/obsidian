@@ -10,3 +10,10 @@
 	- macOS - $HOME/Library/VirtualBox
 - **Logs** - useful for troubleshooting errors, stored in the *Logs* folder under the VM folder
 - **Snapshots** - saves a particular state of a VM to return to, useful for testing stuff and then reverting if anything breaks. Contains a complete copy of VM settings, the state of all virtual disks attached to the machine
+
+<u>File Types</u>
+- .vbox - machine settings file (XML) in the VM folder
+- .vdi - VirtualBox Disk Image, the VM's virtual hard disk
+- Logs folder - VBox.log, written each time the VM starts
+- Snapshots folder - differencing disk images and saved states
+- VirtualBox.xml - global settings file, including the list of registered VMs
