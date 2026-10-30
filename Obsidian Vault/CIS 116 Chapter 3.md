@@ -15,7 +15,7 @@
 - **How VMs Work**
 	- VM OSs make normal requests that go through virtual hardware, hypervisors control the physical resources and manage the transaction from the virtual hardware to the physical hardware and back again
 - **Open Virtualization Format (OVF)**
-	- vendor neutral industry standard
-	- cross vendor and cross platform
-	- used to export and import VMs from one platform to another
-	- can bundle VMs into one package using .ova extension
+	- vendor neutral industry standard, used for packaging and distributing VMs and virtual appliances
+	- Purpose - allows software vendors and IT admins to package a VM once and deploy it across different platforms, enables consistent and repeatable deployments,
+	- Benefits - reduces dependencies on a single vendor, easy to move due to single-file format, packaged as ova file that combines all the OVF components in one file
+	- Package contents - OVF descriptor (defines hardware requirements, name, network mappings), virtual disk images, a file containing hashes/checksums to verify integrity, and an optional certificate file used to sign the package to verify identity

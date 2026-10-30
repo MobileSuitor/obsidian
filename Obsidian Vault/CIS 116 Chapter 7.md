@@ -10,3 +10,8 @@
 	- When sizing a virtualization host, since a single CPU is not 100% busy, one CPU can service multiple vCPUs
 - **Multiprocessor Virtual Machines** - a VM with multiple vCPUs needs to schedule time on multiple CPUs. Additional vCPUs might hinder performance depending on many factors including physical resources and CPU contention. Best practice is to configure one vCPU to a new VM and increase the number if needed.
 - **Hyperthreading** - Intel technology that provides better CPU utilization (AKA Simultaneous Multi-Threading for AMD). Provides up to an additional 30% of performance per CPU, though it appears to double the amount of CPUs
+
+<u>Why VMS are given fewer CPU and memory resources than physical servers</u>
+- too many vCPUS can hinder performance (physical resources and CPU contention)
+- Hyperthreading allows VMs to squeeze extra performance out of less CPUs
+- 

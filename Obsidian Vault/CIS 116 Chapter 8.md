@@ -8,4 +8,6 @@
 
 - **Virtualizing Memory** - VMs use memory the same way as traditional computers, as really fast storage and workspace for OSs and programs. Hypervisors map virtual memory blocks to the physical memory and uses address translation tables to keep track (part of the hypervisors overhead)
 - **Memory Pages** - memory blocks are also called pages. *Paging* is when pages move from memory to disk, but involves disk I/O and is therefore slow. 
-- 
+- **Memory Ballooning** - reclaims unused memory from a VM when it is needed somewhere else. Older memory pages get flushed to disk, and only occurs when there is memory contention
+- **Memory Overcommit** - allows virtual machines to be allocated more memory than is in the physical virtualization server
+- **Page Sharing** - duplicate pages in different VMs are mapped to the same page in physical memory. Works between different VMs, but also within a VM that has duplicate pages. 

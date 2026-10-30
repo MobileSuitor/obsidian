@@ -14,7 +14,7 @@
 - Type 1 vs Type 2 hypervisors
 	- *Type 1* - AKA bare metal hypervisor, acts as its own OS and sits directly on top of hardware resources. Less overhead and better performance, but is more difficult to set up for beginners
 	- *Type 2* - software like VirtualBox that request resources from the host OS in order to manage and run VMs
-- Moore's Law - processing power doubles roughly every 18 months. Originally applied to transistor density, but now is applied to many technologies
+- **Moore's Law** - processing power doubles roughly every 18 months. Originally applied to transistor density, but now is applied to many technologies
 - Trends that accelerate virtualization
 	- *Consolidation* - running multiple workloads on a single host
 	- *Containment* - deploying new applications in a virtual infrastructure
