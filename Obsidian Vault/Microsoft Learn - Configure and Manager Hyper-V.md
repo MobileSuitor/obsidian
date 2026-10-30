@@ -55,4 +55,20 @@
 		- *Network adapter* - AKA synthetic network adapter. Faster than legacy, but doesn't support network boot for generation 1 VMs. Can be used with both generation 1 and 2 VMs
 	- Virtual switch types
 		- *Internal* - used to communicate between each of the VMs on a Hyper-V host, and to communicate between VMs and the Hyper-V host
-		- *External* - connects VMs to a wired, physical network by binding to a physical network adapter. The management OS can share the d
+		- *External* - connects VMs to a wired, physical network by binding to a physical network adapter. The management OS can share the adapter when you enable that option in the switch configuration
+		- *Private* - facilitates communication between the VMs on the same Hyper-V host. Private switches can't be used to communicate between Hyper-V host and VMs
+	- Advanced features
+		- *Hyper-V Network Virtualization* - This feature decouples virtual networks from the physical network infrastructure, in much the same way as a hypervisor does for host hardware. It removes the constraints of VLAN and hierarchical IP address assignment from VM provisioning and provides more agility and mobility when managing VMs and tenant workloads. Hyper-V Network Virtualization can be implemented using various components, including the Microsoft Network Controller server role, or network virtualization gateways and load balancers in either Windows Server or System Center Virtual Machine Manager.
+		- *Bandwidth Management* - You can use this feature to specify the minimum and maximum bandwidth that Hyper-V allocates to a virtual network adapter. Hyper-V reserves the minimum bandwidth allocation for the adapter even when other adapters for VMs on the same Hyper-V host are functioning at capacity.
+		- *DHCP guard* - This feature drops DHCP messages from VMs that are functioning as rogue DHCP servers. This might be necessary in scenarios where you don't have direct control over a VM's configuration and the VM is hosted on a Hyper-V Server you manage.
+		- *Router guard* - This feature drops router advertisement and redirection messages from VMs that are configured as unauthorized routers. This feature might be useful when you don't have control over the configuration of VMs hosted on a Hyper-V Server you manage.
+		- *Port Mirroring* - You can use this feature to copy incoming and outgoing packets from a network adapter to another VM that you have configured for monitoring.
+		- *NIC Teaming* - You can use this feature to add a virtual network adapter to an existing team on the host Hyper-V Server.
+		- *Virtual Machine Queue (VMQ)* - This feature requires the host computer to have a network adapter that supports the feature. VMQ uses hardware packet filtering to deliver network traffic directly to a guest. This improves performance because the packet doesn't need to be copied from the host OS to the VM. Only network adapters specific to Hyper-V support this feature.
+		- *Single-root I/O virtualization (SR-IOV)* - To use this feature, you must install specific hardware and special drivers on the guest OS. SR-IOV enables multiple VMs to share the same physical Peripheral Component Interconnect Express hardware resources. If sufficient resources aren't available, the virtual switch provides network connectivity. Only network adapters specific to Hyper-V support this feature.
+		- *IP Security (IPSec) Task Offloading* - The guest OS and network adapter must provide explicit support for this feature. This feature enables a host's network adapter to perform calculation-intensive, security-association tasks. If sufficient hardware resources aren't available, the guest OS performs these tasks. You can set the maximum number of offloaded security associations from 1 to 4,096. Only network adapters specific to Hyper-V support this feature
+- **Nested Virtualization**
+	- enables guests to become Hyper-V host, useful for implementing virtual test and development environments that would otherwise require physical hardware to run
+	- *Requirements*
+		- ![[Pasted image 20261030113434.png]]
+	- 
