@@ -14,4 +14,45 @@
 	- *Security* - Hyper-V supports security features such as Secure Boot and shielded VMs. Secure Boot verifies digital signatures on files during startup to protect against malware. Virtual disks in shielded VMs are encrypted to secure access, and the VMs can only run on specific, protected hosts.
 	- *Optimization* - For all supported guest operating systems, Hyper-V includes a set of customized services and drivers called _Integration Services_. These Integration Services include Time Synchronization, Operating System Shutdown, Data Exchange, Heartbeat, Backup, and Guest Services.
 - **Installing Hyper-V**
-	- 
+	- *Requirements*
+		- A 64-bit processor with second-level address translation (SLAT)
+		- A processor with VM Monitor Mode extensions
+		- Sufficient memory for the host and guest VMs
+		- Intel Virtualization Technology (Intel VT) or AMD Virtualization (AMD-V) enabled
+		- Hardware-enforced Data Execution Prevention (DEP) enabled
+	- *Installation Methods*
+		- Install via **Server Manager** - open Server Manager > Add Roles and Features > select Hyper-V role and Hyper-V Management Tools feature > Install
+		- Install via **WAC** - open WAC and select server > locate Hyper-V in Tools list > select Hyper-V Management Tools in Roles and Features area > install
+		- Install via **Powershell** - run ==🟣Install-WindowsFeature -Name Hyper-V -ComputerName <computer_name> -IncludeManagementTools -Restart==
+			- verify with ==🟣Get-WindowsFeature==
+			- **Note** - if you install the Hyper-V server role on a server that contains the Server Core installation option, ==🟣-IncludeManagementTools== parameter will only install the Hyper-V Module for Windows Powershell
+- **Hyper-V Manager**
+	- Features
+		- *Manage remote and local Hyper-V Servers* - Connect to small numbers of Hyper-V hosts, both remote and local, and manage them from a single Hyper-V Manager console over an encrypted HTTPS connection.
+		- *Manage Hyper-V VMs* - With Hyper-V Manager, you can perform many management actions such as import, export, connect to, create and delete, or stop and start a VM. You can also modify a VM's virtualized hardware settings, such as Memory, CPU, and Network Adapter.
+		- *Enable Hyper-V Replication* - You can enable, disable, and configure Hyper-V Replication on a VM with Hyper-V Manager.
+		- *Manage VHDs* - With Hyper-V Manager, you can create, remove, inspect, and configure VHDs and VHD Set files.
+		- *Virtual SAN Manager* - Hyper-V Manager includes the Virtual SAN (storage area network) Manager tool. You can use the Virtual SAN Manager tool to create and configure Virtual SANs.
+		- *Virtual Switch Manager* - Hyper-V Manager includes the Virtual Switch Manager. With the Virtual Switch Manager you can create vSwitches and configure their connections to external, internal, and private networks.
+		- *Manage Checkpoints* - You can enable or disable checkpoint creation for your VMs in Hyper-V Manager, and choose between standard or production checkpoints.
+		- *Enable Hyper-V Integration Services* - With Hyper-V Manager, you can enable and disable Hyper-V Integration Services.
+		- *Configure Settings for Hyper-V Features* - You can use Hyper-V Manager to configure settings for Hyper-V features. For example, you can select the source and destination computers for live migration or specify a replica server for use with Hyper-V Replica.
+		- *Previous Version Support* - When using Hyper-V Manager on Windows Server 2025, you can still manage hosts installed with previous operating systems such as Windows Server 2016, Windows Server 2012, or Windows Server 2012 R2.
+		- *Support for WS-Management Protocol* - Hyper-V Manager supports connections to Hyper-V hosts over the Web Services Management Protocol (WS-Management Protocol). This enables Hyper-V Manager to communicate by using the Kerberos protocol NTLM or Credential Security Support Provider (CredSSP). When you use CredSSP, Active Directory Domain Services (AD DS) delegation isn't necessary. This makes it easier to enable remote administration, because WS-Management Protocol communicates either over port 80 or port 443, which are the default open ports.
+	- Other methods include managing through PowerShell, PowerShell Direct (PowerShell within a VM), or Windows Admin Center (WAC)
+- **Hyper-V Host Best Practices**
+	- Provision the host with adequate hardware
+	- Deploy VMs on separate disks or Cluster Shared Volumes (CSVs). It's strongly suggested to do so with hard disk drives (HDDs). However, with solid state drives (SSDs), it's possible to have multiple running VMs on the same SSD.
+		- minimizes contention by ensuring that any read/write operations required by the VM files don't conflict with read/write operations required by host OS
+	- Hyper-V should be the only server role installed on the host server
+	- Manage Hyper-V remotely
+	- Run Hyper-V by using a Server Core configuration
+	- Run the Best Practices Analyzer and use resource metering
+	- Use generation 2 VMs if the guest OS supports them
+- **Configure Hyper-V Networking**
+	- Virtual network adapter types
+		- *Legacy network adapter* - emulates and Intel 21140-based PCI Fast Ethernet Adapter. Can be used to perform a network boot for OS installation tasks. Legacy network adapters are available only in generation 1 VMs
+		- *Network adapter* - AKA synthetic network adapter. Faster than legacy, but doesn't support network boot for generation 1 VMs. Can be used with both generation 1 and 2 VMs
+	- Virtual switch types
+		- *Internal* - used to communicate between each of the VMs on a Hyper-V host, and to communicate between VMs and the Hyper-V host
+		- *External* - connects VMs to a wired, physical network by binding to a physical network adapter. The management OS can share the d
