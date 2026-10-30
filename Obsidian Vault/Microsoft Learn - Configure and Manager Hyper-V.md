@@ -71,4 +71,11 @@
 	- enables guests to become Hyper-V host, useful for implementing virtual test and development environments that would otherwise require physical hardware to run
 	- *Requirements*
 		- ![[Pasted image 20261030113434.png]]
-	- 
+	- *Enabling nested virtualization*
+		- run in PowerShell on physical Hyper-V host while VM is **off**. Replace NestedHostVM with name of VM that acts as nested Hyper-V host:
+			==🟣Set-VMProcessor -VMName 'NestedHostVM' -ExposedVirtualizationExtensions $true==
+	- *Networking with nested VMs*
+		- two options: MAC address spoofing and NAT
+			- **MAC address spoofing** - enables network packets to be routed through two vSwitches. Enable by running in PowerShell on the physical host:
+				==🟣Get-VMNetworkAdapter -VMName 'NestedHostVM' | Set-VMNetworkAdapter -MacAddressSpoofing On==
+			- **NAT** - best suited for cases where MAC address spoofing isn't possible, such as in a public cloud environment. To use, create a virtual NAT switch in the host VM. Assign an IP address to the network adapter and ensure that each nested VM has an IP address and gateway assigned to it

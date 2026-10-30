@@ -13,22 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Microsoft Learn - Configure and Manager Hyper-V.md",
+                "file": "CIS 116.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Microsoft Learn - Configure and Manager Hyper-V"
+              "title": "CIS 116"
             }
           },
           {
             "id": "df7d85c911eaa44c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Active Directory Lab Documentation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Active Directory Lab Documentation"
             }
           }
         ]
@@ -107,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microsoft Learn - Configure and Manager Hyper-V.md",
+                "file": "CIS 116.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,11 +203,11 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Pasted image 20261030113434.png",
     "Active Directory Lab Documentation.md",
-    "Untitled.md",
-    "Microsoft Learn - Configure and Manager Hyper-V.md",
     "CIS 116.md",
+    "Microsoft Learn - Configure and Manager Hyper-V.md",
+    "Pasted image 20261030113434.png",
+    "Untitled.md",
     "CIS 116 Chapter 8.md",
     "CIS 116 Chapter 3.md",
     "CIS 116 Chapter 2.md",
@@ -235,7 +239,6 @@
     "Pasted image 20261015085316.png",
     "Pasted image 20261015085253.png",
     "Pasted image 20261015085232.png",
-    "Pasted image 20261015085214.png",
     "Evaluating a System for Windows 10"
   ]
 }
