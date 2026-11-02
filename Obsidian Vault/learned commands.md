@@ -1,4 +1,4 @@
-- ==🟣ls== - lists stuff in a directory
+ - ==🟣ls== - lists stuff in a directory
 	- -R option is like tree but uglier
 	- -a option shows hidden files
 	- -l option lists long format (permissions and other info)
@@ -85,3 +85,8 @@
 		- change user owner: ==🟣sudo chown user1 file==
 		- change group owner only: ==🟣sudo chown :group1 file==
 		- change both: ==🟣sudo chown user1:group1 file==
+- ==🟣chgrp== - change group ownership only
+	- synatx: ==🟣sudo chgrp groupname filename==
+- ==🟣userdel== - delete user account from the system
+	- does not automatically remove their home directory unless -r option is used
+- ==🟣groupdel== - deletes a group from the system
