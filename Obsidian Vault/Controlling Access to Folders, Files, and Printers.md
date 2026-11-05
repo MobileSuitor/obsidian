@@ -20,4 +20,12 @@
 - **How to Share Folders and Files**
 	- just do **Applying Concepts 17-2** on pg. 856 for this
 - **How to Map a Network Drive or Network Printer**
-	- 
+	- *Mapped drive/Network share* - a networked computer that appears to have a hard drive which is actually hard drive space on another host computer.
+	- **Applying Concepts 17-3** on pg. 868 covers how to map a network drive
+- **Hidden Network Resources and Administrative Shares**
+	- Sometimes files or folders on the network need to be shared secretly while ensuring they are not visible or accessible from the network by other users. Do the following to protect confidential data from other users on the network:
+		- *Disable File and Printer Sharing* - in Network and Sharing Center
+		- *Hide a shared folder* - add '$' to the end of the share name in the Advanced Sharing dialogue box. Folder can only be accessed by others on the network if they know its network path
+	- Administrative shares - folders shared by default that administrator accounts at the domain level can access. 
+		- *%systemroot% folder* - accessed by entering the path \\\computername\admin$, allows you to work with computer's system folders and files
+		- *Any volume or drive* - to access the root level of any volume or drive on the network, enter the computer name and drive letter followed by a '$'
