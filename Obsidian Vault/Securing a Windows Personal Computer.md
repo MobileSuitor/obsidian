@@ -1,0 +1,16 @@
+- **BIOS/UEFI passwords** - motherboard firmware offers power-on passwords, which include:
+	- an administrator or supervisor password (required to change BIOS/UEFI setup)
+	- a user password (required to use the system or view BIOS/UEFI setup)
+	- a drive lock password (required to access hard drive and stored on the hard drive)
+- **Securing Windows User Accounts**
+	- *Create strong passwords* - strong passwords are determined by the following criteria:
+		- 16 or more characters
+		- combine uppercase and lowercase letters, numbers, and symbols
+		- don't use consecutive letters or numbers
+		- don't use adjacent keys on your keyboard
+		- don't use your sign-in name in the password
+		- it is best not to use words in any language. Don't use numbers or symbols for letters (p@ssw0rd)
+		- don't use the same password for more than one system
+	- *Passkeys* - special digital credential tied to the account and the system being used to log in to the account. Verified using either biometrics or a PIN
+	- *Fingerprints, Facial Recognition, and PINs* 
+		- Windows Hello allows a user to sign in using their face, iris, fingerprint, or PIN. Biometric data is encrypted and stored locally on the Windows device, n
