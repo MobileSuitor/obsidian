@@ -1,3 +1,23 @@
 - **Classifying User Accounts and User Groups**
 	- user privileges are assigned to user accounts when they are first created. Accounts can be created using the User Accounts applet in Control Panel, and **Local Users and Groups (lusrmgr.msc)** can be used to manage users and user groups (not supported for Home edition). 
 	- *Built-In User Groups*
+		- **Administrators and Users groups** - by default, admin accounts belong to the Administrators group, and standard user accounts belong to the Users group.
+		- **Guests group** - this group has limited privileges on the system and is given a temporary profile that is deleted when the user signs out.
+		- **Power Users group** - older editions may have this group that can read from and write to parts of the system other than its own user profile folders, install applications, and perform limited administrative tasks. Windows 11 offers a Power Users group only for backward compatibility with legacy applications
+		- **Authenticated Users group** - includes all user accounts that can access the system except the Guest account. Includes domain accounts and local accounts. When you create a folder or file that is not part of your user profile, Windows gives access to all Authenticated Users by default
+		- **Everyone group** - includes the Authenticated Users group as well as the Guest account. When you share a file or folder on the network, Windows gives access to the Everyone group by default 
+		- **Anonymous users** - users who have not been authenticated on a remote computer
+	- *Customized User Groups* - it can be a good idea to conveniently apply privileges to user groups rather than individual users. For example, creating a user group based on a job description and then assign permissions to this user group so that any user added to this group inherits the same permissions.
+- **Methods to Assign Permissions to Folders and Files**
+	- *Workgroup sharing* - all privileges and permissions are set up on each local computer so that each computer manages access to its files, folders, and printers shared on the peer-to-peer network. The local user decides which users on the network have access to which shared folder and which type of access they have. Workgroups become hard to manage when you get above 20 devices, so use a domain instead
+	- *Domain controlling* - if a Windows computer belongs to a domain instead of a workgroup, all security should be managed by the network administrator for the entire network. Although individual users on workstations can share files and folders with other users in the domain, this is not considered a security best practice
+- **Share Permissions and NTFS Permissions**
+	- *Share permissions* - grant permissions only to network users, and these permissions do not apply to local users. Works on NTFS, FAT32, and exFAT volumes and are configured using the Sharing tab in a folders Properties dialogue box. Apply to a folder and its contents, but not individual files
+	- *NTFS permissions* - apply to local users and network users and to both folders and individual files. NTFS permissions work on NTFS volumes only and are configured using the Security tab in a file or folder's Properties dialogue box
+- **Inherited Permissions and Explicit Permissions**
+	- *Inherited permissions* - attained from a parent folder
+	- *Explicit permissions* - apply to an object (folder or file) that has inherited permissions disabled.
+- **How to Share Folders and Files**
+	- just do **Applying Concepts 17-2** on pg. 856 for this
+- **How to Map a Network Drive or Network Printer**
+	- 
