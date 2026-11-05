@@ -20,3 +20,11 @@
 		- **DNS Hijacking** - aims to infect an external DNS server with IP addresses that point to malicious sites, redirecting *all* users accessing the server.
 	- *Distributed Denial of Service attacks* - attacks that use several computers to perform synchronized denial of service attacks by flooding servers with bogus requests
 	- *Malicious coding and scripting attacks* - attacks that use PowerShell, Visual Basic, Python, and Bash to execute malicious software code and scripts to compromise networks
+- **Tools for Assessment and Defense**
+	- *Network Reconnaissance and Discovery Tools* - [[Table 8-3]], [[Table 8-4]] (third party)
+	- *Linux File Manipulation Tools* - [[Table 8-5]]
+	- *Packet Capture and Replay Tools* - collecting and analyzing data packets that cross a network can provide valuable information, and can be used for security to detect unusual behavior, search for unusual domains or IP address endpoints, and discover regular connections to an attacker's command and control server
+		- **Wireshark** (GUI packet capture and analysis tool), **Tcpdump** (command line packet analyzer), **Tcpreplay** (tool for editing packets and then replaying the packets back onto the network to observe behavior)
+- **Physical Security Controls**
+	- I mean what can I even say for this section, it's just fences and shit to keep people out of places. Not going to waste time typing notes for padlocks and razor wire
+	- 
