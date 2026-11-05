@@ -13,4 +13,16 @@
 		- don't use the same password for more than one system
 	- *Passkeys* - special digital credential tied to the account and the system being used to log in to the account. Verified using either biometrics or a PIN
 	- *Fingerprints, Facial Recognition, and PINs* 
-		- Windows Hello allows a user to sign in using their face, iris, fingerprint, or PIN. Biometric data is encrypted and stored locally on the Windows device, n
+		- Windows Hello allows a user to sign in using their face, iris, fingerprint, or PIN. Biometric data is encrypted and stored locally on the Windows device, never transmitted to a server.
+	- *Local Group Policy Editor*
+		- **Group Policy (gpedit.msc)** - works in AD on a Windows domain to control the privileges of computers and users on the domain
+		- **Local Group Policy (gpedit.msc)** - contains a subset of policies in Group Policy; this subset applies only to the local Windows 11 computer or local user.
+		- **Local Security Policy (secpol.msc)** - a subset of policies in Local Group Policy, which apply only to the local computer's Windows security settings. Local Security Policy is a Windows 11 Windows Tools snap-in in Control Panel
+- **File and Folder Encryption**
+	- encryption methods differ depending on whether the data is at rest (stored on drives) or in motion (transmitted over network)
+	- *Data-at-rest encryption* - can be accomplished using the Windows Encrypting File System (EFS) (not supported for Home edition)
+		- NOTE - if a user forgets a password and an admin resets the forgotten password, they will lose all their EFS encrypted folders and files, personal digital certificates, and passwords stored on the computer. To reset a user password, use Network Places Wizard tool (ntplwiz.exe) 
+	- *BitLocker Encryption* - locks down a hard drive by encrypting the entire Windows volume and any other volume on the drive and restricts access by requiring one or two encryption keys. Ways to use BitLocker depend on type of protection needed and hardware available:
+		- **Computer authentication** - TPM chip on motherboard holds the BitLocker encryption key (startup key), so if a hard drive was stolen it could not be accessed without this key, authenticating the computer
+		- **User authentication** - the startup key can be stored on a USB flash drive. The user installs the flash drive or enters a PIN to unlock Windows startup, which authenticates the user.
+		- **Computer and user authentication** - For best security, two-factor authentication is used: the TPM chip to authenticate the computer and the flash drive or PIN to authenticate the user

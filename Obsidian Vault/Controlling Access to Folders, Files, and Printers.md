@@ -1,0 +1,3 @@
+- **Classifying User Accounts and User Groups**
+	- user privileges are assigned to user accounts when they are first created. Accounts can be created using the User Accounts applet in Control Panel, and **Local Users and Groups (lusrmgr.msc)** can be used to manage users and user groups (not supported for Home edition). 
+	- *Built-In User Groups*
