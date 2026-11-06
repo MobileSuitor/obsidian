@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Using Active Directory Domain Services.md",
+                "file": "Securing a Windows Personal Computer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Using Active Directory Domain Services"
+              "title": "Securing a Windows Personal Computer"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using Active Directory Domain Services.md",
+                "file": "Securing a Windows Personal Computer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,11 +203,11 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Pasted image 20261105141158.png",
     "CIS 105.md",
-    "Using Active Directory Domain Services.md",
     "Controlling Access to Folders, Files, and Printers.md",
     "Securing a Windows Personal Computer.md",
+    "Using Active Directory Domain Services.md",
+    "Pasted image 20261105141158.png",
     "Fall 2026.md",
     "CIS 110.md",
     "Module 7.md",
@@ -224,7 +224,6 @@
     "Pasted image 20261104125155.png",
     "Pasted image 20261104125134.png",
     "Pasted image 20261104125119.png",
-    "Pasted image 20261104125057.png",
     "Active Directory Lab Documentation.md",
     "Untitled.md",
     "Figure 8-2.md",
