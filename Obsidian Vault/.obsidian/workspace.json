@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Securing a Windows Personal Computer.md",
+                "file": "Fall 2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Securing a Windows Personal Computer"
+              "title": "Fall 2026"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Securing a Windows Personal Computer.md",
+                "file": "Fall 2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,12 +203,13 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
+    "CIS 116.md",
+    "Fall 2026.md",
     "CIS 105.md",
-    "Controlling Access to Folders, Files, and Printers.md",
     "Securing a Windows Personal Computer.md",
+    "Controlling Access to Folders, Files, and Printers.md",
     "Using Active Directory Domain Services.md",
     "Pasted image 20261105141158.png",
-    "Fall 2026.md",
     "CIS 110.md",
     "Module 7.md",
     "Module 8.md",
@@ -235,7 +236,6 @@
     "Open Source OS 2a.md",
     "Creating Scripts.md",
     "Open Source OS 3a.md",
-    "CIS 116.md",
     "Microsoft Learn - Configure and Manager Hyper-V.md",
     "CIS 116 Chapter 8.md",
     "Memory Overcommitment, Memory Ballooning, and Page Fusion",
