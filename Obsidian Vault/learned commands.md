@@ -117,4 +117,8 @@
 	- test changes made to /etc/fstab
 		- start with device unmounted
 		- issue ==🟣sudo mount -a==
-			- 
+			- attempts to mount filesystems listed in fstab that aren't already mounted
+		- issue ==🟣sudo systemctl daemon-reload==
+			- reloads system configuration, including mount units generated from /etc/fstab
+		- use ==🟣df== to check that mount took place
+	- 
