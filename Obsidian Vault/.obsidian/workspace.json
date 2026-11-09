@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2026.md",
+                "file": "CIS 116.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fall 2026"
+              "title": "CIS 116"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2026.md",
+                "file": "CIS 116.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,13 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
+    "CIS 116 Chapter 11.md",
     "CIS 116.md",
+    "CIS 116 Chapter 9.md",
+    "Pasted image 20261106115910.png",
+    "Pasted image 20261106115809.png",
+    "Pasted image 20261106115551.png",
+    "CIS 116 Chapter 8.md",
     "Fall 2026.md",
     "CIS 105.md",
     "Securing a Windows Personal Computer.md",
@@ -222,9 +228,6 @@
     "Pasted image 20261104125234.png",
     "Pasted image 20261104125222.png",
     "Pasted image 20261104125207.png",
-    "Pasted image 20261104125155.png",
-    "Pasted image 20261104125134.png",
-    "Pasted image 20261104125119.png",
     "Active Directory Lab Documentation.md",
     "Untitled.md",
     "Figure 8-2.md",
@@ -236,8 +239,6 @@
     "Open Source OS 2a.md",
     "Creating Scripts.md",
     "Open Source OS 3a.md",
-    "Microsoft Learn - Configure and Manager Hyper-V.md",
-    "CIS 116 Chapter 8.md",
     "Memory Overcommitment, Memory Ballooning, and Page Fusion",
     "Evaluating a System for Windows 10"
   ]
