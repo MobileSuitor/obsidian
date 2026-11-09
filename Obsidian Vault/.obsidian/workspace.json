@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 9.md",
+                "file": "Module 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 9"
+              "title": "Module 10"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module 9.md",
+                "file": "Module 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,8 +204,13 @@
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
     "CIS 110.md",
-    "Module 8.md",
+    "Module 10.md",
     "Module 9.md",
+    "Table 9-4.md",
+    "Pasted image 20261109115600.png",
+    "Pasted image 20261109115547.png",
+    "Pasted image 20261109115534.png",
+    "Module 8.md",
     "Fall 2026.md",
     "CIS 116.md",
     "CIS 116 Chapter 11.md",
@@ -226,9 +231,6 @@
     "Pasted image 20261104125456.png",
     "Pasted image 20261104125340.png",
     "Pasted image 20261104125330.png",
-    "Pasted image 20261104125234.png",
-    "Pasted image 20261104125222.png",
-    "Pasted image 20261104125207.png",
     "Active Directory Lab Documentation.md",
     "Untitled.md",
     "Figure 8-2.md",
@@ -237,8 +239,6 @@
     "CIS 106.md",
     "learned commands.md",
     "CompTIA Malware Removal Steps.md",
-    "Open Source OS 2a.md",
-    "Creating Scripts.md",
     "Memory Overcommitment, Memory Ballooning, and Page Fusion",
     "Evaluating a System for Windows 10"
   ]

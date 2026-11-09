@@ -48,4 +48,21 @@
 	- *Access Technologies* - designed to grant or deny access to networks or specific data. Include access control lists, virtual private networks, network access control, and data loss prevention
 		- **Access Control List (ACL)** - contains rules that administer the availability of digital assets by granting or denying access to the assets. ==🟣Filesystem ACLs== filter access to files and directories on an endpoint by telling the OS who can access the device and what privileges they are allowed. ==🟣Networking ACLs== filter access to a network and are often found on routers.
 		- **Virtual Private Network (VPN)** - enables authorized users to use an unsecured public network as if it were a secure private network by encrypting all data transmitted between the remote endpoint and the network. ==🟣Remote access VPNs== are a user-to-LAN connection for remote users. ==🟣Site-to-site VPNs== allow multiple sites to connect to other sites over the internet
-		- **Network Access Control (NAC)** - examines the current state of a system or network device before it is allowed to connect to the network
+		- **Network Access Control (NAC)** - examines the current state of a system or network device before it is allowed to connect to the network. Goal is to prevent computers with suboptimal security from potentially infecting other computers through the network.
+		- **Data Loss Prevention (DLP)** - system of security tools used to recognize and identify data that is critical to the organization and ensure it is protected
+			- *Content inspection* - looks at the security level of data, who is requesting it, where the data is stored, when it was requested, and where it is going
+			- *Index matching* - allows the DLP system to recognize small snippets of protected files if they have been identified as needing protection
+	- *Technologies for Monitoring and Managing* - relate to monitoring and managing network resources. Include port security, packet capture and analysis, monitoring services, file integrity monitors, and quality of service
+		- **Port Security** - attackers can access networks through an unprotected port, allowing them to reconfigure devices to their advantage
+			[[Table 9-4]]
+		- **Packet Capture and Analysis** - helps to monitor network performance and revel cybersecurity incidents
+			- *Port Test Access Point (TAP)* - transmits the send and receive data streams simultaneously on separate dedicated channels so that all data arrives at the monitoring tool in real time
+			- *Port Mirroring* - technology on a managed switch that copies traffic that occurs on some or all ports to a designated monitoring port on the switch
+		- **Monitoring Services** - external third-party services that can provide additional resources for cybersecurity defenses
+		- **File Integrity Monitors** - system that detects any changes within the files that may indicate a cyberattack. Establishes a baseline of "clean" files and looks for changes
+		- **Quality of Service (QoS)** - set of network technologies used to guarantee its ability to dependably serve network resources and high-priority applications to endpoints
+	- *Design Technologies* - relate to the secure design of the network. Includes network segmentation and load balancing
+		- **Network Segmentation** - examples include virtual LANs and a demilitarized zone
+			- *Virtual LANs (VLANs)* - segmenting networks by separating devices into logical groups. Allows scattered users to be logically grouped together even though they are physically attached to different switches. Can be isolated so that sensitive data is transported only to members of the VLAN
+			- *Demilitarized Zone (DMZ)* - functions as a separate network that rests outside the secure network perimeter. Untrusted outside users can access the DMZ but cannot enter the secure network
+		- **Load Balancing** - technology that can help to evenly distribute work across a network, performed either through software or a dedicated hardware device
