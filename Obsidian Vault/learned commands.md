@@ -86,7 +86,35 @@
 		- change group owner only: ==🟣sudo chown :group1 file==
 		- change both: ==🟣sudo chown user1:group1 file==
 - ==🟣chgrp== - change group ownership only
-	- synatx: ==🟣sudo chgrp groupname filename==
+	- syntax: ==🟣sudo chgrp groupname filename==
 - ==🟣userdel== - delete user account from the system
 	- does not automatically remove their home directory unless -r option is used
 - ==🟣groupdel== - deletes a group from the system
+- ==🟣file== - identifies what type of file you are examining
+		- ==🟣file /dev/sda== --> outputs ==🟣block special==, indicating /dev/sda is a block device
+- ==🟣df== - disk free command, shows how much disk space is used and available on mounted filesystems, and what mount point they are at
+	- syntax: ==🟣df -h | grep ^Filesystem && df -h | grep ^/dev==
+- ==🟣gdisk== - creates GPT partition
+	- syntax: ==🟣sudo gdisk /dev/\<disk you want to partition>==
+	- ==🟣n== - creates new partition
+	- ==🟣w== - writes changes to disk
+- ==🟣mkfs== - creates filesystem within a partition
+	- syntax: ==🟣sudo mkfs -t ext4 /dev/sdb1==
+- ==🟣mount== - mounts a new partition, filesystems, or devices to directory in Linux
+	- syntax: ==🟣sudo mount \[options] \<device> \<directory>
+	- does not persist after reboot
+	- must add to file /etc/fstab in order to persist
+- ==🟣umount== - unmounts a new partition, filesystem, or device from a mount point
+	- syntax: ==🟣umount \[option] \<mount_point>==
+- **Editing /etc/fstab**
+	- fstab entry: ==🟣/dev/sdb1 /home ext4 defaults 0 0==
+		- /dev/sdb1 - partition to mount
+		- /home - where the filesystem will be accessible
+		- ext4 - filesystem type
+		- defaults - uses standard mounting options
+		- first 0 - disables backups by the legacy dump utility
+		- second 0 - disables automatic filesystem checking by fsck at boot for this entry
+	- test changes made to /etc/fstab
+		- start with device unmounted
+		- issue ==🟣sudo mount -a==
+			- 
