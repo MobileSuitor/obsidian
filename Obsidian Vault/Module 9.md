@@ -28,6 +28,24 @@
 			- *Network address translation (NAT) gateway* - NAT is a technique that allows private IP addresses to be used on the public Internet. As a packet leaves the network, NAT removes the private IP address from the sender's packet and replaces it with a public one and records the substitution. A ==🟣NAT gateway== is a cloud-based technology that performs NAT translations for cloud services and masks the IP addresses of internal devices
 			- *Next generation firewall (NGFW)* - can filter packets based on applications, can detect applications using deep packet inspection, can also perform URL filtering and intrusion prevention services
 			- *Unified threat management (UTM)* - device that combines several security functions, including packet filtering, antispam, antiphishing, antispyware, encryption, intrusion protection, and web filtering
-	- *Proxy Servers* - devices that act as substitutes on behalf of the primary device.
+	- *Proxy Servers* - devices that act as substitutes on behalf of the primary device. Acts as the intermediary for requests and provides a degree of protection by intercepting malware before it reaches the internal endpoint and hiding the IP address of endpoints behind its own IP address
 		- **Forward Proxy** - a computer or application that intercepts user requests from the internal secure network and then processes the requests on behalf of the user
-		- **Reverse Proxy** - routes requests coming from an external network
+		- **Reverse Proxy** - routes requests coming from an external network to the correct internal server
+	- *Deception Instruments* - redirecting attackers away from valuable assets to something that has little or no value
+		- **Honeypots** - computer located in an area with limited security that serves as bait, intentionally configured with vulnerabilities. Goal of honeypots is to deflect attention away from legitimate servers and discover attackers by tricking them into revealing their attack strategy
+		- **Sinkholes** - designed to steer unwanted traffic away from its intended destination to another device. A ==🟣DNS sinkhole== changes a normal DNS request to a pre-configured IP address that points to a firewall with a rule of Deny set for all packets, so that every packet is dropped with no return info provided to the sender
+	- *Intrusion Detection and Prevention Systems (IDS/IPS)* - attempts to detect attacks as they occur or block attacks. ==🟣Inline systems== are connected directly to the network and monitors the flow of data as it occurs. ==🟣Passive systems== is connected to a port on a switch, which receives a copy of network traffic.
+		- **Monitoring Methodologies**
+			- Anomaly monitoring - designed for detecting statistical anomalies through comparison to a baseline of normal activities that is compiled over time. Can detect anomalies quickly without trying to understand the cause, but is subject to false positives
+			- Signature-based monitoring - compares activities against a predefined signature, which requires access to a database of signatures that must be constantly updated
+			- Behavioral monitoring - rather than using statistics or signatures for comparison, this uses the normal processes and actions as the standard for comparison
+			- Heuristic monitoring - uses an algorithm to determine if a threat exists
+		- **Network Detection and Prevention Systems**
+			- Network Intrusion Detection Systems (NIDS) - watches for attacks on the network and reports back to a central device
+			- Network Intrusion Prevention Systems (NIPS) - monitors network traffic to immediately react to block attacks
+	- *Network Hardware Security Modules* - special trusted network computer that performs cryptographic operations such as key management, key exchange, onboard random number generation, key storage facility, and accelerated symmetric and asymmetric encryption
+- **Security Technologies**
+	- *Access Technologies* - designed to grant or deny access to networks or specific data. Include access control lists, virtual private networks, network access control, and data loss prevention
+		- **Access Control List (ACL)** - contains rules that administer the availability of digital assets by granting or denying access to the assets. ==🟣Filesystem ACLs== filter access to files and directories on an endpoint by telling the OS who can access the device and what privileges they are allowed. ==🟣Networking ACLs== filter access to a network and are often found on routers.
+		- **Virtual Private Network (VPN)** - enables authorized users to use an unsecured public network as if it were a secure private network by encrypting all data transmitted between the remote endpoint and the network. ==🟣Remote access VPNs== are a user-to-LAN connection for remote users. ==🟣Site-to-site VPNs== allow multiple sites to connect to other sites over the internet
+		- **Network Access Control (NAC)** - examines the current state of a system or network device before it is allowed to connect to the network
