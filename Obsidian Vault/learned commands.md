@@ -121,4 +121,30 @@
 		- issue ==🟣sudo systemctl daemon-reload==
 			- reloads system configuration, including mount units generated from /etc/fstab
 		- use ==🟣df== to check that mount took place
-	- 
+- ==🟣ps== - process viewing utility
+	- ==🟣-e== - displays entire list of processes across all terminals, including daemons
+	- add ==🟣 | head== to display only the first 10 lines of output
+	- ==🟣-l== - displays additional process details, including PPID, PRI, and NI
+		- NI is nice value, lower nice values get higher priority and vice versa
+	- ==🟣ps aux== - displays detailed information about processes across the system
+		- a - shows processes associated with terminals belonging to other users
+		- u - displays user-oriented details, including CPU and memory usage
+		- x - includes processes without a controlling terminal
+- ==🟣top== - interactive screen listing processes in near real time. Scroll using PgUp and PgDown
+- ==🟣htop== - like top, but with color coding and graphs. Not standard in all distros
+- ==🟣nice== - sets the nice value when starting a new process
+	- syntax: ==🟣nice -n value command==
+- ==🟣renice== - changes the nice value of an already running process
+	- syntax: ==🟣renice value PID==
+- ==🟣jobs== - lists jobs managed by your current shell
+	- includes jobs running in the background and jobs that have been suspended
+- ==🟣kill== - sends a signal requesting that a process terminate, gives the process a chance to clean up before exiting
+	- syntax: ==🟣kill \<PID>==
+	- ==🟣-9== - terminates immediately without cleanup
+- ==🟣killall== - sends termination signal to processes with specified name, do not need to know PID
+- ==🟣fg== - brings job into the foreground (can't enter commands while running)
+	- syntax: ==🟣fg %job_number==
+- ==🟣bg== - resumes a suspended job in the background
+	- first, suspend a foreground process with **Ctrl+Z**
+	- syntax: ==🟣bg %job_number==
+- 
