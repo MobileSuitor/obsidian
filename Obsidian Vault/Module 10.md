@@ -7,4 +7,22 @@
 ---------
 
 - **Cloud Computing**
-	- on-demand infrastructure to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction
+	- on-demand infrastructure to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+		- <u>Advantages</u>
+		1. *On-demand self-service* - consumer can make changes, such as increasing or decreasing computing resources, without requiring human interaction from service provider
+		2. *Universal client support* - virtually any networked device can access the cloud computing resources
+		3. *Invisible resource pooling* - physical and virtual computing resources are pooled together to serve multiple, simultaneous consumers that are dynamically assigned based on needs
+		4. *Immediate elasticity* - computing resources can be increased or decreased quickly to meet demands
+		5. *Metered services* - fees are based on the computing resources used
+	- *Types of Clouds*
+		- Public cloud - services and infrastructure are offered to all users with access provided remotely through the internet
+		- Community cloud - open only to specific orgs that have common concerns
+		- Private cloud - created and maintained on a private network
+		- Hybrid cloud - combination of public and private cloud models
+	- *Cloud Architecture*
+		- Thin client - computer that runs from resources stored on a central cloud server instead of a localized hard drive
+		- Transit gateway - Amazon Web Services technology that allows orgs to connect all existing virtual private clouds, physical data centers, remote offices, and remote gateways into a single managed source
+		- Serverless infrastructure - cloud infrastructure in which the capacity planning, installation, setup, and management are all invisible to the user because they are handled by the cloud provider
+- **Securing Cloud Computing**
+	- [[Table 10-4]] - Cloud Security Issues
+	- *Cloud Security Controls* - security controls exist to reduce or mitigate the risk to assets. Can be a policy, procedure, technique, method, solution, plan, action, or device. 
