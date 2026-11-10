@@ -147,4 +147,23 @@
 - ==🟣bg== - resumes a suspended job in the background
 	- first, suspend a foreground process with **Ctrl+Z**
 	- syntax: ==🟣bg %job_number==
+- ==🟣apt== - package management tool
+	- ==🟣update== - ensures system is aware of the latest versions of packages
+	- ==🟣upgrade== - installs the latest versions of installed software, ensuring compatibility
+	- ==🟣search== - looks for packages based on a keyword
+	- syntax: ==🟣sudo apt install packagename -y==
+- ==🟣dpkg== - low-level Debian package manager responsible for installing, removing, and managing .deb files on your system
+	- does not automatically resolve dependencies like apt does, so they need to be handled manually
+	- Usage overview:
+		1. Search for a package (use packages.ubuntu.com)
+		2. Find the correct URL for the package
+		3. Download the package with ==🟣wget==
+		4. Verify the file type using the file command
+		5. Install the package with ==🟣sudo dpkg -i package.deb==
+	- ==🟣-l== - lists all installed packages, combine with grep pipe to filter
+- ==🟣add-apt-repository== - adds specified repository to your sources list
+	- syntax: ==🟣sudo add-apt-repository REPOSITORY==
+	- ==🟣--remove== - flag to remove repository
+- ==🟣apt-get== - can be used to repair broken dependencies
+	- syntax: ==🟣sudo apt-get -f install==
 - 
