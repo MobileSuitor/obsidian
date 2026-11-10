@@ -33,4 +33,11 @@
 			[[Table 10-6]] - Functional Area Controls
 	- *Next Generation Secure Web Gateway (SWG)* - combines several features into a single product. Examines incoming and outgoing traffic, performs basic URL and monitoring in web applications, analyzes received traffic, performs DLP, provides alerts to a monitoring device.
 - **Secure Network Protocols**
-	- *Simple Network Management Protocol (SNMP)* - used to manage network equipment that is supported by most network equipment manufacturers. Each SNMP managed device must have an agent or SNMP service that listens for commands and executes them.
+	- *Simple Network Management Protocol (SNMP)* - used to manage network equipment that is supported by most network equipment manufacturers. Each SNMP managed device must have an agent or SNMP service that listens for commands and executes them
+	- *Domain Name System Security Extensions (DNSSEC)* - adds additional resource records (define the data types being used) and message header information (verifies requested data has not been altered in transmission) for improved security
+	- *File Transfer Protocol (FTP)* - unsecure TCP/IP protocol for transferring files. Secure variations are *FTP Secure (FTPS)*, which combines FTP and SSL/TLS, and *Secure FTP (SFTP)*, which is an entirely separate protocol that encrypts data
+	- *Secure Email Protocols* - two email systems are in use today: Simple Mail Transfer Protocol (SMTP) and Post Office Protocol (POP)
+		- **SMTP** - handles outgoing mail (port 25)
+		- **POP** - handles incoming mail (port 110)
+	- *Lightweight Directory Access Protocol (LDAP)* - directory service that is a simpler subset of the Directory Access Protocol
+		- **Directory Service** - database stored on the network itself that contains information about users and network devices
