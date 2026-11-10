@@ -39,5 +39,6 @@
 	- *Secure Email Protocols* - two email systems are in use today: Simple Mail Transfer Protocol (SMTP) and Post Office Protocol (POP)
 		- **SMTP** - handles outgoing mail (port 25)
 		- **POP** - handles incoming mail (port 110)
-	- *Lightweight Directory Access Protocol (LDAP)* - directory service that is a simpler subset of the Directory Access Protocol
-		- **Directory Service** - database stored on the network itself that contains information about users and network devices
+	- *Lightweight Directory Access Protocol (LDAP)* - directory service that is a simpler subset of the Directory Access Protocol. 
+		- **Directory Service** - database stored on the network itself that contains information about users and network devices. Also keeps track of all the resources on the network and a user's privileges to those resources
+	- *Internet Protocol Version 6 (IPv6)* - next generation of IP protocol that addresses weaknesses of IPv4 and also provides several other improvements, such as increasing the number of available IP addresses, and enhanced security features (end-to-end encryption, more secure name resolution)
