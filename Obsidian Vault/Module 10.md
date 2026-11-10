@@ -25,4 +25,12 @@
 		- Serverless infrastructure - cloud infrastructure in which the capacity planning, installation, setup, and management are all invisible to the user because they are handled by the cloud provider
 - **Securing Cloud Computing**
 	- [[Table 10-4]] - Cloud Security Issues
-	- *Cloud Security Controls* - security controls exist to reduce or mitigate the risk to assets. Can be a policy, procedure, technique, method, solution, plan, action, or device. 
+	- *Cloud Security Controls* - security controls exist to reduce or mitigate the risk to assets. Can be a policy, procedure, technique, method, solution, plan, action, or device. Controls include conducting audits, using regions and zones, implementing secrets management, and enforcing mitigations
+		- **Conducting Audits** - a ==🟣cloud security audit== is an independent examination of cloud service controls and their adherence to established standards
+		- **Use Regions and Zones** - having several redundant data centers per region, or partitioning applications across multiple zones, creates systems that are more highly available, fault tolerant, and scalable
+		- **Implementing Secrets Management** - process that enables strong security and improved management of a microservices-based architecture
+		- **Enforce Functional Area Mitigations** - cloud computing has three functional areas: storage, network, and compute
+			[[Table 10-6]] - Functional Area Controls
+	- *Next Generation Secure Web Gateway (SWG)* - combines several features into a single product. Examines incoming and outgoing traffic, performs basic URL and monitoring in web applications, analyzes received traffic, performs DLP, provides alerts to a monitoring device.
+- **Secure Network Protocols**
+	- *Simple Network Management Protocol (SNMP)* - used to manage network equipment that is supported by most network equipment manufacturers. Each SNMP managed device must have an agent or SNMP service that listens for commands and executes them.
