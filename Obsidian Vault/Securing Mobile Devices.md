@@ -1,0 +1,12 @@
+- **Security Measures**
+	- *Encryption* - should be the first act of protection. For Apple devices, enable Passcode or FaceID. For Android, go to Settings, then Security, then Encrypt phone
+	- *OS updates and patches* - apply updates and patches to ensure security holes are not left open
+	- *Endpoint security* - antivirus and anti-malware solutions
+	- *Android locator app and remote wipe* - uses built-in Android locator app
+	- *iOS locator app and remote wipe* - uses built-in iOS locator app
+- **Device Access Controls**
+	- covers locking methods, boring as hell, skip
+- **Use Trusted Sources for Apps**
+	- don't download shit that isn't from the Play Store, duh
+- **Mobile Security in Corporate Environments**
+	- MDMs and configuration profiles, refer to CIS 110 notes on mobile devices

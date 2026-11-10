@@ -1,0 +1,19 @@
+- **Update the OS and Apps**
+	- updates are pushed automatically for devices using Android OS
+	- to determine if manual updates can be performed on Android 16:
+		- **Settings** > **System** > **Software Updates** > **System Update** > **Check for Update**
+	- check for updates on iOS:
+		- **Settings** > **General** > **Software Update**
+- **Mobile Apps Development**
+	- Writing and testing Android apps is done using a group of tools in an **SDK (software development kit)**
+	- Apple has its own app-dev tools, including **iOS SDK**, AKA Xcode
+- **Backup and Recovery**
+	- *File-level backup* - process that backs up and restores individual files. Syncing emails, contacts, calendars, photos, and other data through online accounts or to your computer is called a file-level backup
+	- *Partial image-level backup* - true ==🟣image-level backups== include everything on the device and can completely restore the device to its previous state. Mobile device OS only offer a partial image-level backup that includes settings, native app data, WiFi passwords, the account profile, and device and app configuration
+	- <u>Backing up Androids</u>
+		- enable the backup feature in Settings and back up to Google Drive
+		- Back up manually with computer and USB
+	- <u>Backing up Apple devices </u>
+		- turn on iCloud backup in Settings
+		- Back up manually with Mac computer and USB
+	- 
