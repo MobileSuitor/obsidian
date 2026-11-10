@@ -6,4 +6,5 @@
 
 ---------
 
-- 
+- **Cloud Computing**
+	- on-demand infrastructure to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction
