@@ -40,4 +40,15 @@
 		- done by creating a partition and using the space on that partition to create a logical drive, also represented as a **LUN (Logical Unit Number)**
 		- LUNs are smaller units, which are put into a larger unit called a volume
 		- volumes are then turned into a unit called a datastore, which gets virtualized
-		- 
+		- **Datastore File Systems**
+			- *ZFS (local)* - Zettabyte File System acts as a block-level storage to store VM disk images and container data
+			- *GlusterFS* - cluster or file-level shared network storage that ensures high availability between nodes
+			- *CephFS* - distributed file system integrated into Proxmox VE. Uses pooled storage resources of participating nodes to create network arrays. Also provides an interface that allows VMs to access shared storage similar to NAS or SAN solutions
+			- *RBD* - Rados Block Device links block-level storage into an array of disks to be used by VMs. RBD can complement CephFS storage by providing virtual disk access to the CephFS interface
+		- **Thin Provisioning** - assigns a LUN a ceiling amount of storage, but the storage space actually used grows as data is being written to it. Essentially on-demand storage that allows its unused storage to be distributed to virtual disks that need it at that moment
+	- *Network Virtualization*
+		- virtual networks shares the router and NIC with the physical network, but its components are virtualized
+		- **Virtual Switch** - first layer of a virtual network, links up virtual devices to the virtual network. Allow VMs on the same server host to communicate with each other using the same protocols  that would be used over physical switches
+			- *VLANs* - enable single physical LANs to be segmented, so that groups of ports are isolated from one another as if they were on physically different network segments
+- **Types of Virtual Networks**
+	- *Bridged Network* - both VM and the host it is running on are connected to the same network. Connects a VM to the network using the host computer's Ethernet adapter, host shares IP address with VM
