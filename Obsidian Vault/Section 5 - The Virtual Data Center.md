@@ -35,4 +35,9 @@
 		- *Built-in central management* - includes a distributed cluster-aware management system that allows you to control multiple servers from one unified dashboard, where admins can create VMs, manage networking, assign storage, and monitor system health from a single location
 		- *Integrated web-based host interface* - every Proxmox node comes with its own web-based user interface, allowing direct connection to the virtual datacenter without needing additional client software or a complex setup
 - **Server Virtualization**
-	- 
+	- *Storage Virtualization*
+		- creating virtual storage from physical storage involves transferring physical storage capacity into logical capacity
+		- done by creating a partition and using the space on that partition to create a logical drive, also represented as a **LUN (Logical Unit Number)**
+		- LUNs are smaller units, which are put into a larger unit called a volume
+		- volumes are then turned into a unit called a datastore, which gets virtualized
+		- 
