@@ -52,3 +52,5 @@
 			- *VLANs* - enable single physical LANs to be segmented, so that groups of ports are isolated from one another as if they were on physically different network segments
 - **Types of Virtual Networks**
 	- *Bridged Network* - both VM and the host it is running on are connected to the same network. Connects a VM to the network using the host computer's Ethernet adapter, host shares IP address with VM
+	- *NAT Network* - takes an IP address and translates it into another IP address. VM does not have its own IP address on the external network. NAT translates addresses of VMs in a private network (VMnet) to that of the host machine. When a VM sends a request to access a network resource, the network resource sees it as if the request came from the host machine. The VMnet is able to connect to the public external network using the translated IP addresses enabled by port forwarding
+	- *Host-only networking* - creates a private internal network for the VMs to connect to, similar to a NAT network but without IP address translation, so VMs are restricted to the private network only and do not have direct access to the public external network
