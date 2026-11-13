@@ -44,4 +44,19 @@
 	- it is possible to convert between VHDX and VHD formats by using Hyper-V manager's edit virtual hard disk wizard or by using the ==🟣Convert-VHD== cmdlet
 	- *VHD types*
 		![[Pasted image 20261113115512.png]]
+- **VM Storage Options**
+	- Considerations for VHD file storage:
+		- *High-performance connection to storage* - VHD files located on remote storage must have adequate bandwidth and minimal latency
+		- *Redundant storage* - fault tolerance, VM should remain operational in the event of a disk failure
+		- *High-performance storage* - storage device should have excellent I/O characteristics. Many enterprises use hybrid SSDs in RAID 10 arrays for maximum performance and redundancy
+		- *Adequate growth space* 
+	- *Fiber Channel support for SANs*
+		- uses Hyper-V virtual Fibre Channel adapter to enable access to Fibre Channel storage on SANs
+		- must configure Hyper-V host with a Fibre Channel host bus adapter or Fibre Channel over Ethernet network adapter
+	- *Storing VMs on SMB 3.0 file shares*
+		- recommended bandwidth for network connectivity to SMB file share is 1 Gbps or more
+		- be sure to separate network traffic to file shares that contain VM files. Client network traffic shouldn't be on the same VLAN as SMB traffic
+- **Shared VHDs vs VHD Sets**
+	- *Shared VHD* - VHD created in .vhdx format and connected to the SCSI controllers of multiple VMs. Must be stored on Cluster Shared Volumes (CSVs) or a file server with SMB version 3.0
+	- *VHD Sets* - newer alternative for sharing VHDs that addresses the limitations of shared VHDs. Requires Windows Server 2016 or newer
 - 
