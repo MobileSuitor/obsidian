@@ -17,7 +17,22 @@
 6. **Bridged Network** - type of virtual network where both a VM and its host are connected to the same network by connecting to the host's NIC to the VM's vNIC. VM shares IP with host
 7. **Network Address Translation (NAT) Network** - type of virtual network where a VM is connected to a private network on the host called a virtual machine network (VMnet). VM uses host IP address, which is then translated and forwarded to the VM's private IP address on the VMnet
 8. **Port Forwarding** - virtual networking feature that enables incoming web traffic to pass through a specific port. This allows IP addresses on a VMnet to be translated and connected to an external network
-9. **Host=only Network** - similar to NAT network, but without IP address translation. Restricts access to only the private network, preventing connection to external networks
+9. **Host-only Network** - similar to NAT network, but without IP address translation. Restricts access to only the private network, preventing connection to external networks
 -----------------------
 
-- 
+- **Centralized Management in a Virtual Data Center**
+	- central management servers are used to:
+		- monitor all hypervisor hosts
+		- view and manage VMs across multiple systems
+		- allocate resources like CPU, RAM, and storage efficiently
+		- set up automation, backup, and high-availability policies
+- **The Management Interface**
+	- determining how resources are allocated or which virtual machines to be ran are tasks that still need to be handled by sysadmins after a type 1 hypervisor is set up
+	- direct interaction with each hypervisor host is done using a **local management interface**
+- **Proxmox VE**
+	- open source platform that combines all three core components of a virtual data center into one system:
+		- *KVM-based type 1 hypervisor* - provides foundation for full virtualization
+		- *Built-in central management* - includes a distributed cluster-aware management system that allows you to control multiple servers from one unified dashboard, where admins can create VMs, manage networking, assign storage, and monitor system health from a single location
+		- *Integrated web-based host interface* - every Proxmox node comes with its own web-based user interface, allowing direct connection to the virtual datacenter without needing additional client software or a complex setup
+- **Server Virtualization**
+	- 
