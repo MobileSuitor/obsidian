@@ -178,4 +178,7 @@
 		- reload
 	- can also find the name of a service:
 		==🟣systemctl list-units --type=service | grep \<service name>==
-- 
+- ==🟣ip address== - AKA ==🟣ip a==, displays info about network interfaces
+	- lo - loopback interface (127.0.0.1 localhost)
+	- ens4 - network interface, allows communication with other devices
+		- link/ether line is followed by MAC address
