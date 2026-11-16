@@ -9,4 +9,21 @@
 		- /release6 parameter does the same thing as /release but for IPv6
 		- /renew parameter requests new IPv4 address from DHCP server or renews an existing lease
 		- /renew6 parameter does the same thing as /renew but for IPv6
-		- /displaydns p
+		- /displaydns parameter displays contents of client's DNS resolver cache, showing recently resolved hostnames and their corresponding IP addresses
+		- /flushdns parameter clears the client's DNS resolver cache. Useful for when name resolution fails or when cached DNS entries are outdated or incorrect
+	- ==🟣nslookup== - used to test name-resolution problems with DNS servers by allowing you to request information from a DNS server's zone data
+		- reverse lookup - running nslookup to find the host name when you know a computer's IP address
+	- ==🟣tracert== - useful when trying to resolve a problem reaching a destination host such as an FTP site or website. Sends a series of requests to the destination computer and displays each hop to the destination
+	- ==🟣pathping== - combines ping and tracert commands into one
+	- ==🟣net== commands - several commands in one, most of which require elevated prompt window to execute.
+		- ==🟣net use== - connects or disconnects a computer from a shared resource, or can display info about connections
+		- ==🟣net user== - manages user accounts. For example, built-in admin account is disabled by default, enable with ==🟣net user administrator /active:yes==
+	- ==🟣netstat== - gives statistics about network activity
+		- -b parameter lists programs that are using the connection. Useful for finding malware that might be using the network
+		- -o parameter includes process ID of each program listed
+		- -a parameter lists statistics about all active connections and the ports the computer is listening on
+		- -na lists all open ports
+	- ==🟣whoami== - displays info about user currently logged in
+		- /user parameter displays current user's SID 
+		- /groups parameter lists the security groups the user belongs to
+		- /priv parameter lists user's active privileges
