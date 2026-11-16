@@ -1,2 +1,16 @@
 - **Secure a Browser**
-	- 
+	- configure password managers, enable pop-up blockers, manage trackers, etc.
+	- *Internet Options and Proxy Settings*
+		- legacy Internet Options can be found in the Control Panel
+	- *Secure DNS*
+		- DNS requests are typically sent in plaintext, so they can be intercepted
+		- Secure DNS - security service used to interrupt a phishing attack by monitoring a browser's requests for websites and redirecting the browser when it attempts to visit a known malicious site
+			- can be enabled in most modern browser settings
+- **Create a VPN Connection** 
+	- VPNs allow remote users to securely connect to a private corporate network over the Internet. Data is encrypted from the time it leaves the remote computer until it reaches the VPN server, and vice versa
+	- Process of encapsulating traffic to secure it is called **tunneling**
+- **Create a WWAN Connection**
+	- WWAN connections require a contract with a cellular carrier and either a SIM card installed on the device or an external cellular device
+	- configured through Network & Internet settings
+- **Metered Connections**
+	- alerts for when 
