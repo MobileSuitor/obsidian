@@ -166,4 +166,16 @@
 	- ==🟣--remove== - flag to remove repository
 - ==🟣apt-get== - can be used to repair broken dependencies
 	- syntax: ==🟣sudo apt-get -f install==
+- ==🟣systemd== - service management system, ensures that services start, stop, and run properly
+	- syntax: ==🟣sudo systemctl \<service name>==
+	- Available actions:
+		- start 
+		- stop
+		- restart
+		- enable
+		- disable
+		- status
+		- reload
+	- can also find the name of a service:
+		==🟣systemctl list-units --type=service | grep \<service name>==
 - 
