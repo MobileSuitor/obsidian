@@ -1,0 +1,4 @@
+- **Basic Security Features of a Router**
+	- DHCP reservations - IP addresses can be reserved for a host on the network, such as a printer
+- **Firewall Settings**
+	- 

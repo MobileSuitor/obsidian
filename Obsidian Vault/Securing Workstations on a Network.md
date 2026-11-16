@@ -13,4 +13,6 @@
 	- WWAN connections require a contract with a cellular carrier and either a SIM card installed on the device or an external cellular device
 	- configured through Network & Internet settings
 - **Metered Connections**
-	- alerts for when 
+	- alerts for when you are approaching a data limit for a metered connection can be configured through Settings > Network & Internet > Status > Data Usage
+- **Windows Defender Firewall**
+	- firewall settings can be managed through Settings > Privacy & Security > Windows Security > Firewall & Network Protection
