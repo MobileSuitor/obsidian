@@ -1,0 +1,12 @@
+- **Network troubleshooting utilities**
+	- ==🟣ping== - tests connectivity to remote computer. Use to verify that DNS is working (if a ping to the IP address works but not the domain name, then DNS is down)
+		- -a parameter tests for name resolution, use for DNS verification
+		- -t parameter causes pinging to continue until interrupted
+		- ping 127.0.0.1 - loopback test, if this fails then there is a problem with local network config or TCP/IP installation
+	- ==🟣ipconfig== - can display network configuration info and refresh TCP/IP assignments
+		- /all parameter displays more detailed info
+		- /release parameter releases current IPv4 address obtained from DHCP server. System will have no valid IP address until a new one is obtained
+		- /release6 parameter does the same thing as /release but for IPv6
+		- /renew parameter requests new IPv4 address from DHCP server or renews an existing lease
+		- /renew6 parameter does the same thing as /renew but for IPv6
+		- /displaydns p

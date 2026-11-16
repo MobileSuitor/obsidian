@@ -1,4 +1,7 @@
 - **Basic Security Features of a Router**
 	- DHCP reservations - IP addresses can be reserved for a host on the network, such as a printer
 - **Firewall Settings**
-	- 
+	- Port Forwarding - method that directs traffic from a specific external port on a router to a device inside a private network, allowing outside systems to reach internal services through NAT and firewall rules
+	- Screened Subnet (DMZ) - small network segment placed between an internal network and the Internet to isolate public-facing systems, such as web or email servers. Provides limited access from the Internet while protecting internal devices behind additional firewall rules
+	- Content Filtering - options to control what devices on the local network can access on the Internet. Whitelists, blacklists, etc.
+- 

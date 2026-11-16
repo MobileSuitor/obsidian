@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Securing a Multifunction Router for a SOHO Network.md",
+                "file": "Troubleshooting Network Connections.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Securing a Multifunction Router for a SOHO Network"
+              "title": "Troubleshooting Network Connections"
             }
           },
           {
@@ -205,6 +205,8 @@
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
     "CIS 105.md",
+    "Troubleshooting Network Connections.md",
+    "Using Remote Access Technologies.md",
     "Securing a Multifunction Router for a SOHO Network.md",
     "Securing Workstations on a Network.md",
     "Securing Mobile Devices.md",
@@ -238,8 +240,6 @@
     "Pasted image 20261109175530.png",
     "Pasted image 20261109175514.png",
     "Module 9.md",
-    "Table 9-4.md",
-    "Module 8.md",
     "Memory Overcommitment, Memory Ballooning, and Page Fusion",
     "Evaluating a System for Windows 10"
   ]
