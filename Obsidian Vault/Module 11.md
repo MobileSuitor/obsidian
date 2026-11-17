@@ -37,4 +37,11 @@
 			- managing several MAC addresses can be challenging and demands almost constant attention, not always practical
 	- *Wi-Fi Protected Access (WPA)* 
 - **Wireless Security Solutions**
-	- *Wi-Fi Protected Access 2 (WPA2)* - second gen of WPA security that addresses authentication and encryption on WLANs and is currently the most secure model
+	- *Wi-Fi Protected Access 2 (WPA2)* - second gen of WPA security that addresses authentication and encryption on WLANs 
+		- ***AES-CCMP Encryption*** - CCMP is the encryption protocol used for WPA2
+		- ***IEEE 802.1x Authentication*** - authentication for WPA2 Enterprise model uses the IEEE 802.1x standard, which provides a greater degree of security by implementing port-based authentication. Blocks all traffic on a port-by-port basis until the client is authenticated using credentials stored on an authentication server
+	- *Wi-Fi Protected Access 3 (WPA3)* - current gen of WPA with the goal of simplifying security config for users while enhancing network security protections
+		- ***Simultaneous Authentication of Equals (SAE)*** - designed to increase security at the time of the handshake when keys are being exchanged
+		- WPA3 supports longer 192-bit encryption
+		- applies individualized data encryption on public Wi-Fi so that every connection between a client and AP is encrypted with a unique key
+		- improved interaction capabilities with IoT devices
