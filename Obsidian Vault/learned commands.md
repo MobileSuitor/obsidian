@@ -167,7 +167,7 @@
 - ==🟣apt-get== - can be used to repair broken dependencies
 	- syntax: ==🟣sudo apt-get -f install==
 - ==🟣systemd== - service management system, ensures that services start, stop, and run properly
-	- syntax: ==🟣sudo systemctl \<service name>==
+	- syntax: ==🟣sudo systemctl \<action> \<service name>==
 	- Available actions:
 		- start 
 		- stop
@@ -182,3 +182,8 @@
 	- lo - loopback interface (127.0.0.1 localhost)
 	- ens4 - network interface, allows communication with other devices
 		- link/ether line is followed by MAC address
+- ==🟣systemd-networkd== - Linux service that manages network configuration. Helps manage network interfaces, IP addresses, and network routes
+- ==🟣ip link== - command to manage network interfaces
+	- syntax: ==🟣sudo ip link set \<network interface> down==
+		- disables interface
+- 
