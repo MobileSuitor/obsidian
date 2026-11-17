@@ -16,4 +16,10 @@
 		- RFID is commonly used to transmit information between employee ID badges, inventory tags, book labels, and other paper based tags that can be detected by a proximity reader
 		- risks include unauthorized tag access via a rogue RFID reader, fake tags that contain fictitious data when scanned, and eavesdropping
 	- *Wireless Local Area Network (WLAN) Attacks*
-		- AKA Wi-Fi
+		- AKA Wi-Fi, several types of attacks are listed below
+		- Rogue Access Point - unauthorized AP that allows an attacker to bypass many of the network security configurations and opens the network and its users to attack
+		- Evil Twin - AP that is set up by an attacker, designed to mimic an authorized AP
+		- Intercepting Wireless Data - attackers can pick up the RF signal from an open or misconfigured AP and read confidential wireless transmissions. If attackers manage to connect to the enterprise wired network through a rogue AP, they could also read, broadcast, and multicast wired network traffic that leaks from the wired network to the wireless network
+		- Wireless Denial of Service Attacks - attackers can leverage signals from other devices to disrupt valid wireless transmissions
+- **Vulnerabilities of WLAN Security**
+	- *Wired Equivalent *
