@@ -152,6 +152,7 @@
 	- ==🟣upgrade== - installs the latest versions of installed software, ensuring compatibility
 	- ==🟣search== - looks for packages based on a keyword
 	- syntax: ==🟣sudo apt install packagename -y==
+	- ==🟣--fix-broken install== - fixes broken dependencies
 - ==🟣dpkg== - low-level Debian package manager responsible for installing, removing, and managing .deb files on your system
 	- does not automatically resolve dependencies like apt does, so they need to be handled manually
 	- Usage overview:
