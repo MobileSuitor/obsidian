@@ -22,4 +22,19 @@
 		- Intercepting Wireless Data - attackers can pick up the RF signal from an open or misconfigured AP and read confidential wireless transmissions. If attackers manage to connect to the enterprise wired network through a rogue AP, they could also read, broadcast, and multicast wired network traffic that leaks from the wired network to the wireless network
 		- Wireless Denial of Service Attacks - attackers can leverage signals from other devices to disrupt valid wireless transmissions
 - **Vulnerabilities of WLAN Security**
-	- *Wired Equivalent *
+	- *Wired Equivalent Privacy* - security protocol designed to ensure that only authorized parties can view transmitted wireless information, accomplished by encrypting the transmissions via a shared secret key known only by the wireless client and the AP
+		- several security vulnerabilities:
+			- can only use 64/128 bit number to encrypt packets, and length of IV (initialization vector) that precedes it is always 24 bits which limits its strength
+			- 24 bit IVs only have 16,777,216 possible values, so IVs would start repeating in less than seven hours if an AP is sending/receiving 700 packets/second, creating a detectable pattern
+	- *Wi-Fi Protected Setup* - optional means of configuring security on WLANs. Designed to help users who have little or now knowledge of security to implement security quickly and easily on the WLANs. Uses either a PIN method (PIN on sticker is entered into device to begin security config) or push-button method (physical button is pressed on router to begin security config)
+		- PIN method has significant flaws:
+			- no lockout limit for entering PINs
+			- last PIN character is only  a checksum
+			- wireless router reports validity of first and second halves of the PIN separately, so an attacker must break only two short PIN values
+	- *MAC Address Filtering* - method for controlling access to WLAN based on the device's MAC address. 
+		- several vulnerabilities:
+			- MAC addresses are initially exchanged in an encrypted format 
+			- managing several MAC addresses can be challenging and demands almost constant attention, not always practical
+	- *Wi-Fi Protected Access (WPA)* 
+- **Wireless Security Solutions**
+	- *Wi-Fi Protected Access 2 (WPA2)* - second gen of WPA security that addresses authentication and encryption on WLANs and is currently the most secure model
