@@ -27,4 +27,26 @@
 			- retinal scanners, fingerprints, vein images, gait, voice recognition, iris scanners, facial recognition
 		- **Cognitive Biometrics**
 			- related to the perception, thought process, and understanding of the user, AKA knowledge-based authentication
-			- 
+		- **Behavioral Biometrics**
+			- based on actions that the user is uniquely qualified to perform
+			- keystroke dynamics (unique typing rhythm)
+- **Authentication Solutions**
+	- *Password Security*
+		- **Protecting Digests** - additional actions to be taken to protect the contents of digests beyond just securing servers to prevent theft
+			- *Salts* - a random string added to a hash algorithm for enhanced security. Makes brute force and dictionary attacks more difficult
+			- *Key Stretching* - using a password hashing algorithm that requires significantly more time than standard hashing algorithms to create the digest. Slows down the entire cracking process
+		- **Managing Passwords** - virtually impossible for human memory to store long, complex, secure passwords for all accounts. Better suited for specialized technology
+			- *Password Vaults* - secure repository for password storage, AKA password manager
+				- ***Password Generators*** - web browser extensions that generate passwords based on a master password entered by the user
+				- ***Online Vaults*** - also uses web browser extension, retrieves password from central online repository
+				- ***Password Management Applications*** - passwords stored locally on a program, protected by one strong master password
+			- *Password Keys* - hardware device used to store passwords
+	- *Secure Authentication Technologies*
+		- **Single Sign-On (SSO)** - using one authentication credential to access multiple accounts or applications
+		- **Authentication Services** 
+			- *RADIUS* - Remote Authentication Dial-In User Service, industry standard authentication service with widespread support across nearly all vendors of networking equipment
+			- *Kerberos* - developed by MIT in the 80s, used to verify the identity of networked users. Users are issued tickets by a Kerberos authentication server with information linking it to the user. This ticket is presented to the network for a service, which examines the ticket to verify identity
+			- *TACACS+* - Terminal Access Control Access Control System+, commonly used on UNIX servers, forwards user authentication information to a centralized server
+			- *Directory Service* - database stored on the network itself that contains information about users and network devices. Also keeps track of all resources on the network and a user's privileges to those resources
+			- *SAML* - Security Assertion Markup Language, XML standard that allows secure web domains to exchange user authentication and authorization data
+	
