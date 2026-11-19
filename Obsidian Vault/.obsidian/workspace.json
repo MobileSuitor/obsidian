@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Microsoft Learn - Implement High Availability of Windows Server VMs.md",
+                "file": "CIS 106.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Microsoft Learn - Implement High Availability of Windows Server VMs"
+              "title": "CIS 106"
             }
           },
           {
@@ -204,11 +204,14 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
+    "Fall 2026.md",
     "CIS 116.md",
+    "Microsoft Learn - Implement Hyper-V Replica.md",
+    "High-Level Architecture.md",
+    "Pasted image 20261119122620.png",
     "Microsoft Learn - Implement High Availability of Windows Server VMs.md",
     "Microsoft Learn - Secure Hyper-V Workloads.md",
     "Active Directory Lab Documentation.md",
-    "Fall 2026.md",
     "CIS 106.md",
     "learned commands.md",
     "CIS 110.md",
@@ -230,16 +233,12 @@
     "Microsoft Learn - Configure and Manager Hyper-V.md",
     "Bonus.md",
     "College.md",
-    "Section 5 - The Virtual Data Center.md",
-    "NDG Lessons.md",
-    "Section 4 - The Data Center.md",
     "Pasted image 20261109180924.png",
     "Pasted image 20261109180912.png",
     "Pasted image 20261109180901.png",
     "Pasted image 20261109180846.png",
     "Pasted image 20261109180834.png",
     "Pasted image 20261109175530.png",
-    "Pasted image 20261109175514.png",
     "Memory Overcommitment, Memory Ballooning, and Page Fusion",
     "Evaluating a System for Windows 10"
   ]
