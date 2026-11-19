@@ -32,3 +32,11 @@
 - **Key Features of Shielded VMs**
 	- *Shielded VM Signed Template Disk* - basis for all future VMs deployed within the fabric. Provides additional security by hiding from the fabric administrators all confidential information, such as passwords and certificates
 	- *Shielded Data Files* - encrypted file that contains encrypted secrets that are needed to deploy a shielded VM. Can only be read by a guarded host in trusted fabric, and specifies which guarded fabric the HGS can trust to host a shielded VM
+	- <u>Shielded VM Deployment Process</u>
+		1. Deploy an HGS server
+		2. Set up a guarded host
+		3. Prepare a signed template disk (.vhdx file)
+		4. Create a shielded data file
+		5. Import the shielded data file into the VMM library
+		6. Create a new shielded VM from the signed template disk
+		7. Add the shielding data file to the new shielded VM

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Microsoft Learn - Secure Hyper-V Workloads.md",
+                "file": "Microsoft Learn - Implement High Availability of Windows Server VMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Microsoft Learn - Secure Hyper-V Workloads"
+              "title": "Microsoft Learn - Implement High Availability of Windows Server VMs"
             }
           },
           {
@@ -204,9 +204,10 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
-    "Active Directory Lab Documentation.md",
-    "Microsoft Learn - Secure Hyper-V Workloads.md",
     "CIS 116.md",
+    "Microsoft Learn - Implement High Availability of Windows Server VMs.md",
+    "Microsoft Learn - Secure Hyper-V Workloads.md",
+    "Active Directory Lab Documentation.md",
     "Fall 2026.md",
     "CIS 106.md",
     "learned commands.md",
@@ -232,7 +233,6 @@
     "Section 5 - The Virtual Data Center.md",
     "NDG Lessons.md",
     "Section 4 - The Data Center.md",
-    "CIS 116 Chapter 10.md",
     "Pasted image 20261109180924.png",
     "Pasted image 20261109180912.png",
     "Pasted image 20261109180901.png",
