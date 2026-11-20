@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 106.md",
+                "file": "learned commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS 106"
+              "title": "learned commands"
             }
           },
           {
@@ -204,19 +204,20 @@
   },
   "active": "a26105d234ad15e8",
   "lastOpenFiles": [
+    "CIS 106.md",
+    "Creating Scripts.md",
+    "learned commands.md",
     "Fall 2026.md",
     "CIS 116.md",
     "CIS 116 Chapter 13.md",
     "CIS 116 Chapter 12.md",
     "CIS 116 Chapter 10.md",
-    "CIS 106.md",
     "Microsoft Learn - Implement Hyper-V Replica.md",
     "High-Level Architecture.md",
     "Pasted image 20261119122620.png",
     "Microsoft Learn - Implement High Availability of Windows Server VMs.md",
     "Microsoft Learn - Secure Hyper-V Workloads.md",
     "Active Directory Lab Documentation.md",
-    "learned commands.md",
     "CIS 110.md",
     "Module 12.md",
     "CIS 105.md",
@@ -233,7 +234,6 @@
     "Pasted image 20261113115512.png",
     "Pasted image 20261113113138.png",
     "Pasted image 20261113113106.png",
-    "Microsoft Learn - Configure and Manager Hyper-V.md",
     "Pasted image 20261109180924.png",
     "Pasted image 20261109180912.png",
     "Pasted image 20261109180901.png",
