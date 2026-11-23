@@ -31,6 +31,8 @@
 	else 
 		# failure
 	fi==
+- it is a good idea to include a line that appends a success/fail log file with a timestamped message 
+	==🟣echo $(date) "successfully did something" >> success.log==
 ------------------
 <u>Iterating through arrays with for loops</u>
 - defining a list or array: list=("item1" "item2")
