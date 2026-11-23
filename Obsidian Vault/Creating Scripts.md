@@ -22,7 +22,6 @@
 		- as root, issue ==🟣visudo -f /etc/sudoers.d/USERNAME==
 		- add ==🟣USERNAME ALL=(ALL:ALL) ALL==
 		- set passwords with passwd
-- 
 
 --------------
 <u>Testing Scripts</u>
@@ -32,4 +31,9 @@
 	else 
 		# failure
 	fi==
-	
+------------------
+<u>Iterating through arrays with for loops</u>
+- defining a list or array: list=("item1" "item2")
+- iterating: ==🟣for item in "${list\[@]}" do==
+	- curly braces are required when working with arrays so the shell doesn't confuse the brackets with regular text
+	- \[@] notation tells bash to grab all elements in the array
