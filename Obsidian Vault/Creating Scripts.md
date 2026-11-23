@@ -15,6 +15,14 @@
 <u>Running Scritps</u>
 - scripts that contain sudo commands will need to prompt the user for a password
 	- if you want to run a script that contains sudo commands autonomously without any user input, run the script as root with sudo
+- executing scripts as sudo/with root privileges
+	- make script executable with chmod u+x \<script name>
+	- issue command as sudo ./\<script name>
+	- if you are still getting an error, you may need to edit sudoers:
+		- as root, issue ==🟣visudo -f /etc/sudoers.d/USERNAME==
+		- add ==🟣USERNAME ALL=(ALL:ALL) ALL==
+		- set passwords with passwd
+- 
 
 --------------
 <u>Testing Scripts</u>
