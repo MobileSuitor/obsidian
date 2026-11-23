@@ -15,3 +15,13 @@
 <u>Running Scritps</u>
 - scripts that contain sudo commands will need to prompt the user for a password
 	- if you want to run a script that contains sudo commands autonomously without any user input, run the script as root with sudo
+
+--------------
+<u>Testing Scripts</u>
+- check whether a command in a script worked by looking at its exit status:
+	==🟣if [ $? -eq 0 ]; then
+		# success
+	else 
+		# failure
+	fi==
+	
